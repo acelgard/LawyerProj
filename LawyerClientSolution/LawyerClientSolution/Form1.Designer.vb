@@ -106,6 +106,7 @@ Partial Class frmConnect
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnConnect)
         Me.Name = "frmConnect"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Connectivity Test"
         Me.ResumeLayout(False)
         Me.PerformLayout()

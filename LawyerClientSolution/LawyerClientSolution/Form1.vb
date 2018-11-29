@@ -21,11 +21,14 @@ Public Class frmConnect
             Dim command As New SqlCommand(queryString, connection)
             Dim dataReader As SqlDataReader = command.ExecuteReader()
 
-            Do While dataReader.Read()
-                lblClientID.Text = dataReader.GetString(0)
-                lblFirst.Text = dataReader.GetString(1)
+            dataReader.Read()
+            lblClientID.Text = dataReader.GetString(0)
+            lblFirst.Text = dataReader.GetString(1)
 
-            Loop
+            'Do While dataReader.Read()
+            'lblClientID.Text = dataReader.GetString(0)
+            'lblFirst.Text = dataReader.GetString(1)
+            'Loop
 
             dataReader.Close()
 
