@@ -17,8 +17,17 @@ Public Class frmConnect
             connection.Open()
             MessageBox.Show("Database is open")
 
-            'lblClientID.Text =
-            'lblFirst.Text = 
+            Dim queryString As String = "SELECT ClientID, FirstName FROM dbo.Client;"
+            Dim command As New SqlCommand(queryString, connection)
+            Dim dataReader As SqlDataReader = command.ExecuteReader()
+
+            Do While dataReader.Read()
+                lblClientID.Text = dataReader.GetString(0)
+                lblFirst.Text = dataReader.GetString(1)
+
+            Loop
+
+            dataReader.Close()
 
             connection.Close()
             MessageBox.Show("Database is closed")
