@@ -29,6 +29,7 @@ Partial Class frmConnect
         Me.lblClientID = New System.Windows.Forms.Label()
         Me.lblFirst = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.btnNext = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnConnect
@@ -42,7 +43,7 @@ Partial Class frmConnect
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(209, 69)
+        Me.btnExit.Location = New System.Drawing.Point(209, 95)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 1
@@ -93,11 +94,21 @@ Partial Class frmConnect
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Reading database info. practice"
         '
+        'btnNext
+        '
+        Me.btnNext.Location = New System.Drawing.Point(209, 69)
+        Me.btnNext.Name = "btnNext"
+        Me.btnNext.Size = New System.Drawing.Size(75, 23)
+        Me.btnNext.TabIndex = 7
+        Me.btnNext.Text = "Next"
+        Me.btnNext.UseVisualStyleBackColor = True
+        '
         'frmConnect
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(302, 115)
+        Me.ClientSize = New System.Drawing.Size(302, 141)
+        Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblFirst)
         Me.Controls.Add(Me.lblClientID)
@@ -120,4 +131,5 @@ Partial Class frmConnect
     Friend WithEvents lblClientID As Label
     Friend WithEvents lblFirst As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents btnNext As Button
 End Class
