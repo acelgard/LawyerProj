@@ -17,8 +17,8 @@ Public Class frmConnect
             connection.Open()
             MessageBox.Show("Database is open")
 
-            lblClientID.Text =
-            lblClientID.Text = 
+            'lblClientID.Text =
+            'lblFirst.Text = 
 
             connection.Close()
             MessageBox.Show("Database is closed")
