@@ -1,3 +1,3 @@
-﻿Public Class CaseInfo
+﻿Public Class frmCaseInfo
 
 End Class

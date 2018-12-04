@@ -1,3 +1,3 @@
-﻿Public Class Lawyer
+﻿Public Class frmLawyer
 
 End Class

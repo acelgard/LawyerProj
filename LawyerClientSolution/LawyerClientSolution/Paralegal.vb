@@ -1,3 +1,3 @@
-﻿Public Class Paralegal
+﻿Public Class frmParalegal
 
 End Class
