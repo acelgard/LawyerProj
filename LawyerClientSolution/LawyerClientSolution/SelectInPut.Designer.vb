@@ -23,7 +23,7 @@ Partial Class frmSelectInput
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.btnGoBack = New System.Windows.Forms.Button()
-        Me.lstCatagories = New System.Windows.Forms.ListBox()
+        Me.lstCategories = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'btnGoBack
@@ -36,23 +36,22 @@ Partial Class frmSelectInput
         Me.btnGoBack.Text = "Go Back"
         Me.btnGoBack.UseVisualStyleBackColor = True
         '
-        'lstCatagories
+        'lstCategories
         '
-        Me.lstCatagories.FormattingEnabled = True
-        Me.lstCatagories.ItemHeight = 20
-        Me.lstCatagories.Items.AddRange(New Object() {"Client", "Lawyer", "Paralegal", "Case", "Judge", "Court"})
-        Me.lstCatagories.Location = New System.Drawing.Point(55, 76)
-        Me.lstCatagories.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.lstCatagories.Name = "lstCatagories"
-        Me.lstCatagories.Size = New System.Drawing.Size(178, 124)
-        Me.lstCatagories.TabIndex = 2
+        Me.lstCategories.FormattingEnabled = True
+        Me.lstCategories.Items.AddRange(New Object() {"Client", "Lawyer", "Paralegal", "Case", "Judge", "Court"})
+        Me.lstCategories.Location = New System.Drawing.Point(55, 76)
+        Me.lstCategories.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.lstCategories.Name = "lstCategories"
+        Me.lstCategories.Size = New System.Drawing.Size(178, 121)
+        Me.lstCategories.TabIndex = 2
         '
         'frmSelectInput
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(513, 217)
-        Me.Controls.Add(Me.lstCatagories)
+        Me.Controls.Add(Me.lstCategories)
         Me.Controls.Add(Me.btnGoBack)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
@@ -66,5 +65,5 @@ Partial Class frmSelectInput
 
     End Sub
     Friend WithEvents btnGoBack As Button
-    Friend WithEvents lstCatagories As ListBox
+    Friend WithEvents lstCategories As ListBox
 End Class
