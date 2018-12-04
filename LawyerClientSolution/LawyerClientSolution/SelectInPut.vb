@@ -7,4 +7,8 @@
         frmStart.Show()
 
     End Sub
+
+    Private Sub lstCatagories_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstCatagories.SelectedIndexChanged
+
+    End Sub
 End Class
