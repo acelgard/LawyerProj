@@ -46,7 +46,7 @@ Partial Class Start
         Me.btnBDLU.Name = "btnBDLU"
         Me.btnBDLU.Size = New System.Drawing.Size(160, 35)
         Me.btnBDLU.TabIndex = 3
-        Me.btnBDLU.Text = "Data base look up"
+        Me.btnBDLU.Text = "Database look up"
         Me.btnBDLU.UseVisualStyleBackColor = True
         '
         'btnExit
