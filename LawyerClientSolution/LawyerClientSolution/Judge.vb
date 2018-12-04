@@ -38,4 +38,8 @@ Public Class frmJudgeInput
         End Using
 
     End Sub
+
+    Private Sub frmJudgeInput_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

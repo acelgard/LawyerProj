@@ -72,11 +72,41 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CaseInfo.Designer.vb">
+      <DependentUpon>CaseInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CaseInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client.Designer.vb">
+      <DependentUpon>Client.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Connect.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Connect.Designer.vb">
       <DependentUpon>Connect.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Court.Designer.vb">
+      <DependentUpon>Court.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Court.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lawyer.Designer.vb">
+      <DependentUpon>Lawyer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lawyer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paralegal.Designer.vb">
+      <DependentUpon>Paralegal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Paralegal.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SelectInput.Designer.vb">
@@ -85,10 +115,10 @@
     <Compile Include="SelectInput.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Input.Designer.vb">
-      <DependentUpon>Input.vb</DependentUpon>
+    <Compile Include="Judge.Designer.vb">
+      <DependentUpon>Judge.vb</DependentUpon>
     </Compile>
-    <Compile Include="Input.vb">
+    <Compile Include="Judge.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -120,8 +150,8 @@
     <EmbeddedResource Include="SelectInput.resx">
       <DependentUpon>SelectInput.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Input.resx">
-      <DependentUpon>Input.vb</DependentUpon>
+    <EmbeddedResource Include="Judge.resx">
+      <DependentUpon>Judge.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
