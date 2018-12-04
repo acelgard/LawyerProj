@@ -22,34 +22,34 @@ Partial Class frmStart
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnInput = New System.Windows.Forms.Button()
-        Me.btnBDLU = New System.Windows.Forms.Button()
+        Me.btnEnterData = New System.Windows.Forms.Button()
+        Me.btnSearch = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'btnInput
+        'btnEnterData
         '
-        Me.btnInput.Location = New System.Drawing.Point(69, 196)
-        Me.btnInput.Name = "btnInput"
-        Me.btnInput.Size = New System.Drawing.Size(75, 23)
-        Me.btnInput.TabIndex = 2
-        Me.btnInput.Text = "Input data"
-        Me.btnInput.UseVisualStyleBackColor = True
+        Me.btnEnterData.Location = New System.Drawing.Point(218, 97)
+        Me.btnEnterData.Name = "btnEnterData"
+        Me.btnEnterData.Size = New System.Drawing.Size(75, 23)
+        Me.btnEnterData.TabIndex = 2
+        Me.btnEnterData.Text = "Enter Data"
+        Me.btnEnterData.UseVisualStyleBackColor = True
         '
-        'btnBDLU
+        'btnSearch
         '
-        Me.btnBDLU.Location = New System.Drawing.Point(206, 196)
-        Me.btnBDLU.Name = "btnBDLU"
-        Me.btnBDLU.Size = New System.Drawing.Size(107, 23)
-        Me.btnBDLU.TabIndex = 3
-        Me.btnBDLU.Text = "Database look up"
-        Me.btnBDLU.UseVisualStyleBackColor = True
+        Me.btnSearch.Location = New System.Drawing.Point(218, 126)
+        Me.btnSearch.Name = "btnSearch"
+        Me.btnSearch.Size = New System.Drawing.Size(75, 23)
+        Me.btnSearch.TabIndex = 3
+        Me.btnSearch.Text = "Search"
+        Me.btnSearch.UseVisualStyleBackColor = True
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(360, 196)
+        Me.btnExit.Location = New System.Drawing.Point(218, 155)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 4
@@ -59,17 +59,17 @@ Partial Class frmStart
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(29, 21)
+        Me.Label1.Location = New System.Drawing.Point(20, 19)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(127, 13)
+        Me.Label1.Size = New System.Drawing.Size(226, 13)
         Me.Label1.TabIndex = 5
-        Me.Label1.Text = "Welcome to Lawyers.INC"
+        Me.Label1.Text = "Welcome to the Bernick Lifson Form Assistant!"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(191, 118)
+        Me.Label2.Location = New System.Drawing.Point(186, 70)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(136, 13)
@@ -80,22 +80,22 @@ Partial Class frmStart
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(533, 292)
+        Me.ClientSize = New System.Drawing.Size(523, 216)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
-        Me.Controls.Add(Me.btnBDLU)
-        Me.Controls.Add(Me.btnInput)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Controls.Add(Me.btnSearch)
+        Me.Controls.Add(Me.btnEnterData)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmStart"
-        Me.Text = "Lawyer database client "
+        Me.Text = "Bernick Lifson Form Assistant"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents btnInput As Button
-    Friend WithEvents btnBDLU As Button
+    Friend WithEvents btnEnterData As Button
+    Friend WithEvents btnSearch As Button
     Friend WithEvents btnExit As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label

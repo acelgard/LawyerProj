@@ -23,35 +23,45 @@ Partial Class frmSelectInput
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.btnGoBack = New System.Windows.Forms.Button()
-        Me.lstCategories = New System.Windows.Forms.ListBox()
+        Me.cboFormChoice = New System.Windows.Forms.ComboBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnGoBack
         '
-        Me.btnGoBack.Location = New System.Drawing.Point(343, 76)
+        Me.btnGoBack.Location = New System.Drawing.Point(225, 31)
         Me.btnGoBack.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnGoBack.Name = "btnGoBack"
-        Me.btnGoBack.Size = New System.Drawing.Size(136, 66)
+        Me.btnGoBack.Size = New System.Drawing.Size(89, 29)
         Me.btnGoBack.TabIndex = 1
         Me.btnGoBack.Text = "Go Back"
         Me.btnGoBack.UseVisualStyleBackColor = True
         '
-        'lstCategories
+        'cboFormChoice
         '
-        Me.lstCategories.FormattingEnabled = True
-        Me.lstCategories.Items.AddRange(New Object() {"Client", "Lawyer", "Paralegal", "Case", "Judge", "Court"})
-        Me.lstCategories.Location = New System.Drawing.Point(55, 76)
-        Me.lstCategories.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.lstCategories.Name = "lstCategories"
-        Me.lstCategories.Size = New System.Drawing.Size(178, 121)
-        Me.lstCategories.TabIndex = 2
+        Me.cboFormChoice.FormattingEnabled = True
+        Me.cboFormChoice.Items.AddRange(New Object() {"Client", "Lawyer", "Paralegal", "Case", "Judge", "Court"})
+        Me.cboFormChoice.Location = New System.Drawing.Point(12, 36)
+        Me.cboFormChoice.Name = "cboFormChoice"
+        Me.cboFormChoice.Size = New System.Drawing.Size(133, 21)
+        Me.cboFormChoice.TabIndex = 2
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(12, 13)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(133, 13)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Please choose a category:"
         '
         'frmSelectInput
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(513, 217)
-        Me.Controls.Add(Me.lstCategories)
+        Me.ClientSize = New System.Drawing.Size(327, 138)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.cboFormChoice)
         Me.Controls.Add(Me.btnGoBack)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
@@ -60,10 +70,12 @@ Partial Class frmSelectInput
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Please choose a category"
+        Me.Text = "Form Selection"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents btnGoBack As Button
-    Friend WithEvents lstCategories As ListBox
+    Friend WithEvents cboFormChoice As ComboBox
+    Friend WithEvents Label1 As Label
 End Class

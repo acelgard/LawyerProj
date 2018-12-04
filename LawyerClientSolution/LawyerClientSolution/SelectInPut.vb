@@ -8,9 +8,9 @@
 
     End Sub
 
-    Private Sub lstCatagories_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstCategories.SelectedIndexChanged
+    Private Sub cboFormChoice_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboFormChoice.SelectedIndexChanged
         Dim strFormChoice As String
-        strFormChoice = lstCategories.Text
+        strFormChoice = cboFormChoice.SelectedItem
         Select Case strFormChoice
             Case "Client"
                 frmClient.Show()

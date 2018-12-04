@@ -3,7 +3,7 @@
         Me.Close()
     End Sub
 
-    Private Sub btnInput_Click(sender As Object, e As EventArgs) Handles btnInput.Click
+    Private Sub btnEnterData_Click(sender As Object, e As EventArgs) Handles btnEnterData.Click
         frmSelectInput.Show()
 
     End Sub
