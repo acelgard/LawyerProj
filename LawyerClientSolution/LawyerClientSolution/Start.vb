@@ -4,11 +4,8 @@
     End Sub
 
     Private Sub btnInput_Click(sender As Object, e As EventArgs) Handles btnInput.Click
-
-
-    End Sub
-
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+        frmSelectInput.Show()
 
     End Sub
+
 End Class
