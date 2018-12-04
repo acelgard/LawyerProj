@@ -26,6 +26,7 @@ Partial Class Start
         Me.btnBDLU = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnInput
@@ -67,11 +68,21 @@ Partial Class Start
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Welcome to Lawyers.INC"
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(286, 181)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(197, 20)
+        Me.Label2.TabIndex = 6
+        Me.Label2.Text = "What would you like to do?"
+        '
         'Start
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnBDLU)
@@ -87,4 +98,5 @@ Partial Class Start
     Friend WithEvents btnBDLU As Button
     Friend WithEvents btnExit As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
 End Class
