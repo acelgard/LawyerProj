@@ -28,7 +28,7 @@ Partial Class frmIn
         '
         'btnGoBack
         '
-        Me.btnGoBack.Location = New System.Drawing.Point(406, 112)
+        Me.btnGoBack.Location = New System.Drawing.Point(432, 176)
         Me.btnGoBack.Name = "btnGoBack"
         Me.btnGoBack.Size = New System.Drawing.Size(91, 43)
         Me.btnGoBack.TabIndex = 1
@@ -38,17 +38,17 @@ Partial Class frmIn
         'lstCatagories
         '
         Me.lstCatagories.FormattingEnabled = True
-        Me.lstCatagories.ItemHeight = 20
-        Me.lstCatagories.Location = New System.Drawing.Point(133, 112)
+        Me.lstCatagories.Items.AddRange(New Object() {"Client", "Lawyer", "Paralegal", "Case", "Judge", "Court"})
+        Me.lstCatagories.Location = New System.Drawing.Point(143, 176)
         Me.lstCatagories.Name = "lstCatagories"
-        Me.lstCatagories.Size = New System.Drawing.Size(120, 84)
+        Me.lstCatagories.Size = New System.Drawing.Size(120, 82)
         Me.lstCatagories.TabIndex = 2
         '
         'frmIn
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 274)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.lstCatagories)
         Me.Controls.Add(Me.btnGoBack)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -57,7 +57,7 @@ Partial Class frmIn
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Please choose a catagory"
+        Me.Text = "Please choose a category"
         Me.ResumeLayout(False)
 
     End Sub

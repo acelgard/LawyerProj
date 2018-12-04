@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Start
+Partial Class frmStart
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -31,30 +31,27 @@ Partial Class Start
         '
         'btnInput
         '
-        Me.btnInput.Location = New System.Drawing.Point(104, 302)
-        Me.btnInput.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnInput.Location = New System.Drawing.Point(69, 196)
         Me.btnInput.Name = "btnInput"
-        Me.btnInput.Size = New System.Drawing.Size(112, 35)
+        Me.btnInput.Size = New System.Drawing.Size(75, 23)
         Me.btnInput.TabIndex = 2
         Me.btnInput.Text = "Input data"
         Me.btnInput.UseVisualStyleBackColor = True
         '
         'btnBDLU
         '
-        Me.btnBDLU.Location = New System.Drawing.Point(309, 302)
-        Me.btnBDLU.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnBDLU.Location = New System.Drawing.Point(206, 196)
         Me.btnBDLU.Name = "btnBDLU"
-        Me.btnBDLU.Size = New System.Drawing.Size(160, 35)
+        Me.btnBDLU.Size = New System.Drawing.Size(107, 23)
         Me.btnBDLU.TabIndex = 3
         Me.btnBDLU.Text = "Database look up"
         Me.btnBDLU.UseVisualStyleBackColor = True
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(540, 302)
-        Me.btnExit.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnExit.Location = New System.Drawing.Point(360, 196)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(112, 35)
+        Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 4
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
@@ -62,32 +59,35 @@ Partial Class Start
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(43, 32)
+        Me.Label1.Location = New System.Drawing.Point(29, 21)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(186, 20)
+        Me.Label1.Size = New System.Drawing.Size(127, 13)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Welcome to Lawyers.INC"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(286, 181)
+        Me.Label2.Location = New System.Drawing.Point(191, 118)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(197, 20)
+        Me.Label2.Size = New System.Drawing.Size(136, 13)
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "What would you like to do?"
         '
-        'Start
+        'frmStart
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 378)
+        Me.ClientSize = New System.Drawing.Size(533, 292)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnBDLU)
         Me.Controls.Add(Me.btnInput)
-        Me.Name = "Start"
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Name = "frmStart"
         Me.Text = "Lawyer database client "
         Me.ResumeLayout(False)
         Me.PerformLayout()
