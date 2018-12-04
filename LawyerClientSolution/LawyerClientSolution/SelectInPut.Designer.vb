@@ -38,15 +38,15 @@ Partial Class frmIn
         'lstCatagories
         '
         Me.lstCatagories.FormattingEnabled = True
-        Me.lstCatagories.ItemHeight = 20
+        Me.lstCatagories.Items.AddRange(New Object() {"Client", "Lawyer", "Paralegal", "Case", "Judge", "Court"})
         Me.lstCatagories.Location = New System.Drawing.Point(143, 176)
         Me.lstCatagories.Name = "lstCatagories"
-        Me.lstCatagories.Size = New System.Drawing.Size(120, 84)
+        Me.lstCatagories.Size = New System.Drawing.Size(120, 82)
         Me.lstCatagories.TabIndex = 2
         '
         'frmIn
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.lstCatagories)
@@ -57,7 +57,7 @@ Partial Class frmIn
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Please choose a catagory"
+        Me.Text = "Please choose a category"
         Me.ResumeLayout(False)
 
     End Sub
