@@ -8,7 +8,7 @@ Imports System
 Imports System.Data
 Imports System.Data.SqlClient
 
-Public Class frmInput
+Public Class frmJudgeInput
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
 

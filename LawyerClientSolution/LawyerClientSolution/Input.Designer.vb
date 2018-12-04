@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmInput
+Partial Class frmJudgeInput
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -36,18 +36,20 @@ Partial Class frmInput
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(183, 151)
+        Me.btnExit.Location = New System.Drawing.Point(274, 232)
+        Me.btnExit.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.Size = New System.Drawing.Size(112, 35)
         Me.btnExit.TabIndex = 0
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'btnInsert
         '
-        Me.btnInsert.Location = New System.Drawing.Point(102, 151)
+        Me.btnInsert.Location = New System.Drawing.Point(153, 232)
+        Me.btnInsert.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnInsert.Name = "btnInsert"
-        Me.btnInsert.Size = New System.Drawing.Size(75, 23)
+        Me.btnInsert.Size = New System.Drawing.Size(112, 35)
         Me.btnInsert.TabIndex = 1
         Me.btnInsert.Text = "Insert"
         Me.btnInsert.UseVisualStyleBackColor = True
@@ -55,72 +57,80 @@ Partial Class frmInput
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(13, 13)
+        Me.Label1.Location = New System.Drawing.Point(20, 20)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(53, 13)
+        Me.Label1.Size = New System.Drawing.Size(78, 20)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Judge ID:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 45)
+        Me.Label2.Location = New System.Drawing.Point(18, 69)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(49, 13)
+        Me.Label2.Size = New System.Drawing.Size(73, 20)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Court ID:"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(13, 77)
+        Me.Label3.Location = New System.Drawing.Point(20, 118)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(60, 13)
+        Me.Label3.Size = New System.Drawing.Size(90, 20)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "First Name:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(13, 108)
+        Me.Label4.Location = New System.Drawing.Point(20, 166)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(61, 13)
+        Me.Label4.Size = New System.Drawing.Size(90, 20)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "Last Name:"
         '
         'txtJudgeID
         '
-        Me.txtJudgeID.Location = New System.Drawing.Point(85, 13)
+        Me.txtJudgeID.Location = New System.Drawing.Point(128, 20)
+        Me.txtJudgeID.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtJudgeID.Name = "txtJudgeID"
-        Me.txtJudgeID.Size = New System.Drawing.Size(100, 20)
+        Me.txtJudgeID.Size = New System.Drawing.Size(148, 26)
         Me.txtJudgeID.TabIndex = 6
         '
         'txtFirstName
         '
-        Me.txtFirstName.Location = New System.Drawing.Point(85, 74)
+        Me.txtFirstName.Location = New System.Drawing.Point(128, 114)
+        Me.txtFirstName.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtFirstName.Name = "txtFirstName"
-        Me.txtFirstName.Size = New System.Drawing.Size(100, 20)
+        Me.txtFirstName.Size = New System.Drawing.Size(148, 26)
         Me.txtFirstName.TabIndex = 7
         '
         'txtLastName
         '
-        Me.txtLastName.Location = New System.Drawing.Point(85, 105)
+        Me.txtLastName.Location = New System.Drawing.Point(128, 162)
+        Me.txtLastName.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtLastName.Name = "txtLastName"
-        Me.txtLastName.Size = New System.Drawing.Size(100, 20)
+        Me.txtLastName.Size = New System.Drawing.Size(148, 26)
         Me.txtLastName.TabIndex = 8
         '
         'txtCourtID
         '
-        Me.txtCourtID.Location = New System.Drawing.Point(85, 45)
+        Me.txtCourtID.Location = New System.Drawing.Point(128, 69)
+        Me.txtCourtID.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtCourtID.Name = "txtCourtID"
-        Me.txtCourtID.Size = New System.Drawing.Size(100, 20)
+        Me.txtCourtID.Size = New System.Drawing.Size(148, 26)
         Me.txtCourtID.TabIndex = 9
         '
-        'frmInput
+        'frmJudgeInput
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(270, 186)
+        Me.ClientSize = New System.Drawing.Size(405, 286)
         Me.Controls.Add(Me.txtCourtID)
         Me.Controls.Add(Me.txtLastName)
         Me.Controls.Add(Me.txtFirstName)
@@ -131,9 +141,10 @@ Partial Class frmInput
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnInsert)
         Me.Controls.Add(Me.btnExit)
-        Me.Name = "frmInput"
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Name = "frmJudgeInput"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Input"
+        Me.Text = "Judge Input"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
