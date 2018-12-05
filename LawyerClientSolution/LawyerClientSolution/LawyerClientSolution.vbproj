@@ -144,8 +144,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Client.resx">
+      <DependentUpon>Client.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Connect.resx">
       <DependentUpon>Connect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lawyer.resx">
+      <DependentUpon>Lawyer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectInput.resx">
       <DependentUpon>SelectInput.vb</DependentUpon>
