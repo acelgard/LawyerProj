@@ -4,7 +4,7 @@
     End Sub
 
     Private Sub btnGoBack_Click(sender As Object, e As EventArgs) Handles btnGoBack.Click
-        frmStart.Show()
+        Me.Close()
 
     End Sub
 
