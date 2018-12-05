@@ -1,3 +1,3 @@
-﻿Public Class frmClient
+﻿Public Class Client
 
 End Class

@@ -1,3 +1,3 @@
-﻿Public Class frmCourt
+﻿Public Class Court
 
 End Class
