@@ -23,7 +23,7 @@ Partial Class frmCaseInfo
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.txtLawyerID = New System.Windows.Forms.TextBox()
-        Me.txtCaseID = New System.Windows.Forms.TextBox()
+        Me.txtCaseInfoID = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -43,13 +43,13 @@ Partial Class frmCaseInfo
         Me.txtPlaintiff = New System.Windows.Forms.TextBox()
         Me.txtProsecutor = New System.Windows.Forms.TextBox()
         Me.txtDefendant = New System.Windows.Forms.TextBox()
-        Me.txtJudge = New System.Windows.Forms.TextBox()
+        Me.txtJudgeID = New System.Windows.Forms.TextBox()
         Me.txtBegHearDate = New System.Windows.Forms.TextBox()
         Me.txtEndHearDate = New System.Windows.Forms.TextBox()
         Me.txtTrialDate = New System.Windows.Forms.TextBox()
         Me.txtPlea = New System.Windows.Forms.TextBox()
         Me.txtBail = New System.Windows.Forms.TextBox()
-        Me.txtWitnesses = New System.Windows.Forms.TextBox()
+        Me.txtNbrWitnesses = New System.Windows.Forms.TextBox()
         Me.txtIndictment = New System.Windows.Forms.TextBox()
         Me.txtRuling = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -66,13 +66,13 @@ Partial Class frmCaseInfo
         Me.txtLawyerID.Size = New System.Drawing.Size(175, 26)
         Me.txtLawyerID.TabIndex = 19
         '
-        'txtCaseID
+        'txtCaseInfoID
         '
-        Me.txtCaseID.Location = New System.Drawing.Point(238, 28)
-        Me.txtCaseID.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.txtCaseID.Name = "txtCaseID"
-        Me.txtCaseID.Size = New System.Drawing.Size(175, 26)
-        Me.txtCaseID.TabIndex = 18
+        Me.txtCaseInfoID.Location = New System.Drawing.Point(238, 28)
+        Me.txtCaseInfoID.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtCaseInfoID.Name = "txtCaseInfoID"
+        Me.txtCaseInfoID.Size = New System.Drawing.Size(175, 26)
+        Me.txtCaseInfoID.TabIndex = 18
         '
         'Label12
         '
@@ -97,7 +97,7 @@ Partial Class frmCaseInfo
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(38, 134)
+        Me.Label2.Location = New System.Drawing.Point(38, 193)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(92, 20)
@@ -106,7 +106,7 @@ Partial Class frmCaseInfo
         '
         'txtCaseName
         '
-        Me.txtCaseName.Location = New System.Drawing.Point(238, 129)
+        Me.txtCaseName.Location = New System.Drawing.Point(238, 188)
         Me.txtCaseName.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtCaseName.Name = "txtCaseName"
         Me.txtCaseName.Size = New System.Drawing.Size(175, 26)
@@ -115,7 +115,7 @@ Partial Class frmCaseInfo
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(38, 475)
+        Me.Label3.Location = New System.Drawing.Point(38, 534)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(85, 20)
@@ -135,12 +135,12 @@ Partial Class frmCaseInfo
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(38, 532)
+        Me.Label5.Location = New System.Drawing.Point(38, 136)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(53, 20)
+        Me.Label5.Size = New System.Drawing.Size(70, 20)
         Me.Label5.TabIndex = 24
-        Me.Label5.Text = "Judge"
+        Me.Label5.Text = "JudgeID"
         '
         'Label6
         '
@@ -250,19 +250,19 @@ Partial Class frmCaseInfo
         '
         'txtDefendant
         '
-        Me.txtDefendant.Location = New System.Drawing.Point(238, 471)
+        Me.txtDefendant.Location = New System.Drawing.Point(238, 530)
         Me.txtDefendant.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtDefendant.Name = "txtDefendant"
         Me.txtDefendant.Size = New System.Drawing.Size(175, 26)
         Me.txtDefendant.TabIndex = 38
         '
-        'txtJudge
+        'txtJudgeID
         '
-        Me.txtJudge.Location = New System.Drawing.Point(238, 528)
-        Me.txtJudge.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.txtJudge.Name = "txtJudge"
-        Me.txtJudge.Size = New System.Drawing.Size(175, 26)
-        Me.txtJudge.TabIndex = 39
+        Me.txtJudgeID.Location = New System.Drawing.Point(238, 132)
+        Me.txtJudgeID.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtJudgeID.Name = "txtJudgeID"
+        Me.txtJudgeID.Size = New System.Drawing.Size(175, 26)
+        Me.txtJudgeID.TabIndex = 39
         '
         'txtBegHearDate
         '
@@ -304,13 +304,13 @@ Partial Class frmCaseInfo
         Me.txtBail.Size = New System.Drawing.Size(175, 26)
         Me.txtBail.TabIndex = 44
         '
-        'txtWitnesses
+        'txtNbrWitnesses
         '
-        Me.txtWitnesses.Location = New System.Drawing.Point(771, 348)
-        Me.txtWitnesses.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.txtWitnesses.Name = "txtWitnesses"
-        Me.txtWitnesses.Size = New System.Drawing.Size(175, 26)
-        Me.txtWitnesses.TabIndex = 45
+        Me.txtNbrWitnesses.Location = New System.Drawing.Point(771, 348)
+        Me.txtNbrWitnesses.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtNbrWitnesses.Name = "txtNbrWitnesses"
+        Me.txtNbrWitnesses.Size = New System.Drawing.Size(175, 26)
+        Me.txtNbrWitnesses.TabIndex = 45
         '
         'txtIndictment
         '
@@ -332,7 +332,7 @@ Partial Class frmCaseInfo
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(38, 194)
+        Me.Label8.Location = New System.Drawing.Point(38, 253)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(89, 20)
@@ -341,7 +341,7 @@ Partial Class frmCaseInfo
         '
         'txtDescription
         '
-        Me.txtDescription.Location = New System.Drawing.Point(42, 234)
+        Me.txtDescription.Location = New System.Drawing.Point(42, 293)
         Me.txtDescription.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtDescription.Name = "txtDescription"
         Me.txtDescription.Size = New System.Drawing.Size(440, 201)
@@ -378,13 +378,13 @@ Partial Class frmCaseInfo
         Me.Controls.Add(Me.txtDescription)
         Me.Controls.Add(Me.txtRuling)
         Me.Controls.Add(Me.txtIndictment)
-        Me.Controls.Add(Me.txtWitnesses)
+        Me.Controls.Add(Me.txtNbrWitnesses)
         Me.Controls.Add(Me.txtBail)
         Me.Controls.Add(Me.txtPlea)
         Me.Controls.Add(Me.txtTrialDate)
         Me.Controls.Add(Me.txtEndHearDate)
         Me.Controls.Add(Me.txtBegHearDate)
-        Me.Controls.Add(Me.txtJudge)
+        Me.Controls.Add(Me.txtJudgeID)
         Me.Controls.Add(Me.txtDefendant)
         Me.Controls.Add(Me.txtProsecutor)
         Me.Controls.Add(Me.txtPlaintiff)
@@ -404,7 +404,7 @@ Partial Class frmCaseInfo
         Me.Controls.Add(Me.txtCaseName)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtLawyerID)
-        Me.Controls.Add(Me.txtCaseID)
+        Me.Controls.Add(Me.txtCaseInfoID)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label1)
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
@@ -416,7 +416,7 @@ Partial Class frmCaseInfo
     End Sub
 
     Friend WithEvents txtLawyerID As TextBox
-    Friend WithEvents txtCaseID As TextBox
+    Friend WithEvents txtCaseInfoID As TextBox
     Friend WithEvents Label12 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
@@ -436,13 +436,13 @@ Partial Class frmCaseInfo
     Friend WithEvents txtPlaintiff As TextBox
     Friend WithEvents txtProsecutor As TextBox
     Friend WithEvents txtDefendant As TextBox
-    Friend WithEvents txtJudge As TextBox
+    Friend WithEvents txtJudgeID As TextBox
     Friend WithEvents txtBegHearDate As TextBox
     Friend WithEvents txtEndHearDate As TextBox
     Friend WithEvents txtTrialDate As TextBox
     Friend WithEvents txtPlea As TextBox
     Friend WithEvents txtBail As TextBox
-    Friend WithEvents txtWitnesses As TextBox
+    Friend WithEvents txtNbrWitnesses As TextBox
     Friend WithEvents txtIndictment As TextBox
     Friend WithEvents txtRuling As TextBox
     Friend WithEvents Label8 As Label

@@ -34,18 +34,20 @@ Partial Class frmConnect
         '
         'btnConnect
         '
-        Me.btnConnect.Location = New System.Drawing.Point(209, 43)
+        Me.btnConnect.Location = New System.Drawing.Point(314, 66)
+        Me.btnConnect.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnConnect.Name = "btnConnect"
-        Me.btnConnect.Size = New System.Drawing.Size(75, 23)
+        Me.btnConnect.Size = New System.Drawing.Size(112, 35)
         Me.btnConnect.TabIndex = 0
         Me.btnConnect.Text = "Connect"
         Me.btnConnect.UseVisualStyleBackColor = True
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(209, 95)
+        Me.btnExit.Location = New System.Drawing.Point(314, 146)
+        Me.btnExit.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.Size = New System.Drawing.Size(112, 35)
         Me.btnExit.TabIndex = 1
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
@@ -53,61 +55,67 @@ Partial Class frmConnect
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(13, 43)
+        Me.Label1.Location = New System.Drawing.Point(20, 66)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(50, 13)
+        Me.Label1.Size = New System.Drawing.Size(74, 20)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Client ID:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(13, 69)
+        Me.Label2.Location = New System.Drawing.Point(20, 106)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(60, 13)
+        Me.Label2.Size = New System.Drawing.Size(90, 20)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "First Name:"
         '
         'lblClientID
         '
         Me.lblClientID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblClientID.Location = New System.Drawing.Point(79, 42)
+        Me.lblClientID.Location = New System.Drawing.Point(118, 65)
+        Me.lblClientID.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblClientID.Name = "lblClientID"
-        Me.lblClientID.Size = New System.Drawing.Size(100, 23)
+        Me.lblClientID.Size = New System.Drawing.Size(149, 34)
         Me.lblClientID.TabIndex = 4
         '
         'lblFirst
         '
         Me.lblFirst.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblFirst.Location = New System.Drawing.Point(79, 69)
+        Me.lblFirst.Location = New System.Drawing.Point(118, 106)
+        Me.lblFirst.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblFirst.Name = "lblFirst"
-        Me.lblFirst.Size = New System.Drawing.Size(100, 23)
+        Me.lblFirst.Size = New System.Drawing.Size(149, 34)
         Me.lblFirst.TabIndex = 5
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(13, 19)
+        Me.Label4.Location = New System.Drawing.Point(20, 29)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(158, 13)
+        Me.Label4.Size = New System.Drawing.Size(244, 20)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Reading database info. practice"
         '
         'btnNext
         '
-        Me.btnNext.Location = New System.Drawing.Point(209, 69)
+        Me.btnNext.Location = New System.Drawing.Point(314, 106)
+        Me.btnNext.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(75, 23)
+        Me.btnNext.Size = New System.Drawing.Size(112, 35)
         Me.btnNext.TabIndex = 7
         Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
         '
         'frmConnect
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(302, 141)
+        Me.ClientSize = New System.Drawing.Size(453, 217)
         Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblFirst)
@@ -116,6 +124,7 @@ Partial Class frmConnect
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnConnect)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "frmConnect"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Connectivity Test"
