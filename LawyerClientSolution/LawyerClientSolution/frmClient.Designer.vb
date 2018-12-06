@@ -46,7 +46,7 @@ Partial Class frmClient
         Me.Label8 = New System.Windows.Forms.Label()
         Me.txtHomePhone = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.txtCellPhone = New System.Windows.Forms.TextBox()
+        Me.txtMobilePhone = New System.Windows.Forms.TextBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.txtSSN = New System.Windows.Forms.TextBox()
         Me.Label14 = New System.Windows.Forms.Label()
@@ -250,21 +250,21 @@ Partial Class frmClient
         Me.Label9.TabIndex = 44
         Me.Label9.Text = "Home Phone"
         '
-        'txtCellPhone
+        'txtMobilePhone
         '
-        Me.txtCellPhone.Location = New System.Drawing.Point(123, 327)
-        Me.txtCellPhone.Name = "txtCellPhone"
-        Me.txtCellPhone.Size = New System.Drawing.Size(118, 20)
-        Me.txtCellPhone.TabIndex = 47
+        Me.txtMobilePhone.Location = New System.Drawing.Point(123, 327)
+        Me.txtMobilePhone.Name = "txtMobilePhone"
+        Me.txtMobilePhone.Size = New System.Drawing.Size(118, 20)
+        Me.txtMobilePhone.TabIndex = 47
         '
         'Label13
         '
         Me.Label13.AutoSize = True
         Me.Label13.Location = New System.Drawing.Point(25, 330)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(58, 13)
+        Me.Label13.Size = New System.Drawing.Size(72, 13)
         Me.Label13.TabIndex = 46
-        Me.Label13.Text = "Cell Phone"
+        Me.Label13.Text = "Mobile Phone"
         '
         'txtSSN
         '
@@ -345,7 +345,7 @@ Partial Class frmClient
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.txtSSN)
         Me.Controls.Add(Me.Label14)
-        Me.Controls.Add(Me.txtCellPhone)
+        Me.Controls.Add(Me.txtMobilePhone)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.txtHomePhone)
         Me.Controls.Add(Me.Label9)
@@ -402,7 +402,7 @@ Partial Class frmClient
     Friend WithEvents Label8 As Label
     Friend WithEvents txtHomePhone As TextBox
     Friend WithEvents Label9 As Label
-    Friend WithEvents txtCellPhone As TextBox
+    Friend WithEvents txtMobilePhone As TextBox
     Friend WithEvents Label13 As Label
     Friend WithEvents txtSSN As TextBox
     Friend WithEvents Label14 As Label

@@ -1,4 +1,8 @@
-﻿Public Class frmClient
+﻿Imports System
+Imports System.Data
+Imports System.Data.SqlClient
+
+Public Class frmClient
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
 
@@ -10,16 +14,22 @@
 
         Using connection As New SqlConnection(connectionString)
             connection.Open()
-            MessageBox.Show("Database is open")
+            'MessageBox.Show("Database is open")
 
-            Dim Command = New SqlCommand("INSERT INTO Customers (CustID, FirstName, LastName, Street, City, State, Zip, Phone, Email) VALUES ('" & txtCustID.Text & "','" & txtFirst.Text & "','" & txtLast.Text & "','" & txtStreet.Text & "','" & txtCity.Text & "','" & txtState.Text & "','" & txtZip.Text & "','" & txtPhone.Text & "','" & txtEmail.Text & "')", connection)
+            Dim Command As New SqlCommand("INSERT INTO Client (ClientID, LawyerID, FirstName, MiddleName, 
+                LastName, CompanyName, Street, City, State, Zip, EmailAddress, HomePhone, MobilePhone, 
+                DOB, SSN, DriverLicNum) VALUES ('" & txtClientID.Text & "','" & txtLawyerID.Text & "','" &
+                txtFirstName.Text & "','" & txtMiddleName.Text & "','" & txtLastName.Text & "','" &
+                txtCompanyName.Text & "','" & txtStreet.Text & "','" & txtCity.Text & "','" & txtState.Text & "','" &
+                txtZip.Text & "','" & txtEmailAddress.Text & "','" & txtHomePhone.Text & "','" & txtMobilePhone.Text & "','" &
+                txtDOB.Text & "','" & txtSSN.Text & "','" & txtDriverLicNum.Text & "')", connection)
 
             Command.ExecuteNonQuery()
 
-            MessageBox.Show("Row added")
+            'MessageBox.Show("Row added")
 
             connection.Close()
-            MessageBox.Show("Database is closed")
+            'MessageBox.Show("Database is closed")
 
         End Using
 
