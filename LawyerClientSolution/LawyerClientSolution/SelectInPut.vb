@@ -12,8 +12,9 @@
         Dim strFormChoice As String
         strFormChoice = cboFormChoice.SelectedItem
         Select Case strFormChoice
-            Case "Client"
-                frmClient.Show()
+        'there is some issue loading/accessing the frmClient form
+            'Case "Client"
+            '   frmClient.Show()
 
             Case "Lawyer"
                 frmLawyer.Show()

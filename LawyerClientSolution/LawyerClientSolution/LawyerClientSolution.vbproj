@@ -81,9 +81,7 @@
     <Compile Include="Client.Designer.vb">
       <DependentUpon>Client.vb</DependentUpon>
     </Compile>
-    <Compile Include="Client.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Client.vb" />
     <Compile Include="Connect.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -144,14 +142,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CaseInfo.resx">
+      <DependentUpon>CaseInfo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Client.resx">
       <DependentUpon>Client.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Connect.resx">
       <DependentUpon>Connect.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Court.resx">
+      <DependentUpon>Court.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lawyer.resx">
       <DependentUpon>Lawyer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paralegal.resx">
+      <DependentUpon>Paralegal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectInput.resx">
       <DependentUpon>SelectInput.vb</DependentUpon>
