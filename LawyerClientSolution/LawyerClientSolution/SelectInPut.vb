@@ -13,8 +13,8 @@
         strFormChoice = cboFormChoice.SelectedItem
         Select Case strFormChoice
         'there is some issue loading/accessing the frmClient form
-            'Case "Client"
-            '   frmClient.Show()
+            Case "Client"
+                frmClient.Show()
 
             Case "Lawyer"
                 frmLawyer.Show()

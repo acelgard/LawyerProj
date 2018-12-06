@@ -78,10 +78,6 @@
     <Compile Include="CaseInfo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Client.Designer.vb">
-      <DependentUpon>Client.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Client.vb" />
     <Compile Include="Connect.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +89,12 @@
       <DependentUpon>Court.vb</DependentUpon>
     </Compile>
     <Compile Include="Court.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClient.Designer.vb">
+      <DependentUpon>frmClient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClient.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Lawyer.Designer.vb">
@@ -145,14 +147,14 @@
     <EmbeddedResource Include="CaseInfo.resx">
       <DependentUpon>CaseInfo.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Client.resx">
-      <DependentUpon>Client.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Connect.resx">
       <DependentUpon>Connect.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Court.resx">
       <DependentUpon>Court.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClient.resx">
+      <DependentUpon>frmClient.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lawyer.resx">
       <DependentUpon>Lawyer.vb</DependentUpon>
@@ -177,6 +179,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
