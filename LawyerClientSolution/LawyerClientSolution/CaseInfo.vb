@@ -24,7 +24,7 @@ Public Class frmCaseInfo
                                                                                                  '" & txtPlaintiff.Text & "','" & txtProsecutor.Text & "','" & txtDefendant.Text & "','" & txtBegHearDate.Text & "','" & txtEndHearDate.Text & "',
                                                                                                                                                                         '" & txtTrialDate.Text & "','" & txtPlea.Text & "','" & txtBail.Text & "','" & txtNbrWitnesses.Text & "','" & txtIndictment.Text & "','" & txtRuling.Text & "')", connection)
 
-            Command.ExecuteNonQuery()
+            Command.ExecuteNonQuery() 'WE GOT PROBLEMS
 
             MessageBox.Show("Row added")
 
