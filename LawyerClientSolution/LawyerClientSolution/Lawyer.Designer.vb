@@ -53,218 +53,244 @@ Partial Class frmLawyer
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(23, 24)
+        Me.Label1.Location = New System.Drawing.Point(34, 37)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(55, 13)
+        Me.Label1.Size = New System.Drawing.Size(80, 20)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Lawyer ID"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(314, 122)
+        Me.Label2.Location = New System.Drawing.Point(471, 188)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(22, 13)
+        Me.Label2.Size = New System.Drawing.Size(31, 20)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Zip"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(314, 90)
+        Me.Label3.Location = New System.Drawing.Point(471, 138)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(32, 13)
+        Me.Label3.Size = New System.Drawing.Size(48, 20)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "State"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(314, 57)
+        Me.Label4.Location = New System.Drawing.Point(471, 88)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(24, 13)
+        Me.Label4.Size = New System.Drawing.Size(35, 20)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "City"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(314, 24)
+        Me.Label5.Location = New System.Drawing.Point(471, 37)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(35, 13)
+        Me.Label5.Size = New System.Drawing.Size(53, 20)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Street"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(23, 251)
+        Me.Label6.Location = New System.Drawing.Point(34, 386)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(50, 13)
+        Me.Label6.Size = New System.Drawing.Size(73, 20)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "Specialty"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(23, 156)
+        Me.Label7.Location = New System.Drawing.Point(34, 240)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(66, 13)
+        Me.Label7.Size = New System.Drawing.Size(99, 20)
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "Date of Birth"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(23, 282)
+        Me.Label8.Location = New System.Drawing.Point(34, 434)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(83, 13)
+        Me.Label8.Size = New System.Drawing.Size(126, 20)
         Me.Label8.TabIndex = 7
         Me.Label8.Text = "Firm Association"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(23, 219)
+        Me.Label9.Location = New System.Drawing.Point(34, 337)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(65, 13)
+        Me.Label9.Size = New System.Drawing.Size(95, 20)
         Me.Label9.TabIndex = 8
         Me.Label9.Text = "Law Degree"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(23, 122)
+        Me.Label10.Location = New System.Drawing.Point(34, 188)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(58, 13)
+        Me.Label10.Size = New System.Drawing.Size(86, 20)
         Me.Label10.TabIndex = 9
         Me.Label10.Text = "Last Name"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(23, 90)
+        Me.Label11.Location = New System.Drawing.Point(34, 138)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(65, 13)
+        Me.Label11.Size = New System.Drawing.Size(96, 20)
         Me.Label11.TabIndex = 10
         Me.Label11.Text = "Middle Initial"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(23, 57)
+        Me.Label12.Location = New System.Drawing.Point(34, 88)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(57, 13)
+        Me.Label12.Size = New System.Drawing.Size(86, 20)
         Me.Label12.TabIndex = 11
         Me.Label12.Text = "First Name"
         '
         'txtLawyerLawyerID
         '
-        Me.txtLawyerLawyerID.Location = New System.Drawing.Point(99, 21)
+        Me.txtLawyerLawyerID.Location = New System.Drawing.Point(148, 32)
+        Me.txtLawyerLawyerID.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtLawyerLawyerID.Name = "txtLawyerLawyerID"
-        Me.txtLawyerLawyerID.Size = New System.Drawing.Size(118, 20)
+        Me.txtLawyerLawyerID.Size = New System.Drawing.Size(175, 26)
         Me.txtLawyerLawyerID.TabIndex = 12
         '
         'txtLawyerLastName
         '
-        Me.txtLawyerLastName.Location = New System.Drawing.Point(99, 119)
+        Me.txtLawyerLastName.Location = New System.Drawing.Point(148, 183)
+        Me.txtLawyerLastName.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtLawyerLastName.Name = "txtLawyerLastName"
-        Me.txtLawyerLastName.Size = New System.Drawing.Size(118, 20)
+        Me.txtLawyerLastName.Size = New System.Drawing.Size(175, 26)
         Me.txtLawyerLastName.TabIndex = 13
         '
         'txtLawyerMiddleInitial
         '
-        Me.txtLawyerMiddleInitial.Location = New System.Drawing.Point(99, 87)
+        Me.txtLawyerMiddleInitial.Location = New System.Drawing.Point(148, 134)
+        Me.txtLawyerMiddleInitial.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtLawyerMiddleInitial.Name = "txtLawyerMiddleInitial"
-        Me.txtLawyerMiddleInitial.Size = New System.Drawing.Size(44, 20)
+        Me.txtLawyerMiddleInitial.Size = New System.Drawing.Size(64, 26)
         Me.txtLawyerMiddleInitial.TabIndex = 14
         '
         'txtLawyerFirstName
         '
-        Me.txtLawyerFirstName.Location = New System.Drawing.Point(99, 54)
+        Me.txtLawyerFirstName.Location = New System.Drawing.Point(148, 83)
+        Me.txtLawyerFirstName.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtLawyerFirstName.Name = "txtLawyerFirstName"
-        Me.txtLawyerFirstName.Size = New System.Drawing.Size(118, 20)
+        Me.txtLawyerFirstName.Size = New System.Drawing.Size(175, 26)
         Me.txtLawyerFirstName.TabIndex = 15
         '
         'txtLawyerStreet
         '
-        Me.txtLawyerStreet.Location = New System.Drawing.Point(368, 21)
+        Me.txtLawyerStreet.Location = New System.Drawing.Point(552, 32)
+        Me.txtLawyerStreet.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtLawyerStreet.Name = "txtLawyerStreet"
-        Me.txtLawyerStreet.Size = New System.Drawing.Size(167, 20)
+        Me.txtLawyerStreet.Size = New System.Drawing.Size(248, 26)
         Me.txtLawyerStreet.TabIndex = 16
         '
         'txtLawyerState
         '
-        Me.txtLawyerState.Location = New System.Drawing.Point(368, 87)
+        Me.txtLawyerState.Location = New System.Drawing.Point(552, 134)
+        Me.txtLawyerState.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtLawyerState.Name = "txtLawyerState"
-        Me.txtLawyerState.Size = New System.Drawing.Size(52, 20)
+        Me.txtLawyerState.Size = New System.Drawing.Size(76, 26)
         Me.txtLawyerState.TabIndex = 17
         '
         'txtLawyerCity
         '
-        Me.txtLawyerCity.Location = New System.Drawing.Point(368, 54)
+        Me.txtLawyerCity.Location = New System.Drawing.Point(552, 83)
+        Me.txtLawyerCity.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtLawyerCity.Name = "txtLawyerCity"
-        Me.txtLawyerCity.Size = New System.Drawing.Size(118, 20)
+        Me.txtLawyerCity.Size = New System.Drawing.Size(175, 26)
         Me.txtLawyerCity.TabIndex = 18
         '
         'txtLawyerZip
         '
-        Me.txtLawyerZip.Location = New System.Drawing.Point(368, 119)
+        Me.txtLawyerZip.Location = New System.Drawing.Point(552, 183)
+        Me.txtLawyerZip.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtLawyerZip.Name = "txtLawyerZip"
-        Me.txtLawyerZip.Size = New System.Drawing.Size(92, 20)
+        Me.txtLawyerZip.Size = New System.Drawing.Size(136, 26)
         Me.txtLawyerZip.TabIndex = 19
         '
         'txtLawyerLawDegree
         '
-        Me.txtLawyerLawDegree.Location = New System.Drawing.Point(112, 216)
+        Me.txtLawyerLawDegree.Location = New System.Drawing.Point(168, 332)
+        Me.txtLawyerLawDegree.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtLawyerLawDegree.Name = "txtLawyerLawDegree"
-        Me.txtLawyerLawDegree.Size = New System.Drawing.Size(423, 20)
+        Me.txtLawyerLawDegree.Size = New System.Drawing.Size(632, 26)
         Me.txtLawyerLawDegree.TabIndex = 20
         '
         'txtLawyerDOB
         '
-        Me.txtLawyerDOB.Location = New System.Drawing.Point(99, 153)
+        Me.txtLawyerDOB.Location = New System.Drawing.Point(148, 235)
+        Me.txtLawyerDOB.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtLawyerDOB.Name = "txtLawyerDOB"
-        Me.txtLawyerDOB.Size = New System.Drawing.Size(118, 20)
+        Me.txtLawyerDOB.Size = New System.Drawing.Size(175, 26)
         Me.txtLawyerDOB.TabIndex = 21
         '
         'txtLawyerSpecialty
         '
-        Me.txtLawyerSpecialty.Location = New System.Drawing.Point(112, 248)
+        Me.txtLawyerSpecialty.Location = New System.Drawing.Point(168, 382)
+        Me.txtLawyerSpecialty.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtLawyerSpecialty.Name = "txtLawyerSpecialty"
-        Me.txtLawyerSpecialty.Size = New System.Drawing.Size(423, 20)
+        Me.txtLawyerSpecialty.Size = New System.Drawing.Size(632, 26)
         Me.txtLawyerSpecialty.TabIndex = 22
         '
         'txtLawyerFirmAssoc
         '
-        Me.txtLawyerFirmAssoc.Location = New System.Drawing.Point(112, 279)
+        Me.txtLawyerFirmAssoc.Location = New System.Drawing.Point(168, 429)
+        Me.txtLawyerFirmAssoc.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtLawyerFirmAssoc.Name = "txtLawyerFirmAssoc"
-        Me.txtLawyerFirmAssoc.Size = New System.Drawing.Size(423, 20)
+        Me.txtLawyerFirmAssoc.Size = New System.Drawing.Size(632, 26)
         Me.txtLawyerFirmAssoc.TabIndex = 23
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(460, 347)
+        Me.btnExit.Location = New System.Drawing.Point(690, 534)
+        Me.btnExit.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.Size = New System.Drawing.Size(112, 35)
         Me.btnExit.TabIndex = 24
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'btnSave
         '
-        Me.btnSave.Location = New System.Drawing.Point(368, 347)
+        Me.btnSave.Location = New System.Drawing.Point(552, 534)
+        Me.btnSave.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(75, 23)
+        Me.btnSave.Size = New System.Drawing.Size(112, 35)
         Me.btnSave.TabIndex = 25
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
         'frmLawyer
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(603, 513)
+        Me.ClientSize = New System.Drawing.Size(904, 789)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.txtLawyerFirmAssoc)
@@ -291,6 +317,7 @@ Partial Class frmLawyer
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "frmLawyer"
         Me.Text = "Lawyer Data Entry"
         Me.ResumeLayout(False)
