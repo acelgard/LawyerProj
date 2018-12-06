@@ -12,7 +12,6 @@
         Dim strFormChoice As String
         strFormChoice = cboFormChoice.SelectedItem
         Select Case strFormChoice
-        'there is some issue loading/accessing the frmClient form
             Case "Client"
                 frmClient.Show()
 
