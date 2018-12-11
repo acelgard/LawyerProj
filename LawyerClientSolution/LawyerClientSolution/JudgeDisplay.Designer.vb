@@ -31,6 +31,7 @@ Partial Class frmJudgeDisplay
         Me.lblCourtID = New System.Windows.Forms.Label()
         Me.lblFirstName = New System.Windows.Forms.Label()
         Me.lblLastName = New System.Windows.Forms.Label()
+        Me.btnNext = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label4
@@ -110,11 +111,21 @@ Partial Class frmJudgeDisplay
         Me.lblLastName.Size = New System.Drawing.Size(102, 22)
         Me.lblLastName.TabIndex = 19
         '
+        'btnNext
+        '
+        Me.btnNext.Location = New System.Drawing.Point(36, 155)
+        Me.btnNext.Name = "btnNext"
+        Me.btnNext.Size = New System.Drawing.Size(75, 23)
+        Me.btnNext.TabIndex = 20
+        Me.btnNext.Text = "Next"
+        Me.btnNext.UseVisualStyleBackColor = True
+        '
         'frmJudgeDisplay
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(240, 194)
+        Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.lblLastName)
         Me.Controls.Add(Me.lblFirstName)
         Me.Controls.Add(Me.lblCourtID)
@@ -139,4 +150,5 @@ Partial Class frmJudgeDisplay
     Friend WithEvents lblCourtID As Label
     Friend WithEvents lblFirstName As Label
     Friend WithEvents lblLastName As Label
+    Friend WithEvents btnNext As Button
 End Class
