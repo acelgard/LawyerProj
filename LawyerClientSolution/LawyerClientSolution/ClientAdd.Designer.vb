@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmClient
+Partial Class frmClientAdd
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -332,7 +332,7 @@ Partial Class frmClient
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
-        'frmClient
+        'frmClientAdd
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -371,7 +371,7 @@ Partial Class frmClient
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "frmClient"
+        Me.Name = "frmClientAdd"
         Me.Text = "Client Data Entry"
         Me.ResumeLayout(False)
         Me.PerformLayout()

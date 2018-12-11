@@ -8,7 +8,7 @@ Imports System
 Imports System.Data
 Imports System.Data.SqlClient
 
-Public Class frmJudge
+Public Class frmJudgeAdd
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
 
@@ -19,16 +19,10 @@ Public Class frmJudge
 
         Using connection As New SqlConnection(connectionString)
             connection.Open()
-            MessageBox.Show("Database is open")
-
             Dim Command As New SqlCommand("INSERT INTO Judge (JudgeID, CourtID, FirstName, LastName) VALUES ('" & txtJudgeID.Text & "','" & txtCourtID.Text & "', '" & txtFirstName.Text & "', '" & txtLastName.Text & "')", connection)
-
             Command.ExecuteNonQuery()
-
             MessageBox.Show("Row added")
-
             connection.Close()
-            MessageBox.Show("Database is closed")
 
         End Using
 

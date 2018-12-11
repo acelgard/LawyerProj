@@ -45,7 +45,7 @@ Public Class frmConnect
     End Sub
 
     Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
-        frmJudge.Show()
+        frmJudgeAdd.Show()
 
     End Sub
 

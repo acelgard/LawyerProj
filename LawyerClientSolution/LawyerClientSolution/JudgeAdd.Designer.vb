@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmJudge
+Partial Class frmJudgeAdd
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -116,7 +116,7 @@ Partial Class frmJudge
         Me.txtCourtID.Size = New System.Drawing.Size(100, 20)
         Me.txtCourtID.TabIndex = 9
         '
-        'frmJudge
+        'frmJudgeAdd
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -131,9 +131,9 @@ Partial Class frmJudge
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnInsert)
         Me.Controls.Add(Me.btnExit)
-        Me.Name = "frmJudge"
+        Me.Name = "frmJudgeAdd"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Judge Input"
+        Me.Text = "Judge Data Entry"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -72,41 +72,59 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CaseInfo.Designer.vb">
-      <DependentUpon>CaseInfo.vb</DependentUpon>
+    <Compile Include="CaseInfoAdd.Designer.vb">
+      <DependentUpon>CaseInfoAdd.vb</DependentUpon>
     </Compile>
-    <Compile Include="CaseInfo.vb">
+    <Compile Include="CaseInfoAdd.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Connect.vb">
+    <Compile Include="ConnectAdd.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Connect.Designer.vb">
-      <DependentUpon>Connect.vb</DependentUpon>
+    <Compile Include="ConnectAdd.Designer.vb">
+      <DependentUpon>ConnectAdd.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Court.Designer.vb">
-      <DependentUpon>Court.vb</DependentUpon>
+    <Compile Include="CourtAdd.Designer.vb">
+      <DependentUpon>CourtAdd.vb</DependentUpon>
     </Compile>
-    <Compile Include="Court.vb">
+    <Compile Include="CourtAdd.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmClient.Designer.vb">
-      <DependentUpon>frmClient.vb</DependentUpon>
+    <Compile Include="ClientAdd.Designer.vb">
+      <DependentUpon>ClientAdd.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmClient.vb">
+    <Compile Include="ClientAdd.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lawyer.Designer.vb">
-      <DependentUpon>Lawyer.vb</DependentUpon>
+    <Compile Include="JudgeDelete.Designer.vb">
+      <DependentUpon>JudgeDelete.vb</DependentUpon>
     </Compile>
-    <Compile Include="Lawyer.vb">
+    <Compile Include="JudgeDelete.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Paralegal.Designer.vb">
-      <DependentUpon>Paralegal.vb</DependentUpon>
+    <Compile Include="JudgeDisplay.Designer.vb">
+      <DependentUpon>JudgeDisplay.vb</DependentUpon>
     </Compile>
-    <Compile Include="Paralegal.vb">
+    <Compile Include="JudgeDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JudgeEdit.Designer.vb">
+      <DependentUpon>JudgeEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JudgeEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LawyerAdd.Designer.vb">
+      <DependentUpon>LawyerAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LawyerAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParalegalAdd.Designer.vb">
+      <DependentUpon>ParalegalAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ParalegalAdd.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SelectInput.Designer.vb">
@@ -115,10 +133,10 @@
     <Compile Include="SelectInput.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Judge.Designer.vb">
-      <DependentUpon>Judge.vb</DependentUpon>
+    <Compile Include="JudgeAdd.Designer.vb">
+      <DependentUpon>JudgeAdd.vb</DependentUpon>
     </Compile>
-    <Compile Include="Judge.vb">
+    <Compile Include="JudgeAdd.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -144,29 +162,38 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CaseInfo.resx">
-      <DependentUpon>CaseInfo.vb</DependentUpon>
+    <EmbeddedResource Include="CaseInfoAdd.resx">
+      <DependentUpon>CaseInfoAdd.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Connect.resx">
-      <DependentUpon>Connect.vb</DependentUpon>
+    <EmbeddedResource Include="ConnectAdd.resx">
+      <DependentUpon>ConnectAdd.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Court.resx">
-      <DependentUpon>Court.vb</DependentUpon>
+    <EmbeddedResource Include="CourtAdd.resx">
+      <DependentUpon>CourtAdd.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmClient.resx">
-      <DependentUpon>frmClient.vb</DependentUpon>
+    <EmbeddedResource Include="ClientAdd.resx">
+      <DependentUpon>ClientAdd.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lawyer.resx">
-      <DependentUpon>Lawyer.vb</DependentUpon>
+    <EmbeddedResource Include="JudgeDelete.resx">
+      <DependentUpon>JudgeDelete.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Paralegal.resx">
-      <DependentUpon>Paralegal.vb</DependentUpon>
+    <EmbeddedResource Include="JudgeDisplay.resx">
+      <DependentUpon>JudgeDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JudgeEdit.resx">
+      <DependentUpon>JudgeEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LawyerAdd.resx">
+      <DependentUpon>LawyerAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParalegalAdd.resx">
+      <DependentUpon>ParalegalAdd.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectInput.resx">
       <DependentUpon>SelectInput.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Judge.resx">
-      <DependentUpon>Judge.vb</DependentUpon>
+    <EmbeddedResource Include="JudgeAdd.resx">
+      <DependentUpon>JudgeAdd.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

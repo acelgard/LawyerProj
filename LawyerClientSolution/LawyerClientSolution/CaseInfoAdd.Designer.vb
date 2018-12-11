@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmCaseInfo
+Partial Class frmCaseInfoAdd
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -334,7 +334,7 @@ Partial Class frmCaseInfo
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
-        'frmCaseInfo
+        'frmCaseInfoAdd
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -373,8 +373,8 @@ Partial Class frmCaseInfo
         Me.Controls.Add(Me.txtCaseInfoID)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "frmCaseInfo"
-        Me.Text = "CaseInfo"
+        Me.Name = "frmCaseInfoAdd"
+        Me.Text = "Case Data Entry"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -1,35 +1,110 @@
-﻿Public Class frmSelectInput
-    Private Sub frmIn_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+﻿Imports System
+Imports System.Data
+Imports System.Data.SqlClient
 
-    End Sub
+Public Class frmSelectInput
 
-    Private Sub btnGoBack_Click(sender As Object, e As EventArgs) Handles btnGoBack.Click
+    Public strFormChoice As String
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
 
     End Sub
 
-    Private Sub cboFormChoice_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboFormChoice.SelectedIndexChanged
-        Dim strFormChoice As String
+    Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
         strFormChoice = cboFormChoice.SelectedItem
         Select Case strFormChoice
             Case "Client"
-                frmClient.Show()
+                frmClientAdd.Show()
 
             Case "Lawyer"
-                frmLawyer.Show()
+                frmLawyerAdd.Show()
 
             Case "Paralegal"
-                frmParalegal.Show()
+                frmParalegalAdd.Show()
 
             Case "Case"
-                frmCaseInfo.Show()
+                frmCaseInfoAdd.Show()
 
             Case "Judge"
-                frmJudge.Show()
+                frmJudgeAdd.Show()
 
             Case "Court"
-                frmCourt.Show()
+                frmCourtAdd.Show()
 
         End Select
     End Sub
+
+    Private Sub btnDisplay_Click(sender As Object, e As EventArgs) Handles btnDisplay.Click
+        strFormChoice = cboFormChoice.SelectedItem
+        Select Case strFormChoice
+            Case "Client"
+            '    frmClientDisplay.Show()
+
+            Case "Lawyer"
+            '    frmLawyerDisplay.Show()
+
+            Case "Paralegal"
+            '    frmParalegalDisplay.Show()
+
+            Case "Case"
+            '    frmCaseInfoDisplay.Show()
+
+            Case "Judge"
+                frmJudgeDisplay.Show()
+
+            Case "Court"
+                '    frmCourtDisplay.Show()
+
+        End Select
+    End Sub
+
+    Private Sub btnEdit_Click(sender As Object, e As EventArgs) Handles btnEdit.Click
+        strFormChoice = cboFormChoice.SelectedItem
+        Select Case strFormChoice
+            Case "Client"
+            '    frmClientEdit.Show()
+
+            Case "Lawyer"
+            '    frmLawyerEdit.Show()
+
+            Case "Paralegal"
+            '    frmParalegalEdit.Show()
+
+            Case "Case"
+            '    frmCaseInfoEdit.Show()
+
+            Case "Judge"
+                frmJudgeEdit.Show()
+
+            Case "Court"
+                '    frmCourtEdit.Show()
+
+        End Select
+    End Sub
+
+    Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click
+        strFormChoice = cboFormChoice.SelectedItem
+        Select Case strFormChoice
+            Case "Client"
+            '    frmClientDelete.Show()
+
+            Case "Lawyer"
+            '    frmLawyerDelete.Show()
+
+            Case "Paralegal"
+            '    frmParalegalDelete.Show()
+
+            Case "Case"
+            '    frmCaseInfoDelete.Show()
+
+            Case "Judge"
+                frmJudgeDelete.Show()
+
+            Case "Court"
+                '    frmCourtDelete.Show()
+
+        End Select
+    End Sub
+
 End Class
