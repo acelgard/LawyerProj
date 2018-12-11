@@ -78,6 +78,12 @@
     <Compile Include="CaseInfoAdd.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CaseInfoEdit.Designer.vb">
+      <DependentUpon>CaseInfoEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CaseInfoEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ConnectAdd.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,18 @@
       <DependentUpon>LawyerAdd.vb</DependentUpon>
     </Compile>
     <Compile Include="LawyerAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LawyerEdit.Designer.vb">
+      <DependentUpon>LawyerEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LawyerEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParalegalEdit.Designer.vb">
+      <DependentUpon>ParalegalEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ParalegalEdit.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ParalegalAdd.Designer.vb">
@@ -165,6 +183,9 @@
     <EmbeddedResource Include="CaseInfoAdd.resx">
       <DependentUpon>CaseInfoAdd.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CaseInfoEdit.resx">
+      <DependentUpon>CaseInfoEdit.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConnectAdd.resx">
       <DependentUpon>ConnectAdd.vb</DependentUpon>
     </EmbeddedResource>
@@ -186,8 +207,14 @@
     <EmbeddedResource Include="LawyerAdd.resx">
       <DependentUpon>LawyerAdd.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LawyerEdit.resx">
+      <DependentUpon>LawyerEdit.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ParalegalAdd.resx">
       <DependentUpon>ParalegalAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParalegalEdit.resx">
+      <DependentUpon>ParalegalEdit.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectInput.resx">
       <DependentUpon>SelectInput.vb</DependentUpon>
