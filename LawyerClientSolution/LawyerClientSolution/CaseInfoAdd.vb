@@ -1,4 +1,4 @@
-﻿
+﻿'replace the txt in txtBegHearDate with dtp
 Option Explicit On
 Option Strict On
 Option Infer Off
@@ -21,8 +21,8 @@ Public Class frmCaseInfoAdd
 
             Dim Command As New SqlCommand("INSERT INTO CaseInfo (CaseInfoID, LawyerID, JudgeID, CaseName, Description, Plaintiff, Prosecutor, Defendant, BegHearDate, EndHearDate, TrialDate, Plea, Bail, NbrWitnesses, Indictment, Ruling) VALUES ('" & txtCaseInfoID.Text & "',
             '" & txtLawyerID.Text & "','" & txtJudgeID.Text & "','" & txtCaseName.Text & "','" & txtDescription.Text & "',
-            '" & txtPlaintiff.Text & "','" & txtProsecutor.Text & "','" & txtDefendant.Text & "','" & txtBegHearDate.Text & "','" & txtEndHearDate.Text & "',
-            '" & txtTrialDate.Text & "','" & txtPlea.Text & "','" & txtBail.Text & "','" & txtNbrWitnesses.Text & "','" & txtIndictment.Text & "','" & txtRuling.Text & "')", connection)
+            '" & txtPlaintiff.Text & "','" & txtProsecutor.Text & "','" & txtDefendant.Text & "','" & dtpBegHearDate.Text & "','" & dtpEndHearDate.Text & "',
+            '" & dtpTrialDate.Text & "','" & txtPlea.Text & "','" & txtBail.Text & "','" & txtNbrWitnesses.Text & "','" & txtIndictment.Text & "','" & txtRuling.Text & "')", connection)
 
             Command.ExecuteNonQuery() 'WE GOT PROBLEMS
 
