@@ -1,4 +1,9 @@
-﻿Public Class frmStart
+﻿'Justin Kasbohm and Andrew Elgard
+'TOUCH-UP NOTES:
+'add module and put common variables or import statements there
+'add search function or make another route to the display form
+
+Public Class frmStart
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
     End Sub
@@ -8,7 +13,4 @@
 
     End Sub
 
-    Private Sub frmStart_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 End Class
