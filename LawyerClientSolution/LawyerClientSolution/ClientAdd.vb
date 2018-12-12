@@ -10,7 +10,7 @@ Public Class frmClientAdd
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
         'all of the code below is from the Eagle Enterprises assignment
-        Dim connectionString As String = "Data Source =MIS-W10-014\SQLEXPRESS;Initial Catalog=EagleEnterprises;Integrated Security=true"
+        Dim connectionString As String = "Data Source =MIS-W10-014\SQLEXPRESS;Initial Catalog=LawyerClientProject;Integrated Security=true"
 
         Using connection As New SqlConnection(connectionString)
             connection.Open()
@@ -35,7 +35,4 @@ Public Class frmClientAdd
 
     End Sub
 
-    Private Sub frmClient_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 End Class
