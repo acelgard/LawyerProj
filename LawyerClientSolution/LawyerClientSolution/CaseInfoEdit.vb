@@ -7,7 +7,7 @@ Option Infer Off
 Imports System
 Imports System.Data
 Imports System.Data.SqlClient
-Public Class CaseInfoEdit
+Public Class frmCaseInfoEdit
     Private Sub CaseInfoDisplay_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub

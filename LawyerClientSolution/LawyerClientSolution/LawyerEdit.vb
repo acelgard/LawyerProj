@@ -7,7 +7,7 @@ Option Infer Off
 Imports System
 Imports System.Data
 Imports System.Data.SqlClient
-Public Class LawyerEdit
+Public Class frmLawyerEdit
 
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
@@ -22,7 +22,7 @@ Public Class LawyerEdit
 
         Using connection As New SqlConnection(connectionString)
             connection.Open()
-            Dim command As New SqlCommand("DELETE FROM Lawyer WHERE Lawyer = '" & strLawyerID & "' ", connection)
+            Dim command As New SqlCommand("DELETE FROM Lawyer WHERE LawyerID = '" & strLawyerID & "' ", connection)
             command.ExecuteNonQuery()
             connection.Close()
 
@@ -31,8 +31,8 @@ Public Class LawyerEdit
         Using connection As New SqlConnection(connectionString)
             connection.Open()
 
-            Dim Command As New SqlCommand("INSERT INTO Lawyer (LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssociation, DOB, Speciality, Street, State, Zip) VALUES ('" & txtLawyerID.Text & "','" & txtFirstName.Text & "','" & txtMiddleInitial.Text & "','" & txtLastName.Text & "', 
-            '" & txtLawDegree.Text & "','" & txtFirmAssoc.Text & "','" & txtDOB.Text & "','" & txtSpecialty.Text & "', '" & txtCity.Text & "','" & txtState.Text & "','" & txtZip.Text & "')", connection)
+            Dim Command As New SqlCommand("INSERT INTO Lawyer (LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssoc, DOB, Specialty, Street, City, State, Zip) VALUES ('" & txtLawyerID.Text & "','" & txtFirstName.Text & "','" & txtMiddleInitial.Text & "','" & txtLastName.Text & "', 
+            '" & txtLawDegree.Text & "','" & txtFirmAssoc.Text & "','" & txtDOB.Text & "','" & txtSpecialty.Text & "','" & txtStreet.Text & "', '" & txtCity.Text & "','" & txtState.Text & "','" & txtZip.Text & "')", connection)
             Command.ExecuteNonQuery()
             MessageBox.Show("Row updated")
             connection.Close()
@@ -49,24 +49,24 @@ Public Class LawyerEdit
         Using connection As New SqlConnection(connectionString)
             connection.Open()
 
-            Dim queryString As String = "SELECT JudgeID, CourtID, FirstName, LastName FROM dbo.LawyerID WHERE LawyerID = '" & strLawyerID & "';"
+            Dim queryString As String = "SELECT LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssoc, DOB, Specialty, Street, City, State, Zip FROM dbo.Lawyer WHERE LawyerID = '" & strLawyerID & "';"
             Dim command As New SqlCommand(queryString, connection)
             Dim dataReader As SqlDataReader = command.ExecuteReader()
 
             Do While dataReader.Read()
 
                 txtLawyerID.Text = dataReader.GetString(0)
-                txtFirstName.Text = dataReader.GetString(0)
-                txtMiddleInitial.Text = dataReader.GetString(0)
-                txtLastName.Text = dataReader.GetString(0)
-                txtLawDegree.Text = dataReader.GetString(0)
-                txtFirmAssoc.Text = dataReader.GetString(0)
-                txtDOB.Text = dataReader.GetString(0)
-                txtSpecialty.Text = dataReader.GetString(0)
-                txtCity.Text = dataReader.GetString(0)
-                txtState.Text = dataReader.GetString(0)
-                txtZip.Text = dataReader.GetString(0)
-
+                txtFirstName.Text = dataReader.GetString(1)
+                txtMiddleInitial.Text = dataReader.GetString(2)
+                txtLastName.Text = dataReader.GetString(3)
+                txtLawDegree.Text = dataReader.GetString(4)
+                txtFirmAssoc.Text = dataReader.GetString(5)
+                txtDOB.Text = dataReader.GetString(6)
+                txtSpecialty.Text = dataReader.GetString(7)
+                txtStreet.Text = dataReader.GetString(8)
+                txtCity.Text = dataReader.GetString(9)
+                txtState.Text = dataReader.GetString(10)
+                txtZip.Text = dataReader.GetString(11)
 
             Loop
 
@@ -82,6 +82,7 @@ Public Class LawyerEdit
         txtFirmAssoc.ReadOnly = False
         txtDOB.ReadOnly = False
         txtSpecialty.ReadOnly = False
+        txtStreet.ReadOnly = False
         txtCity.ReadOnly = False
         txtState.ReadOnly = False
         txtZip.ReadOnly = False

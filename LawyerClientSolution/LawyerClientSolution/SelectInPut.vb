@@ -66,13 +66,13 @@ Public Class frmSelectInput
                 frmClientEdit.Show()
 
             Case "Lawyer"
-            '    frmLawyerEdit.Show()
+                frmLawyerEdit.Show()
 
             Case "Paralegal"
-            '    frmParalegalEdit.Show()
+                frmParalegalEdit.Show()
 
             Case "Case"
-            '    frmCaseInfoEdit.Show()
+                frmCaseInfoEdit.Show()
 
             Case "Judge"
                 frmJudgeEdit.Show()

@@ -7,6 +7,8 @@
 'change date types in database to text
 'make background forms invisible after they take user to a new form
 'fix display loop/message box logical problem
+'fill database tables with some dummy info
+'change tab orders and set default buttons
 
 Public Class frmStart
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
