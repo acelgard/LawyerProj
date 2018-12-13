@@ -9,6 +9,7 @@
 'fix display loop/message box logical problem
 'fill database tables with some dummy info
 'change tab orders and set default buttons
+'maybe... replace date related inputs with a date time picker (not just strings)
 
 Public Class frmStart
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click

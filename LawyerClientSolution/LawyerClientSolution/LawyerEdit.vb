@@ -9,9 +9,9 @@ Imports System.Data
 Imports System.Data.SqlClient
 Public Class frmLawyerEdit
 
-
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
+
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click

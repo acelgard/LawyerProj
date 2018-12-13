@@ -56,14 +56,14 @@ Partial Class frmCaseInfoEdit
         Me.txtCaseInfoID = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.lblBegHearDate = New System.Windows.Forms.Label()
-        Me.lblTrialDate = New System.Windows.Forms.Label()
-        Me.lblEndHearDate = New System.Windows.Forms.Label()
+        Me.txtBegHearDate = New System.Windows.Forms.TextBox()
+        Me.txtTrialDate = New System.Windows.Forms.TextBox()
+        Me.txtEndHearDate = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'btnSave
         '
-        Me.btnSave.Location = New System.Drawing.Point(56, 424)
+        Me.btnSave.Location = New System.Drawing.Point(442, 443)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(75, 23)
         Me.btnSave.TabIndex = 108
@@ -81,7 +81,7 @@ Partial Class frmCaseInfoEdit
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(548, 424)
+        Me.btnExit.Location = New System.Drawing.Point(549, 443)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 106
@@ -91,7 +91,7 @@ Partial Class frmCaseInfoEdit
         'txtCaseInfoIDEntered
         '
         Me.txtCaseInfoIDEntered.Location = New System.Drawing.Point(151, 14)
-        Me.txtCaseInfoIDEntered.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCaseInfoIDEntered.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCaseInfoIDEntered.Name = "txtCaseInfoIDEntered"
         Me.txtCaseInfoIDEntered.Size = New System.Drawing.Size(118, 20)
         Me.txtCaseInfoIDEntered.TabIndex = 109
@@ -109,6 +109,7 @@ Partial Class frmCaseInfoEdit
         '
         Me.txtDescription.Location = New System.Drawing.Point(20, 222)
         Me.txtDescription.Name = "txtDescription"
+        Me.txtDescription.ReadOnly = True
         Me.txtDescription.Size = New System.Drawing.Size(295, 132)
         Me.txtDescription.TabIndex = 139
         Me.txtDescription.Text = ""
@@ -218,9 +219,9 @@ Partial Class frmCaseInfoEdit
         Me.Label13.AutoSize = True
         Me.Label13.Location = New System.Drawing.Point(372, 122)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(53, 13)
+        Me.Label13.Size = New System.Drawing.Size(120, 13)
         Me.Label13.TabIndex = 126
-        Me.Label13.Text = "Trial Date"
+        Me.Label13.Text = "Trial Date (mm/dd/yyyy)"
         '
         'Label11
         '
@@ -245,9 +246,9 @@ Partial Class frmCaseInfoEdit
         Me.Label9.AutoSize = True
         Me.Label9.Location = New System.Drawing.Point(372, 87)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(92, 13)
+        Me.Label9.Size = New System.Drawing.Size(159, 13)
         Me.Label9.TabIndex = 123
-        Me.Label9.Text = "End Hearing Date"
+        Me.Label9.Text = "End Hearing Date (mm/dd/yyyy)"
         '
         'Label8
         '
@@ -263,9 +264,9 @@ Partial Class frmCaseInfoEdit
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(372, 53)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(120, 13)
+        Me.Label7.Size = New System.Drawing.Size(187, 13)
         Me.Label7.TabIndex = 121
-        Me.Label7.Text = "Beginning Hearing Date"
+        Me.Label7.Text = "Beginning Hearing Date (mm/dd/yyyy)"
         '
         'Label6
         '
@@ -354,41 +355,38 @@ Partial Class frmCaseInfoEdit
         Me.Label1.TabIndex = 111
         Me.Label1.Text = "Case ID"
         '
-        'lblBegHearDate
+        'txtBegHearDate
         '
-        Me.lblBegHearDate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblBegHearDate.Location = New System.Drawing.Point(506, 51)
-        Me.lblBegHearDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.lblBegHearDate.Name = "lblBegHearDate"
-        Me.lblBegHearDate.Size = New System.Drawing.Size(180, 16)
-        Me.lblBegHearDate.TabIndex = 143
+        Me.txtBegHearDate.Location = New System.Drawing.Point(579, 50)
+        Me.txtBegHearDate.Name = "txtBegHearDate"
+        Me.txtBegHearDate.ReadOnly = True
+        Me.txtBegHearDate.Size = New System.Drawing.Size(107, 20)
+        Me.txtBegHearDate.TabIndex = 146
         '
-        'lblTrialDate
+        'txtTrialDate
         '
-        Me.lblTrialDate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblTrialDate.Location = New System.Drawing.Point(506, 118)
-        Me.lblTrialDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.lblTrialDate.Name = "lblTrialDate"
-        Me.lblTrialDate.Size = New System.Drawing.Size(180, 16)
-        Me.lblTrialDate.TabIndex = 144
+        Me.txtTrialDate.Location = New System.Drawing.Point(579, 117)
+        Me.txtTrialDate.Name = "txtTrialDate"
+        Me.txtTrialDate.ReadOnly = True
+        Me.txtTrialDate.Size = New System.Drawing.Size(107, 20)
+        Me.txtTrialDate.TabIndex = 147
         '
-        'lblEndHearDate
+        'txtEndHearDate
         '
-        Me.lblEndHearDate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblEndHearDate.Location = New System.Drawing.Point(506, 85)
-        Me.lblEndHearDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.lblEndHearDate.Name = "lblEndHearDate"
-        Me.lblEndHearDate.Size = New System.Drawing.Size(180, 16)
-        Me.lblEndHearDate.TabIndex = 145
+        Me.txtEndHearDate.Location = New System.Drawing.Point(579, 84)
+        Me.txtEndHearDate.Name = "txtEndHearDate"
+        Me.txtEndHearDate.ReadOnly = True
+        Me.txtEndHearDate.Size = New System.Drawing.Size(107, 20)
+        Me.txtEndHearDate.TabIndex = 148
         '
         'frmCaseInfoEdit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(707, 494)
-        Me.Controls.Add(Me.lblEndHearDate)
-        Me.Controls.Add(Me.lblTrialDate)
-        Me.Controls.Add(Me.lblBegHearDate)
+        Me.Controls.Add(Me.txtEndHearDate)
+        Me.Controls.Add(Me.txtTrialDate)
+        Me.Controls.Add(Me.txtBegHearDate)
         Me.Controls.Add(Me.txtDescription)
         Me.Controls.Add(Me.txtRuling)
         Me.Controls.Add(Me.txtIndictment)
@@ -423,9 +421,9 @@ Partial Class frmCaseInfoEdit
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.btnEdit)
         Me.Controls.Add(Me.btnExit)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmCaseInfoEdit"
-        Me.Text = "CaseInfoDisplay"
+        Me.Text = "Edit Case Data"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -464,7 +462,7 @@ Partial Class frmCaseInfoEdit
     Friend WithEvents txtCaseInfoID As TextBox
     Friend WithEvents Label12 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents lblBegHearDate As Label
-    Friend WithEvents lblTrialDate As Label
-    Friend WithEvents lblEndHearDate As Label
+    Friend WithEvents txtBegHearDate As TextBox
+    Friend WithEvents txtTrialDate As TextBox
+    Friend WithEvents txtEndHearDate As TextBox
 End Class

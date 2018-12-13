@@ -1,9 +1,5 @@
 ﻿'Justin Kasbohm and Andrew Elgard
 
-Option Explicit On
-Option Strict On
-Option Infer Off
-
 Imports System
 Imports System.Data
 Imports System.Data.SqlClient
@@ -20,7 +16,7 @@ Public Class frmParalegalEdit
 
         Using connection As New SqlConnection(connectionString)
             connection.Open()
-            Dim command As New SqlCommand("DELETE FROM Paralegal WHERE Paralegal = '" & strParalegalID & "' ", connection)
+            Dim command As New SqlCommand("DELETE FROM Paralegal WHERE ParalegalID = '" & strParalegalID & "' ", connection)
             command.ExecuteNonQuery()
             connection.Close()
 
@@ -29,7 +25,7 @@ Public Class frmParalegalEdit
         Using connection As New SqlConnection(connectionString)
             connection.Open()
 
-            Dim Command As New SqlCommand("INSERT INTO Paralegal (ParalegalID, LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssociation, DOB, Specialty, Hours) VALUES ('" & txtParalegalID.Text & "','" & txtLawyerID.Text & "','" & txtFirstName.Text & "','" & txtMiddleInitial.Text & "', 
+            Dim Command As New SqlCommand("INSERT INTO Paralegal (ParalegalID, LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssoc, DOB, Specialty, Hours) VALUES ('" & txtParalegalID.Text & "','" & txtLawyerID.Text & "','" & txtFirstName.Text & "','" & txtMiddleInitial.Text & "', 
             '" & txtLastName.Text & "','" & txtLawDegree.Text & "','" & txtFirmAssoc.Text & "','" & txtDOB.Text & "','" & txtSpecialty.Text & "','" & txtHours.Text & "')", connection)
             Command.ExecuteNonQuery()
             MessageBox.Show("Row updated")
@@ -46,22 +42,21 @@ Public Class frmParalegalEdit
         Using connection As New SqlConnection(connectionString)
             connection.Open()
 
-            Dim queryString As String = "SELECT ParalegalID, LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssociation, DOB, Specialty, Hours FROM dbo.LawyerId WHERE ParalegalID = '" & strParalegalID & "';"
+            Dim queryString As String = "SELECT ParalegalID, LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssoc, DOB, Specialty, Hours FROM dbo.Paralegal WHERE ParalegalID = '" & strParalegalID & "';"
             Dim command As New SqlCommand(queryString, connection)
             Dim dataReader As SqlDataReader = command.ExecuteReader()
 
             Do While dataReader.Read()
                 txtParalegalID.Text = dataReader.GetString(0)
-                txtLawyerID.Text = dataReader.GetString(0)
-                txtFirstName.Text = dataReader.GetString(0)
-                txtMiddleInitial.Text = dataReader.GetString(0)
-                txtLastName.Text = dataReader.GetString(0)
-                txtLawDegree.Text = dataReader.GetString(0)
-                txtFirmAssoc.Text = dataReader.GetString(0)
-                txtDOB.Text = dataReader.GetString(0)
-                txtSpecialty.Text = dataReader.GetString(0)
-                txtHours.Text = dataReader.GetString(0)
-
+                txtLawyerID.Text = dataReader.GetString(1)
+                txtFirstName.Text = dataReader.GetString(2)
+                txtMiddleInitial.Text = dataReader.GetString(3)
+                txtLastName.Text = dataReader.GetString(4)
+                txtLawDegree.Text = dataReader.GetString(5)
+                txtFirmAssoc.Text = dataReader.GetString(6)
+                txtDOB.Text = dataReader.GetString(7)
+                txtSpecialty.Text = dataReader.GetString(8)
+                txtHours.Text = dataReader.GetDouble(9)
 
             Loop
 
