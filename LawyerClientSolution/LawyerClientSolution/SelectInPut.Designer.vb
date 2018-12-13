@@ -124,7 +124,6 @@ Partial Class frmSelectInput
         Me.Name = "frmSelectInput"
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form Selection"
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -54,7 +54,7 @@ Public Class frmSelectInput
                 frmJudgeDisplay.Show()
 
             Case "Court"
-                '    frmCourtDisplay.Show()
+                frmCourtDisplay.Show()
 
         End Select
     End Sub
@@ -78,7 +78,7 @@ Public Class frmSelectInput
                 frmJudgeEdit.Show()
 
             Case "Court"
-                '    frmCourtEdit.Show()
+                frmCourtEdit.Show()
 
         End Select
     End Sub
@@ -102,7 +102,7 @@ Public Class frmSelectInput
                 frmJudgeDelete.Show()
 
             Case "Court"
-                '    frmCourtDelete.Show()
+                frmCourtDelete.Show()
 
         End Select
     End Sub

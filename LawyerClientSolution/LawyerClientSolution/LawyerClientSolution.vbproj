@@ -103,6 +103,24 @@
     <Compile Include="ClientAdd.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CourtDelete.Designer.vb">
+      <DependentUpon>CourtDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CourtDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourtDisplay.Designer.vb">
+      <DependentUpon>CourtDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CourtDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourtEdit.Designer.vb">
+      <DependentUpon>CourtEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CourtEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="JudgeDelete.Designer.vb">
       <DependentUpon>JudgeDelete.vb</DependentUpon>
     </Compile>
@@ -194,6 +212,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ClientAdd.resx">
       <DependentUpon>ClientAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourtDelete.resx">
+      <DependentUpon>CourtDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourtDisplay.resx">
+      <DependentUpon>CourtDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourtEdit.resx">
+      <DependentUpon>CourtEdit.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JudgeDelete.resx">
       <DependentUpon>JudgeDelete.vb</DependentUpon>

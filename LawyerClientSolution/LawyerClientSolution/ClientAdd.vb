@@ -14,7 +14,6 @@ Public Class frmClientAdd
 
         Using connection As New SqlConnection(connectionString)
             connection.Open()
-            'MessageBox.Show("Database is open")
 
             Dim Command As New SqlCommand("INSERT INTO Client (ClientID, LawyerID, FirstName, MiddleName, 
                 LastName, CompanyName, Street, City, State, Zip, EmailAddress, HomePhone, MobilePhone, 
@@ -25,11 +24,7 @@ Public Class frmClientAdd
                 txtDOB.Text & "','" & txtSSN.Text & "','" & txtDriverLicNum.Text & "')", connection)
 
             Command.ExecuteNonQuery()
-
-            'MessageBox.Show("Row added")
-
             connection.Close()
-            'MessageBox.Show("Database is closed")
 
         End Using
 

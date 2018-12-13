@@ -136,6 +136,7 @@ Partial Class frmJudgeDisplay
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
         Me.Name = "frmJudgeDisplay"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Display Judge Data"
         Me.ResumeLayout(False)
         Me.PerformLayout()
