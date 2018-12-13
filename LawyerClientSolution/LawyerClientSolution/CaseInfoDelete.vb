@@ -16,7 +16,7 @@ Public Class frmCaseInfoDelete
         Using connection As New SqlConnection(connectionString)
             connection.Open()
 
-            Dim command = New SqlCommand("DELETE FROM Court WHERE CourtID = '" & strCaseInfoID & "' ", connection)
+            Dim command = New SqlCommand("DELETE FROM CaseInfo WHERE CaseInfoID = '" & strCaseInfoID & "' ", connection)
 
             command.ExecuteNonQuery()
             MessageBox.Show("Row deleted")
