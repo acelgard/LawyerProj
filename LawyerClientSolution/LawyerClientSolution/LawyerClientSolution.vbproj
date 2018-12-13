@@ -163,6 +163,12 @@
     <Compile Include="LawyerAdd.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="LawyerDelete.Designer.vb">
+      <DependentUpon>LawyerDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LawyerDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LawyerDisplay.Designer.vb">
       <DependentUpon>LawyerDisplay.vb</DependentUpon>
     </Compile>
@@ -272,6 +278,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LawyerAdd.resx">
       <DependentUpon>LawyerAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LawyerDelete.resx">
+      <DependentUpon>LawyerDelete.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LawyerDisplay.resx">
       <DependentUpon>LawyerDisplay.vb</DependentUpon>

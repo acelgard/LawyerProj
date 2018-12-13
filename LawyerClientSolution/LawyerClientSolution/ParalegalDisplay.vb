@@ -3,12 +3,12 @@ Imports System.Data
 Imports System.Data.SqlClient
 
 Public Class frmParalegalDisplay
-    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnDisplay.Click
         Dim connectionString As String = "Data Source =MIS-W10-014\SQLEXPRESS;Initial Catalog=LawyerClientProject;Integrated Security=true"
         Using connection As New SqlConnection(connectionString)
             connection.Open()
 
-            Dim queryString As String = "SELECT ParalegalID, LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssociation, DOB, Specialty, Hours FROM dbo.Paralegal;"
+            Dim queryString As String = "SELECT ParalegalID, LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssoc, DOB, Specialty, Hours FROM dbo.Paralegal;"
             Dim command As New SqlCommand(queryString, connection)
             Dim dataReader As SqlDataReader = command.ExecuteReader()
 
@@ -23,7 +23,7 @@ Public Class frmParalegalDisplay
                 lblFirmAssoc.Text = dataReader.GetString(6)
                 lblDOB.Text = dataReader.GetString(7)
                 lblSpecialty.Text = dataReader.GetString(8)
-                lblHours.Text = dataReader.GetInt32(9)
+                lblHours.Text = dataReader.GetDouble(9)
                 MessageBox.Show("Record found")
 
             Loop

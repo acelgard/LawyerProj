@@ -90,7 +90,7 @@ Public Class frmSelectInput
                 frmClientDelete.Show()
 
             Case "Lawyer"
-            '    frmLawyerDelete.Show()
+                frmLawyerDelete.Show()
 
             Case "Paralegal"
             '    frmParalegalDelete.Show()

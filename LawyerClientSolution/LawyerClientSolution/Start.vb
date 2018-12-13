@@ -7,6 +7,8 @@
 'fix display loop/message box logical problem
 'fill database tables with some dummy info
 'change tab orders and set default buttons
+'make sure heading, title, and labels are all congruent and correct
+'go through other dates and make them dtps like in caseinfo
 
 Public Class frmStart
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
