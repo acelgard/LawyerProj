@@ -163,10 +163,22 @@
     <Compile Include="LawyerAdd.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="LawyerDisplay.Designer.vb">
+      <DependentUpon>LawyerDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LawyerDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LawyerEdit.Designer.vb">
       <DependentUpon>LawyerEdit.vb</DependentUpon>
     </Compile>
     <Compile Include="LawyerEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParalegalDisplay.Designer.vb">
+      <DependentUpon>ParalegalDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ParalegalDisplay.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ParalegalEdit.Designer.vb">
@@ -261,11 +273,17 @@
     <EmbeddedResource Include="LawyerAdd.resx">
       <DependentUpon>LawyerAdd.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LawyerDisplay.resx">
+      <DependentUpon>LawyerDisplay.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LawyerEdit.resx">
       <DependentUpon>LawyerEdit.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ParalegalAdd.resx">
       <DependentUpon>ParalegalAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParalegalDisplay.resx">
+      <DependentUpon>ParalegalDisplay.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ParalegalEdit.resx">
       <DependentUpon>ParalegalEdit.vb</DependentUpon>
