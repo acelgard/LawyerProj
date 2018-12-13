@@ -54,8 +54,8 @@ Partial Class frmClientAdd
         Me.Label15 = New System.Windows.Forms.Label()
         Me.txtCompanyName = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.btnSave = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
+        Me.btnSave = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'txtDOB
@@ -206,7 +206,7 @@ Partial Class frmClientAdd
         '
         Me.txtState.Location = New System.Drawing.Point(101, 199)
         Me.txtState.Name = "txtState"
-        Me.txtState.Size = New System.Drawing.Size(49, 20)
+        Me.txtState.Size = New System.Drawing.Size(37, 20)
         Me.txtState.TabIndex = 41
         '
         'Label6
@@ -314,15 +314,6 @@ Partial Class frmClientAdd
         Me.Label16.TabIndex = 52
         Me.Label16.Text = "Company Name"
         '
-        'btnSave
-        '
-        Me.btnSave.Location = New System.Drawing.Point(353, 433)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(75, 23)
-        Me.btnSave.TabIndex = 54
-        Me.btnSave.Text = "Save"
-        Me.btnSave.UseVisualStyleBackColor = True
-        '
         'btnExit
         '
         Me.btnExit.Location = New System.Drawing.Point(434, 433)
@@ -332,13 +323,22 @@ Partial Class frmClientAdd
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
+        'btnSave
+        '
+        Me.btnSave.Location = New System.Drawing.Point(353, 433)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(75, 23)
+        Me.btnSave.TabIndex = 56
+        Me.btnSave.Text = "Save"
+        Me.btnSave.UseVisualStyleBackColor = True
+        '
         'frmClientAdd
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(528, 477)
-        Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnSave)
+        Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.txtCompanyName)
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.txtDriverLicNum)
@@ -410,6 +410,6 @@ Partial Class frmClientAdd
     Friend WithEvents Label15 As Label
     Friend WithEvents txtCompanyName As TextBox
     Friend WithEvents Label16 As Label
-    Friend WithEvents btnSave As Button
     Friend WithEvents btnExit As Button
+    Friend WithEvents btnSave As Button
 End Class

@@ -39,7 +39,7 @@ Public Class frmSelectInput
         strFormChoice = cboFormChoice.SelectedItem
         Select Case strFormChoice
             Case "Client"
-            '    frmClientDisplay.Show()
+                frmClientDisplay.Show()
 
             Case "Lawyer"
             '    frmLawyerDisplay.Show()
@@ -63,7 +63,7 @@ Public Class frmSelectInput
         strFormChoice = cboFormChoice.SelectedItem
         Select Case strFormChoice
             Case "Client"
-            '    frmClientEdit.Show()
+                frmClientEdit.Show()
 
             Case "Lawyer"
             '    frmLawyerEdit.Show()
@@ -87,7 +87,7 @@ Public Class frmSelectInput
         strFormChoice = cboFormChoice.SelectedItem
         Select Case strFormChoice
             Case "Client"
-            '    frmClientDelete.Show()
+                frmClientDelete.Show()
 
             Case "Lawyer"
             '    frmLawyerDelete.Show()

@@ -84,6 +84,24 @@
     <Compile Include="CaseInfoEdit.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ClientDelete.Designer.vb">
+      <DependentUpon>ClientDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClientDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientDisplay.Designer.vb">
+      <DependentUpon>ClientDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClientDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientEdit.Designer.vb">
+      <DependentUpon>ClientEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClientEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ConnectAdd.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -203,6 +221,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CaseInfoEdit.resx">
       <DependentUpon>CaseInfoEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientDelete.resx">
+      <DependentUpon>ClientDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientDisplay.resx">
+      <DependentUpon>ClientDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientEdit.resx">
+      <DependentUpon>ClientEdit.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConnectAdd.resx">
       <DependentUpon>ConnectAdd.vb</DependentUpon>
