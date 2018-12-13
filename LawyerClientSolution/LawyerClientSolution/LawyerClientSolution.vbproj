@@ -78,6 +78,12 @@
     <Compile Include="CaseInfoAdd.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CaseInfoDelete.Designer.vb">
+      <DependentUpon>CaseInfoDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CaseInfoDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CaseInfoDisplay.Designer.vb">
       <DependentUpon>CaseInfoDisplay.vb</DependentUpon>
     </Compile>
@@ -236,6 +242,9 @@
   <ItemGroup>
     <EmbeddedResource Include="CaseInfoAdd.resx">
       <DependentUpon>CaseInfoAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaseInfoDelete.resx">
+      <DependentUpon>CaseInfoDelete.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CaseInfoDisplay.resx">
       <DependentUpon>CaseInfoDisplay.vb</DependentUpon>
