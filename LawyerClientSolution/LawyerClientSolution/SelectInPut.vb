@@ -48,7 +48,7 @@ Public Class frmSelectInput
                 frmParalegalDisplay.Show()
 
             Case "Case"
-            '    frmCaseInfoDisplay.Show()
+                frmCaseInfoDisplay.Show()
 
             Case "Judge"
                 frmJudgeDisplay.Show()
@@ -90,13 +90,13 @@ Public Class frmSelectInput
                 frmClientDelete.Show()
 
             Case "Lawyer"
-            '    frmLawyerDelete.Show()
+                frmLawyerDelete.Show()
 
             Case "Paralegal"
             '    frmParalegalDelete.Show()
 
             Case "Case"
-            '    frmCaseInfoDelete.Show()
+                frmCaseInfoDelete.Show()
 
             Case "Judge"
                 frmJudgeDelete.Show()
