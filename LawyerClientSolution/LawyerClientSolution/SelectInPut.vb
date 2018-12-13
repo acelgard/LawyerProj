@@ -42,10 +42,10 @@ Public Class frmSelectInput
                 frmClientDisplay.Show()
 
             Case "Lawyer"
-            '    frmLawyerDisplay.Show()
+                frmLawyerDisplay.Show()
 
             Case "Paralegal"
-            '    frmParalegalDisplay.Show()
+                frmParalegalDisplay.Show()
 
             Case "Case"
             '    frmCaseInfoDisplay.Show()

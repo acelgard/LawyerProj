@@ -56,9 +56,9 @@ Partial Class frmCaseInfoEdit
         Me.txtCaseInfoID = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtBegHearDate = New System.Windows.Forms.TextBox()
-        Me.txtTrialDate = New System.Windows.Forms.TextBox()
-        Me.txtEndHearDate = New System.Windows.Forms.TextBox()
+        Me.dtpBegHearDate = New System.Windows.Forms.DateTimePicker()
+        Me.dtpTrialDate = New System.Windows.Forms.DateTimePicker()
+        Me.dtpEndHearDate = New System.Windows.Forms.DateTimePicker()
         Me.SuspendLayout()
         '
         'btnSave
@@ -219,9 +219,9 @@ Partial Class frmCaseInfoEdit
         Me.Label13.AutoSize = True
         Me.Label13.Location = New System.Drawing.Point(372, 122)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(120, 13)
+        Me.Label13.Size = New System.Drawing.Size(53, 13)
         Me.Label13.TabIndex = 126
-        Me.Label13.Text = "Trial Date (mm/dd/yyyy)"
+        Me.Label13.Text = "Trial Date"
         '
         'Label11
         '
@@ -246,9 +246,9 @@ Partial Class frmCaseInfoEdit
         Me.Label9.AutoSize = True
         Me.Label9.Location = New System.Drawing.Point(372, 87)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(159, 13)
+        Me.Label9.Size = New System.Drawing.Size(92, 13)
         Me.Label9.TabIndex = 123
-        Me.Label9.Text = "End Hearing Date (mm/dd/yyyy)"
+        Me.Label9.Text = "End Hearing Date"
         '
         'Label8
         '
@@ -264,9 +264,9 @@ Partial Class frmCaseInfoEdit
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(372, 53)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(187, 13)
+        Me.Label7.Size = New System.Drawing.Size(120, 13)
         Me.Label7.TabIndex = 121
-        Me.Label7.Text = "Beginning Hearing Date (mm/dd/yyyy)"
+        Me.Label7.Text = "Beginning Hearing Date"
         '
         'Label6
         '
@@ -355,38 +355,44 @@ Partial Class frmCaseInfoEdit
         Me.Label1.TabIndex = 111
         Me.Label1.Text = "Case ID"
         '
-        'txtBegHearDate
+        'dtpBegHearDate
         '
-        Me.txtBegHearDate.Location = New System.Drawing.Point(579, 50)
-        Me.txtBegHearDate.Name = "txtBegHearDate"
-        Me.txtBegHearDate.ReadOnly = True
-        Me.txtBegHearDate.Size = New System.Drawing.Size(107, 20)
-        Me.txtBegHearDate.TabIndex = 146
+        Me.dtpBegHearDate.CustomFormat = "MM/dd/yyyy"
+        Me.dtpBegHearDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpBegHearDate.Location = New System.Drawing.Point(517, 50)
+        Me.dtpBegHearDate.Name = "dtpBegHearDate"
+        Me.dtpBegHearDate.Size = New System.Drawing.Size(107, 20)
+        Me.dtpBegHearDate.TabIndex = 149
+        Me.dtpBegHearDate.Visible = False
         '
-        'txtTrialDate
+        'dtpTrialDate
         '
-        Me.txtTrialDate.Location = New System.Drawing.Point(579, 117)
-        Me.txtTrialDate.Name = "txtTrialDate"
-        Me.txtTrialDate.ReadOnly = True
-        Me.txtTrialDate.Size = New System.Drawing.Size(107, 20)
-        Me.txtTrialDate.TabIndex = 147
+        Me.dtpTrialDate.CustomFormat = "MM/dd/yyyy"
+        Me.dtpTrialDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpTrialDate.Location = New System.Drawing.Point(517, 118)
+        Me.dtpTrialDate.Name = "dtpTrialDate"
+        Me.dtpTrialDate.Size = New System.Drawing.Size(107, 20)
+        Me.dtpTrialDate.TabIndex = 150
+        Me.dtpTrialDate.Visible = False
         '
-        'txtEndHearDate
+        'dtpEndHearDate
         '
-        Me.txtEndHearDate.Location = New System.Drawing.Point(579, 84)
-        Me.txtEndHearDate.Name = "txtEndHearDate"
-        Me.txtEndHearDate.ReadOnly = True
-        Me.txtEndHearDate.Size = New System.Drawing.Size(107, 20)
-        Me.txtEndHearDate.TabIndex = 148
+        Me.dtpEndHearDate.CustomFormat = "MM/dd/yyyy"
+        Me.dtpEndHearDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpEndHearDate.Location = New System.Drawing.Point(517, 83)
+        Me.dtpEndHearDate.Name = "dtpEndHearDate"
+        Me.dtpEndHearDate.Size = New System.Drawing.Size(107, 20)
+        Me.dtpEndHearDate.TabIndex = 151
+        Me.dtpEndHearDate.Visible = False
         '
         'frmCaseInfoEdit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(707, 494)
-        Me.Controls.Add(Me.txtEndHearDate)
-        Me.Controls.Add(Me.txtTrialDate)
-        Me.Controls.Add(Me.txtBegHearDate)
+        Me.Controls.Add(Me.dtpEndHearDate)
+        Me.Controls.Add(Me.dtpTrialDate)
+        Me.Controls.Add(Me.dtpBegHearDate)
         Me.Controls.Add(Me.txtDescription)
         Me.Controls.Add(Me.txtRuling)
         Me.Controls.Add(Me.txtIndictment)
@@ -462,7 +468,7 @@ Partial Class frmCaseInfoEdit
     Friend WithEvents txtCaseInfoID As TextBox
     Friend WithEvents Label12 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents txtBegHearDate As TextBox
-    Friend WithEvents txtTrialDate As TextBox
-    Friend WithEvents txtEndHearDate As TextBox
+    Friend WithEvents dtpBegHearDate As DateTimePicker
+    Friend WithEvents dtpTrialDate As DateTimePicker
+    Friend WithEvents dtpEndHearDate As DateTimePicker
 End Class

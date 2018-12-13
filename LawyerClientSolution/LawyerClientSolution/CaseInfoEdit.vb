@@ -27,7 +27,7 @@ Public Class frmCaseInfoEdit
             connection.Open()
 
             Dim Command As New SqlCommand("INSERT INTO CaseInfo (CaseInfoID, LawyerID, JudgeID, CaseName, Description, Plaintiff, Prosecutor, Defendant, BegHearDate, EndHearDate, TrialDate, Plea, Bail, NbrWitnesses, Indictment, Ruling) VALUES ('" & txtCaseInfoID.Text & "','" & txtLawyerID.Text & "','" & txtJudgeID.Text & "','" & txtCaseName.Text & "', 
-            '" & txtDescription.Text & "','" & txtPlaintiff.Text & "','" & txtProsecutor.Text & "','" & txtDefendant.Text & "', '" & txtBegHearDate.Text & "','" & txtEndHearDate.Text & "','" & txtTrialDate.Text & "','" & txtPlea.Text & "', '" & txtBail.Text & "','" & txtNbrWitnesses.Text & "','" & txtIndictment.Text & "','" & txtRuling.Text & "')", connection)
+            '" & txtDescription.Text & "','" & txtPlaintiff.Text & "','" & txtProsecutor.Text & "','" & txtDefendant.Text & "', '" & dtpBegHearDate.Text & "','" & dtpEndHearDate.Text & "','" & dtpTrialDate.Text & "','" & txtPlea.Text & "', '" & txtBail.Text & "','" & txtNbrWitnesses.Text & "','" & txtIndictment.Text & "','" & txtRuling.Text & "')", connection)
             Command.ExecuteNonQuery()
             MessageBox.Show("Row updated")
             connection.Close()
@@ -57,9 +57,9 @@ Public Class frmCaseInfoEdit
                 txtPlaintiff.Text = dataReader.GetString(5)
                 txtProsecutor.Text = dataReader.GetString(6)
                 txtDefendant.Text = dataReader.GetString(7)
-                txtBegHearDate.Text = dataReader.GetString(8)
-                txtEndHearDate.Text = dataReader.GetString(9)
-                txtTrialDate.Text = dataReader.GetString(10)
+                dtpBegHearDate.Text = dataReader.GetString(8)
+                dtpEndHearDate.Text = dataReader.GetString(9)
+                dtpTrialDate.Text = dataReader.GetString(10)
                 txtPlea.Text = dataReader.GetString(11)
                 txtBail.Text = dataReader.GetInt32(12)
                 txtNbrWitnesses.Text = dataReader.GetInt32(13)
@@ -80,9 +80,9 @@ Public Class frmCaseInfoEdit
         txtDescription.ReadOnly = False
         txtDescription.BackColor = Color.White
         txtDefendant.ReadOnly = False
-        txtBegHearDate.ReadOnly = False
-        txtEndHearDate.ReadOnly = False
-        txtTrialDate.ReadOnly = False
+        dtpBegHearDate.Visible = True
+        dtpEndHearDate.Visible = True
+        dtpTrialDate.Visible = True
         txtPlea.ReadOnly = False
         txtBail.ReadOnly = False
         txtNbrWitnesses.ReadOnly = False
