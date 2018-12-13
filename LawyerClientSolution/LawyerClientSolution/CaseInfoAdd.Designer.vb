@@ -346,6 +346,8 @@ Partial Class frmCaseInfoAdd
         '
         'dtpBegHearDate
         '
+        Me.dtpBegHearDate.CustomFormat = "MM/dd/yyy"
+        Me.dtpBegHearDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpBegHearDate.Location = New System.Drawing.Point(771, 28)
         Me.dtpBegHearDate.Name = "dtpBegHearDate"
         Me.dtpBegHearDate.Size = New System.Drawing.Size(269, 26)
@@ -353,6 +355,8 @@ Partial Class frmCaseInfoAdd
         '
         'dtpEndHearDate
         '
+        Me.dtpEndHearDate.CustomFormat = "MM/dd/yyy"
+        Me.dtpEndHearDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpEndHearDate.Location = New System.Drawing.Point(771, 83)
         Me.dtpEndHearDate.Name = "dtpEndHearDate"
         Me.dtpEndHearDate.Size = New System.Drawing.Size(269, 26)
@@ -360,6 +364,8 @@ Partial Class frmCaseInfoAdd
         '
         'dtpTrialDate
         '
+        Me.dtpTrialDate.CustomFormat = "MM/dd/yyy"
+        Me.dtpTrialDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpTrialDate.Location = New System.Drawing.Point(771, 138)
         Me.dtpTrialDate.Name = "dtpTrialDate"
         Me.dtpTrialDate.Size = New System.Drawing.Size(269, 26)
