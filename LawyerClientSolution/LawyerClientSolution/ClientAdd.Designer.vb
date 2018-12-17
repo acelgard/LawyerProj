@@ -22,7 +22,6 @@ Partial Class frmClientAdd
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.txtDOB = New System.Windows.Forms.TextBox()
         Me.txtFirstName = New System.Windows.Forms.TextBox()
         Me.txtMiddleName = New System.Windows.Forms.TextBox()
         Me.txtLastName = New System.Windows.Forms.TextBox()
@@ -56,14 +55,8 @@ Partial Class frmClientAdd
         Me.Label16 = New System.Windows.Forms.Label()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.btnSave = New System.Windows.Forms.Button()
+        Me.dtpDOB = New System.Windows.Forms.DateTimePicker()
         Me.SuspendLayout()
-        '
-        'txtDOB
-        '
-        Me.txtDOB.Location = New System.Drawing.Point(353, 100)
-        Me.txtDOB.Name = "txtDOB"
-        Me.txtDOB.Size = New System.Drawing.Size(85, 20)
-        Me.txtDOB.TabIndex = 9
         '
         'txtFirstName
         '
@@ -332,11 +325,21 @@ Partial Class frmClientAdd
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
+        'dtpDOB
+        '
+        Me.dtpDOB.CustomFormat = "MM/dd/yyyy"
+        Me.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpDOB.Location = New System.Drawing.Point(353, 99)
+        Me.dtpDOB.Name = "dtpDOB"
+        Me.dtpDOB.Size = New System.Drawing.Size(123, 20)
+        Me.dtpDOB.TabIndex = 34
+        '
         'frmClientAdd
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(528, 477)
+        Me.Controls.Add(Me.dtpDOB)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.txtCompanyName)
@@ -361,7 +364,6 @@ Partial Class frmClientAdd
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.txtClientID)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.txtDOB)
         Me.Controls.Add(Me.txtFirstName)
         Me.Controls.Add(Me.txtMiddleName)
         Me.Controls.Add(Me.txtLastName)
@@ -377,8 +379,6 @@ Partial Class frmClientAdd
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents txtDOB As TextBox
     Friend WithEvents txtFirstName As TextBox
     Friend WithEvents txtMiddleName As TextBox
     Friend WithEvents txtLastName As TextBox
@@ -412,4 +412,5 @@ Partial Class frmClientAdd
     Friend WithEvents Label16 As Label
     Friend WithEvents btnExit As Button
     Friend WithEvents btnSave As Button
+    Friend WithEvents dtpDOB As DateTimePicker
 End Class

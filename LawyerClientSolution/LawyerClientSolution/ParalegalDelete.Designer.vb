@@ -76,7 +76,7 @@ Partial Class frmParalegalDelete
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(363, 147)
+        Me.ClientSize = New System.Drawing.Size(381, 147)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.txtParalegalID)

@@ -1,13 +1,5 @@
 ﻿'Justin Kasbohm and Andrew Elgard
 
-'TOUCH-UP NOTES:
-'add module and put common variables or import statements there
-'change data types in database to varchar to avoid extra spaces
-'make background forms invisible after they take user to a new form
-'fix display loop/message box logical problem
-'fill database tables with some dummy info
-'go through other dates and make them dtps like in caseinfo
-
 Public Class frmStart
 
     Public strFormChoice As String

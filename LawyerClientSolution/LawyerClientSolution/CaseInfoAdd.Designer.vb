@@ -118,7 +118,7 @@ Partial Class frmCaseInfoAdd
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(380, 374)
+        Me.Label4.Location = New System.Drawing.Point(25, 373)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(58, 13)
         Me.Label4.TabIndex = 30
@@ -136,7 +136,7 @@ Partial Class frmCaseInfoAdd
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(380, 339)
+        Me.Label6.Location = New System.Drawing.Point(25, 399)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(41, 13)
         Me.Label6.TabIndex = 28
@@ -163,7 +163,7 @@ Partial Class frmCaseInfoAdd
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(380, 192)
+        Me.Label10.Location = New System.Drawing.Point(380, 210)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(24, 13)
         Me.Label10.TabIndex = 20
@@ -172,7 +172,7 @@ Partial Class frmCaseInfoAdd
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(380, 156)
+        Me.Label11.Location = New System.Drawing.Point(380, 174)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(28, 13)
         Me.Label11.TabIndex = 18
@@ -190,7 +190,7 @@ Partial Class frmCaseInfoAdd
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(379, 229)
+        Me.Label14.Location = New System.Drawing.Point(379, 247)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(56, 13)
         Me.Label14.TabIndex = 22
@@ -199,7 +199,7 @@ Partial Class frmCaseInfoAdd
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(380, 302)
+        Me.Label15.Location = New System.Drawing.Point(380, 320)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(37, 13)
         Me.Label15.TabIndex = 26
@@ -208,7 +208,7 @@ Partial Class frmCaseInfoAdd
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(380, 265)
+        Me.Label16.Location = New System.Drawing.Point(380, 283)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(56, 13)
         Me.Label16.TabIndex = 24
@@ -216,14 +216,14 @@ Partial Class frmCaseInfoAdd
         '
         'txtPlaintiff
         '
-        Me.txtPlaintiff.Location = New System.Drawing.Point(514, 336)
+        Me.txtPlaintiff.Location = New System.Drawing.Point(159, 396)
         Me.txtPlaintiff.Name = "txtPlaintiff"
         Me.txtPlaintiff.Size = New System.Drawing.Size(118, 20)
         Me.txtPlaintiff.TabIndex = 29
         '
         'txtProsecutor
         '
-        Me.txtProsecutor.Location = New System.Drawing.Point(514, 371)
+        Me.txtProsecutor.Location = New System.Drawing.Point(159, 370)
         Me.txtProsecutor.Name = "txtProsecutor"
         Me.txtProsecutor.Size = New System.Drawing.Size(118, 20)
         Me.txtProsecutor.TabIndex = 31
@@ -244,21 +244,21 @@ Partial Class frmCaseInfoAdd
         '
         'txtPlea
         '
-        Me.txtPlea.Location = New System.Drawing.Point(514, 153)
+        Me.txtPlea.Location = New System.Drawing.Point(514, 171)
         Me.txtPlea.Name = "txtPlea"
         Me.txtPlea.Size = New System.Drawing.Size(118, 20)
         Me.txtPlea.TabIndex = 19
         '
         'txtBail
         '
-        Me.txtBail.Location = New System.Drawing.Point(514, 189)
+        Me.txtBail.Location = New System.Drawing.Point(514, 207)
         Me.txtBail.Name = "txtBail"
         Me.txtBail.Size = New System.Drawing.Size(118, 20)
         Me.txtBail.TabIndex = 21
         '
         'txtNbrWitnesses
         '
-        Me.txtNbrWitnesses.Location = New System.Drawing.Point(514, 226)
+        Me.txtNbrWitnesses.Location = New System.Drawing.Point(514, 244)
         Me.txtNbrWitnesses.Name = "txtNbrWitnesses"
         Me.txtNbrWitnesses.Size = New System.Drawing.Size(118, 20)
         Me.txtNbrWitnesses.TabIndex = 23
@@ -266,14 +266,14 @@ Partial Class frmCaseInfoAdd
         'txtIndictment
         '
         Me.txtIndictment.AccessibleRole = System.Windows.Forms.AccessibleRole.ToolTip
-        Me.txtIndictment.Location = New System.Drawing.Point(514, 262)
+        Me.txtIndictment.Location = New System.Drawing.Point(514, 280)
         Me.txtIndictment.Name = "txtIndictment"
         Me.txtIndictment.Size = New System.Drawing.Size(118, 20)
         Me.txtIndictment.TabIndex = 25
         '
         'txtRuling
         '
-        Me.txtRuling.Location = New System.Drawing.Point(514, 299)
+        Me.txtRuling.Location = New System.Drawing.Point(514, 317)
         Me.txtRuling.Name = "txtRuling"
         Me.txtRuling.Size = New System.Drawing.Size(118, 20)
         Me.txtRuling.TabIndex = 27
@@ -297,7 +297,7 @@ Partial Class frmCaseInfoAdd
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(557, 427)
+        Me.btnExit.Location = New System.Drawing.Point(557, 433)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 33
@@ -306,7 +306,7 @@ Partial Class frmCaseInfoAdd
         '
         'btnSave
         '
-        Me.btnSave.Location = New System.Drawing.Point(461, 427)
+        Me.btnSave.Location = New System.Drawing.Point(461, 433)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(75, 23)
         Me.btnSave.TabIndex = 32
@@ -318,9 +318,9 @@ Partial Class frmCaseInfoAdd
         Me.dtpBegHearDate.CustomFormat = "MM/dd/yyy"
         Me.dtpBegHearDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpBegHearDate.Location = New System.Drawing.Point(514, 18)
-        Me.dtpBegHearDate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.dtpBegHearDate.Margin = New System.Windows.Forms.Padding(2)
         Me.dtpBegHearDate.Name = "dtpBegHearDate"
-        Me.dtpBegHearDate.Size = New System.Drawing.Size(181, 20)
+        Me.dtpBegHearDate.Size = New System.Drawing.Size(118, 20)
         Me.dtpBegHearDate.TabIndex = 13
         '
         'dtpEndHearDate
@@ -328,9 +328,9 @@ Partial Class frmCaseInfoAdd
         Me.dtpEndHearDate.CustomFormat = "MM/dd/yyy"
         Me.dtpEndHearDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpEndHearDate.Location = New System.Drawing.Point(514, 54)
-        Me.dtpEndHearDate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.dtpEndHearDate.Margin = New System.Windows.Forms.Padding(2)
         Me.dtpEndHearDate.Name = "dtpEndHearDate"
-        Me.dtpEndHearDate.Size = New System.Drawing.Size(181, 20)
+        Me.dtpEndHearDate.Size = New System.Drawing.Size(118, 20)
         Me.dtpEndHearDate.TabIndex = 15
         '
         'dtpTrialDate
@@ -338,16 +338,16 @@ Partial Class frmCaseInfoAdd
         Me.dtpTrialDate.CustomFormat = "MM/dd/yyy"
         Me.dtpTrialDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpTrialDate.Location = New System.Drawing.Point(514, 90)
-        Me.dtpTrialDate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.dtpTrialDate.Margin = New System.Windows.Forms.Padding(2)
         Me.dtpTrialDate.Name = "dtpTrialDate"
-        Me.dtpTrialDate.Size = New System.Drawing.Size(181, 20)
+        Me.dtpTrialDate.Size = New System.Drawing.Size(118, 20)
         Me.dtpTrialDate.TabIndex = 17
         '
         'frmCaseInfoAdd
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(707, 494)
+        Me.ClientSize = New System.Drawing.Size(660, 475)
         Me.Controls.Add(Me.dtpTrialDate)
         Me.Controls.Add(Me.dtpEndHearDate)
         Me.Controls.Add(Me.dtpBegHearDate)

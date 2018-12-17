@@ -115,7 +115,7 @@ Partial Class frmCaseInfoDisplay
         'lblPlea
         '
         Me.lblPlea.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblPlea.Location = New System.Drawing.Point(503, 156)
+        Me.lblPlea.Location = New System.Drawing.Point(503, 177)
         Me.lblPlea.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblPlea.Name = "lblPlea"
         Me.lblPlea.Size = New System.Drawing.Size(117, 18)
@@ -124,7 +124,7 @@ Partial Class frmCaseInfoDisplay
         'lblBail
         '
         Me.lblBail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblBail.Location = New System.Drawing.Point(503, 192)
+        Me.lblBail.Location = New System.Drawing.Point(503, 213)
         Me.lblBail.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblBail.Name = "lblBail"
         Me.lblBail.Size = New System.Drawing.Size(117, 18)
@@ -133,7 +133,7 @@ Partial Class frmCaseInfoDisplay
         'lblNbrWitnesses
         '
         Me.lblNbrWitnesses.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblNbrWitnesses.Location = New System.Drawing.Point(503, 229)
+        Me.lblNbrWitnesses.Location = New System.Drawing.Point(503, 250)
         Me.lblNbrWitnesses.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblNbrWitnesses.Name = "lblNbrWitnesses"
         Me.lblNbrWitnesses.Size = New System.Drawing.Size(117, 18)
@@ -142,7 +142,7 @@ Partial Class frmCaseInfoDisplay
         'lblIndictment
         '
         Me.lblIndictment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblIndictment.Location = New System.Drawing.Point(503, 265)
+        Me.lblIndictment.Location = New System.Drawing.Point(503, 286)
         Me.lblIndictment.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblIndictment.Name = "lblIndictment"
         Me.lblIndictment.Size = New System.Drawing.Size(117, 18)
@@ -151,7 +151,7 @@ Partial Class frmCaseInfoDisplay
         'lblRuling
         '
         Me.lblRuling.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblRuling.Location = New System.Drawing.Point(503, 302)
+        Me.lblRuling.Location = New System.Drawing.Point(503, 323)
         Me.lblRuling.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblRuling.Name = "lblRuling"
         Me.lblRuling.Size = New System.Drawing.Size(117, 18)
@@ -160,7 +160,7 @@ Partial Class frmCaseInfoDisplay
         'lblPlaintiff
         '
         Me.lblPlaintiff.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblPlaintiff.Location = New System.Drawing.Point(503, 339)
+        Me.lblPlaintiff.Location = New System.Drawing.Point(147, 407)
         Me.lblPlaintiff.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblPlaintiff.Name = "lblPlaintiff"
         Me.lblPlaintiff.Size = New System.Drawing.Size(117, 18)
@@ -169,7 +169,7 @@ Partial Class frmCaseInfoDisplay
         'lblProsecutor
         '
         Me.lblProsecutor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblProsecutor.Location = New System.Drawing.Point(503, 374)
+        Me.lblProsecutor.Location = New System.Drawing.Point(147, 377)
         Me.lblProsecutor.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblProsecutor.Name = "lblProsecutor"
         Me.lblProsecutor.Size = New System.Drawing.Size(117, 18)
@@ -204,7 +204,7 @@ Partial Class frmCaseInfoDisplay
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(546, 428)
+        Me.btnExit.Location = New System.Drawing.Point(545, 431)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 33
@@ -213,7 +213,7 @@ Partial Class frmCaseInfoDisplay
         '
         'btnDisplay
         '
-        Me.btnDisplay.Location = New System.Drawing.Point(450, 428)
+        Me.btnDisplay.Location = New System.Drawing.Point(449, 431)
         Me.btnDisplay.Name = "btnDisplay"
         Me.btnDisplay.Size = New System.Drawing.Size(75, 23)
         Me.btnDisplay.TabIndex = 32
@@ -223,7 +223,7 @@ Partial Class frmCaseInfoDisplay
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(369, 266)
+        Me.Label16.Location = New System.Drawing.Point(369, 287)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(56, 13)
         Me.Label16.TabIndex = 24
@@ -232,7 +232,7 @@ Partial Class frmCaseInfoDisplay
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(369, 303)
+        Me.Label15.Location = New System.Drawing.Point(369, 324)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(37, 13)
         Me.Label15.TabIndex = 26
@@ -241,7 +241,7 @@ Partial Class frmCaseInfoDisplay
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(367, 229)
+        Me.Label14.Location = New System.Drawing.Point(367, 250)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(56, 13)
         Me.Label14.TabIndex = 22
@@ -259,7 +259,7 @@ Partial Class frmCaseInfoDisplay
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(369, 157)
+        Me.Label11.Location = New System.Drawing.Point(369, 178)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(28, 13)
         Me.Label11.TabIndex = 18
@@ -268,7 +268,7 @@ Partial Class frmCaseInfoDisplay
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(369, 192)
+        Me.Label10.Location = New System.Drawing.Point(369, 213)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(24, 13)
         Me.Label10.TabIndex = 20
@@ -304,7 +304,7 @@ Partial Class frmCaseInfoDisplay
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(369, 340)
+        Me.Label6.Location = New System.Drawing.Point(13, 408)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(41, 13)
         Me.Label6.TabIndex = 28
@@ -322,7 +322,7 @@ Partial Class frmCaseInfoDisplay
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(369, 374)
+        Me.Label4.Location = New System.Drawing.Point(13, 377)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(58, 13)
         Me.Label4.TabIndex = 30
@@ -368,7 +368,7 @@ Partial Class frmCaseInfoDisplay
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(707, 494)
+        Me.ClientSize = New System.Drawing.Size(646, 474)
         Me.Controls.Add(Me.lblDescription)
         Me.Controls.Add(Me.lblBegHearDate)
         Me.Controls.Add(Me.lblLawyerID)

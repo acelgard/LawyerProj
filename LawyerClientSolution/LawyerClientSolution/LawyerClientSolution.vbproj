@@ -133,13 +133,6 @@
     <Compile Include="ClientEdit.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConnectTest.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConnectTest.Designer.vb">
-      <DependentUpon>ConnectTest.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="CourtAdd.Designer.vb">
       <DependentUpon>CourtAdd.vb</DependentUpon>
     </Compile>
@@ -285,9 +278,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ClientEdit.resx">
       <DependentUpon>ClientEdit.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConnectTest.resx">
-      <DependentUpon>ConnectTest.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CourtAdd.resx">
       <DependentUpon>CourtAdd.vb</DependentUpon>

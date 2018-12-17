@@ -91,4 +91,5 @@ Public Class frmCaseInfoEdit
         txtPlaintiff.ReadOnly = False
         txtProsecutor.ReadOnly = False
     End Sub
+
 End Class

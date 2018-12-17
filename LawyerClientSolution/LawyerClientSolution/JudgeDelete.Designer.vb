@@ -43,9 +43,9 @@ Partial Class frmJudgeDelete
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(12, 18)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(334, 13)
+        Me.Label1.Size = New System.Drawing.Size(337, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Enter the corresponding JudgeID of the data you would like to delete."
+        Me.Label1.Text = "Enter the corresponding Judge ID of the data you would like to delete."
         '
         'txtJudgeID
         '
@@ -59,9 +59,9 @@ Partial Class frmJudgeDelete
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(32, 52)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(50, 13)
+        Me.Label3.Size = New System.Drawing.Size(53, 13)
         Me.Label3.TabIndex = 1
-        Me.Label3.Text = "JudgeID:"
+        Me.Label3.Text = "Judge ID:"
         '
         'btnDelete
         '

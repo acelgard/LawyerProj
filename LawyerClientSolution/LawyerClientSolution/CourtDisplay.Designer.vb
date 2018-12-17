@@ -346,7 +346,6 @@ Partial Class frmCourtDisplay
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnDisplay)
         Me.Name = "frmCourtDisplay"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Display Court Data"
         Me.ResumeLayout(False)
         Me.PerformLayout()

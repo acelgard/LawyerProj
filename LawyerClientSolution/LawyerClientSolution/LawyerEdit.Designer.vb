@@ -24,7 +24,6 @@ Partial Class frmLawyerEdit
     Private Sub InitializeComponent()
         Me.txtFirmAssoc = New System.Windows.Forms.TextBox()
         Me.txtSpecialty = New System.Windows.Forms.TextBox()
-        Me.txtDOB = New System.Windows.Forms.TextBox()
         Me.txtLawDegree = New System.Windows.Forms.TextBox()
         Me.txtZip = New System.Windows.Forms.TextBox()
         Me.txtCity = New System.Windows.Forms.TextBox()
@@ -51,11 +50,13 @@ Partial Class frmLawyerEdit
         Me.btnSave = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.btnEdit = New System.Windows.Forms.Button()
+        Me.dtpDOB = New System.Windows.Forms.DateTimePicker()
+        Me.Label18 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'txtFirmAssoc
         '
-        Me.txtFirmAssoc.Location = New System.Drawing.Point(99, 315)
+        Me.txtFirmAssoc.Location = New System.Drawing.Point(102, 358)
         Me.txtFirmAssoc.Name = "txtFirmAssoc"
         Me.txtFirmAssoc.ReadOnly = True
         Me.txtFirmAssoc.Size = New System.Drawing.Size(423, 20)
@@ -63,23 +64,15 @@ Partial Class frmLawyerEdit
         '
         'txtSpecialty
         '
-        Me.txtSpecialty.Location = New System.Drawing.Point(99, 285)
+        Me.txtSpecialty.Location = New System.Drawing.Point(102, 328)
         Me.txtSpecialty.Name = "txtSpecialty"
         Me.txtSpecialty.ReadOnly = True
         Me.txtSpecialty.Size = New System.Drawing.Size(423, 20)
         Me.txtSpecialty.TabIndex = 24
         '
-        'txtDOB
-        '
-        Me.txtDOB.Location = New System.Drawing.Point(85, 189)
-        Me.txtDOB.Name = "txtDOB"
-        Me.txtDOB.ReadOnly = True
-        Me.txtDOB.Size = New System.Drawing.Size(118, 20)
-        Me.txtDOB.TabIndex = 12
-        '
         'txtLawDegree
         '
-        Me.txtLawDegree.Location = New System.Drawing.Point(99, 252)
+        Me.txtLawDegree.Location = New System.Drawing.Point(102, 295)
         Me.txtLawDegree.Name = "txtLawDegree"
         Me.txtLawDegree.ReadOnly = True
         Me.txtLawDegree.Size = New System.Drawing.Size(423, 20)
@@ -87,7 +80,7 @@ Partial Class frmLawyerEdit
         '
         'txtZip
         '
-        Me.txtZip.Location = New System.Drawing.Point(355, 155)
+        Me.txtZip.Location = New System.Drawing.Point(358, 198)
         Me.txtZip.Name = "txtZip"
         Me.txtZip.ReadOnly = True
         Me.txtZip.Size = New System.Drawing.Size(92, 20)
@@ -95,7 +88,7 @@ Partial Class frmLawyerEdit
         '
         'txtCity
         '
-        Me.txtCity.Location = New System.Drawing.Point(355, 90)
+        Me.txtCity.Location = New System.Drawing.Point(358, 133)
         Me.txtCity.Name = "txtCity"
         Me.txtCity.ReadOnly = True
         Me.txtCity.Size = New System.Drawing.Size(118, 20)
@@ -103,7 +96,7 @@ Partial Class frmLawyerEdit
         '
         'txtState
         '
-        Me.txtState.Location = New System.Drawing.Point(355, 123)
+        Me.txtState.Location = New System.Drawing.Point(358, 166)
         Me.txtState.Name = "txtState"
         Me.txtState.ReadOnly = True
         Me.txtState.Size = New System.Drawing.Size(52, 20)
@@ -111,7 +104,7 @@ Partial Class frmLawyerEdit
         '
         'txtStreet
         '
-        Me.txtStreet.Location = New System.Drawing.Point(355, 57)
+        Me.txtStreet.Location = New System.Drawing.Point(358, 100)
         Me.txtStreet.Name = "txtStreet"
         Me.txtStreet.ReadOnly = True
         Me.txtStreet.Size = New System.Drawing.Size(167, 20)
@@ -119,7 +112,7 @@ Partial Class frmLawyerEdit
         '
         'txtFirstName
         '
-        Me.txtFirstName.Location = New System.Drawing.Point(85, 90)
+        Me.txtFirstName.Location = New System.Drawing.Point(88, 133)
         Me.txtFirstName.Name = "txtFirstName"
         Me.txtFirstName.ReadOnly = True
         Me.txtFirstName.Size = New System.Drawing.Size(118, 20)
@@ -127,7 +120,7 @@ Partial Class frmLawyerEdit
         '
         'txtMiddleInitial
         '
-        Me.txtMiddleInitial.Location = New System.Drawing.Point(85, 123)
+        Me.txtMiddleInitial.Location = New System.Drawing.Point(88, 166)
         Me.txtMiddleInitial.Name = "txtMiddleInitial"
         Me.txtMiddleInitial.ReadOnly = True
         Me.txtMiddleInitial.Size = New System.Drawing.Size(44, 20)
@@ -135,7 +128,7 @@ Partial Class frmLawyerEdit
         '
         'txtLastName
         '
-        Me.txtLastName.Location = New System.Drawing.Point(85, 155)
+        Me.txtLastName.Location = New System.Drawing.Point(88, 198)
         Me.txtLastName.Name = "txtLastName"
         Me.txtLastName.ReadOnly = True
         Me.txtLastName.Size = New System.Drawing.Size(118, 20)
@@ -143,7 +136,7 @@ Partial Class frmLawyerEdit
         '
         'txtLawyerID
         '
-        Me.txtLawyerID.Location = New System.Drawing.Point(85, 57)
+        Me.txtLawyerID.Location = New System.Drawing.Point(88, 100)
         Me.txtLawyerID.Name = "txtLawyerID"
         Me.txtLawyerID.ReadOnly = True
         Me.txtLawyerID.Size = New System.Drawing.Size(118, 20)
@@ -152,7 +145,7 @@ Partial Class frmLawyerEdit
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(9, 94)
+        Me.Label12.Location = New System.Drawing.Point(12, 137)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(57, 13)
         Me.Label12.TabIndex = 5
@@ -161,7 +154,7 @@ Partial Class frmLawyerEdit
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(9, 126)
+        Me.Label11.Location = New System.Drawing.Point(12, 169)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(65, 13)
         Me.Label11.TabIndex = 7
@@ -170,7 +163,7 @@ Partial Class frmLawyerEdit
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(9, 159)
+        Me.Label10.Location = New System.Drawing.Point(12, 202)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(58, 13)
         Me.Label10.TabIndex = 9
@@ -179,7 +172,7 @@ Partial Class frmLawyerEdit
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(9, 255)
+        Me.Label9.Location = New System.Drawing.Point(12, 298)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(65, 13)
         Me.Label9.TabIndex = 21
@@ -188,7 +181,7 @@ Partial Class frmLawyerEdit
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(9, 318)
+        Me.Label8.Location = New System.Drawing.Point(12, 361)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(83, 13)
         Me.Label8.TabIndex = 25
@@ -197,7 +190,7 @@ Partial Class frmLawyerEdit
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(9, 192)
+        Me.Label7.Location = New System.Drawing.Point(12, 235)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(66, 13)
         Me.Label7.TabIndex = 11
@@ -206,7 +199,7 @@ Partial Class frmLawyerEdit
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(9, 287)
+        Me.Label6.Location = New System.Drawing.Point(12, 330)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(50, 13)
         Me.Label6.TabIndex = 23
@@ -215,7 +208,7 @@ Partial Class frmLawyerEdit
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(301, 60)
+        Me.Label5.Location = New System.Drawing.Point(304, 103)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(35, 13)
         Me.Label5.TabIndex = 13
@@ -224,7 +217,7 @@ Partial Class frmLawyerEdit
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(301, 94)
+        Me.Label4.Location = New System.Drawing.Point(304, 137)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(24, 13)
         Me.Label4.TabIndex = 15
@@ -233,7 +226,7 @@ Partial Class frmLawyerEdit
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(301, 126)
+        Me.Label3.Location = New System.Drawing.Point(304, 169)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(32, 13)
         Me.Label3.TabIndex = 17
@@ -242,7 +235,7 @@ Partial Class frmLawyerEdit
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(301, 159)
+        Me.Label2.Location = New System.Drawing.Point(304, 202)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(22, 13)
         Me.Label2.TabIndex = 19
@@ -251,7 +244,7 @@ Partial Class frmLawyerEdit
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(9, 60)
+        Me.Label1.Location = New System.Drawing.Point(12, 103)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(55, 13)
         Me.Label1.TabIndex = 3
@@ -260,7 +253,7 @@ Partial Class frmLawyerEdit
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(9, 21)
+        Me.Label13.Location = New System.Drawing.Point(26, 46)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(55, 13)
         Me.Label13.TabIndex = 0
@@ -268,14 +261,14 @@ Partial Class frmLawyerEdit
         '
         'txtLawyerIDEntered
         '
-        Me.txtLawyerIDEntered.Location = New System.Drawing.Point(85, 21)
+        Me.txtLawyerIDEntered.Location = New System.Drawing.Point(102, 46)
         Me.txtLawyerIDEntered.Name = "txtLawyerIDEntered"
         Me.txtLawyerIDEntered.Size = New System.Drawing.Size(118, 20)
         Me.txtLawyerIDEntered.TabIndex = 1
         '
         'btnSave
         '
-        Me.btnSave.Location = New System.Drawing.Point(53, 354)
+        Me.btnSave.Location = New System.Drawing.Point(389, 400)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(75, 23)
         Me.btnSave.TabIndex = 27
@@ -284,7 +277,7 @@ Partial Class frmLawyerEdit
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(459, 354)
+        Me.btnExit.Location = New System.Drawing.Point(486, 400)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 28
@@ -293,18 +286,39 @@ Partial Class frmLawyerEdit
         '
         'btnEdit
         '
-        Me.btnEdit.Location = New System.Drawing.Point(258, 16)
+        Me.btnEdit.Location = New System.Drawing.Point(275, 44)
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(75, 23)
         Me.btnEdit.TabIndex = 2
         Me.btnEdit.Text = "Edit"
         Me.btnEdit.UseVisualStyleBackColor = True
         '
+        'dtpDOB
+        '
+        Me.dtpDOB.CustomFormat = "MM/dd/yyyy"
+        Me.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpDOB.Location = New System.Drawing.Point(88, 235)
+        Me.dtpDOB.Name = "dtpDOB"
+        Me.dtpDOB.Size = New System.Drawing.Size(118, 20)
+        Me.dtpDOB.TabIndex = 29
+        Me.dtpDOB.Visible = False
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(12, 19)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(330, 13)
+        Me.Label18.TabIndex = 38
+        Me.Label18.Text = "Enter the corresponding Lawyer ID of the data you would like to edit."
+        '
         'frmLawyerEdit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(603, 400)
+        Me.ClientSize = New System.Drawing.Size(593, 447)
+        Me.Controls.Add(Me.Label18)
+        Me.Controls.Add(Me.dtpDOB)
         Me.Controls.Add(Me.btnEdit)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.btnExit)
@@ -312,7 +326,6 @@ Partial Class frmLawyerEdit
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.txtFirmAssoc)
         Me.Controls.Add(Me.txtSpecialty)
-        Me.Controls.Add(Me.txtDOB)
         Me.Controls.Add(Me.txtLawDegree)
         Me.Controls.Add(Me.txtZip)
         Me.Controls.Add(Me.txtCity)
@@ -344,7 +357,6 @@ Partial Class frmLawyerEdit
 
     Friend WithEvents txtFirmAssoc As TextBox
     Friend WithEvents txtSpecialty As TextBox
-    Friend WithEvents txtDOB As TextBox
     Friend WithEvents txtLawDegree As TextBox
     Friend WithEvents txtZip As TextBox
     Friend WithEvents txtCity As TextBox
@@ -371,4 +383,6 @@ Partial Class frmLawyerEdit
     Friend WithEvents btnSave As Button
     Friend WithEvents btnExit As Button
     Friend WithEvents btnEdit As Button
+    Friend WithEvents dtpDOB As DateTimePicker
+    Friend WithEvents Label18 As Label
 End Class

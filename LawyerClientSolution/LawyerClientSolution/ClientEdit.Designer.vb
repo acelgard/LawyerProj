@@ -50,7 +50,6 @@ Partial Class frmClientEdit
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtClientID = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.txtDOB = New System.Windows.Forms.TextBox()
         Me.txtFirstName = New System.Windows.Forms.TextBox()
         Me.txtMiddleName = New System.Windows.Forms.TextBox()
         Me.txtLastName = New System.Windows.Forms.TextBox()
@@ -60,6 +59,7 @@ Partial Class frmClientEdit
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
+        Me.dtpDOB = New System.Windows.Forms.DateTimePicker()
         Me.SuspendLayout()
         '
         'btnEdit
@@ -301,14 +301,6 @@ Partial Class frmClientEdit
         Me.Label7.TabIndex = 4
         Me.Label7.Text = "Client ID"
         '
-        'txtDOB
-        '
-        Me.txtDOB.Location = New System.Drawing.Point(343, 181)
-        Me.txtDOB.Name = "txtDOB"
-        Me.txtDOB.ReadOnly = True
-        Me.txtDOB.Size = New System.Drawing.Size(85, 20)
-        Me.txtDOB.TabIndex = 13
-        '
         'txtFirstName
         '
         Me.txtFirstName.Location = New System.Drawing.Point(91, 129)
@@ -386,11 +378,22 @@ Partial Class frmClientEdit
         Me.Label18.TabIndex = 34
         Me.Label18.Text = "Lawyer ID"
         '
+        'dtpDOB
+        '
+        Me.dtpDOB.CustomFormat = "MM/dd/yyyy"
+        Me.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpDOB.Location = New System.Drawing.Point(343, 180)
+        Me.dtpDOB.Name = "dtpDOB"
+        Me.dtpDOB.Size = New System.Drawing.Size(109, 20)
+        Me.dtpDOB.TabIndex = 38
+        Me.dtpDOB.Visible = False
+        '
         'frmClientEdit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(556, 524)
+        Me.Controls.Add(Me.dtpDOB)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.txtCompanyName)
@@ -415,7 +418,6 @@ Partial Class frmClientEdit
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtClientID)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.txtDOB)
         Me.Controls.Add(Me.txtFirstName)
         Me.Controls.Add(Me.txtMiddleName)
         Me.Controls.Add(Me.txtLastName)
@@ -464,7 +466,6 @@ Partial Class frmClientEdit
     Friend WithEvents Label2 As Label
     Friend WithEvents txtClientID As TextBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents txtDOB As TextBox
     Friend WithEvents txtFirstName As TextBox
     Friend WithEvents txtMiddleName As TextBox
     Friend WithEvents txtLastName As TextBox
@@ -474,4 +475,5 @@ Partial Class frmClientEdit
     Friend WithEvents Label10 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents Label18 As Label
+    Friend WithEvents dtpDOB As DateTimePicker
 End Class

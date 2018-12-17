@@ -18,7 +18,7 @@ Public Class frmLawyerAdd
 
             Dim Command As New SqlCommand("INSERT INTO Lawyer (LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssoc, DOB, Specialty, 
                 Street, City, State, Zip) VALUES ('" & txtLawyerID.Text & "','" & txtFirstName.Text &
-                "', '" & txtMiddleInitial.Text & "', '" & txtLastName.Text & "', '" & txtLawDegree.Text & "', '" & txtFirmAssoc.Text & "', '" & txtDOB.Text &
+                "', '" & txtMiddleInitial.Text & "', '" & txtLastName.Text & "', '" & txtLawDegree.Text & "', '" & txtFirmAssoc.Text & "', '" & dtpDOB.Text &
                 "', '" & txtSpecialty.Text & "', '" & txtStreet.Text & "', '" & txtCity.Text & "', '" & txtState.Text & "', '" & txtZip.Text & "')", connection)
 
             Command.ExecuteNonQuery()

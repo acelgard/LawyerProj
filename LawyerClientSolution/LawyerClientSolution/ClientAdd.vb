@@ -18,7 +18,7 @@ Public Class frmClientAdd
                 State, Zip, EmailAddress, HomePhone, MobilePhone, DOB, SSN, DriverLicNum) VALUES ('" & txtClientID.Text & "','" & txtLawyerID.Text &
                 "', '" & txtFirstName.Text & "', '" & txtMiddleName.Text & "', '" & txtLastName.Text & "', '" & txtCompanyName.Text & "', '" & txtStreet.Text &
                 "', '" & txtCity.Text & "', '" & txtState.Text & "', '" & txtZip.Text & "', '" & txtEmailAddress.Text & "', '" & txtHomePhone.Text &
-                "', '" & txtMobilePhone.Text & "', '" & txtDOB.Text & "', '" & txtSSN.Text & "', '" & txtDriverLicNum.Text & "')", connection)
+                "', '" & txtMobilePhone.Text & "', '" & dtpDOB.Text & "', '" & txtSSN.Text & "', '" & txtDriverLicNum.Text & "')", connection)
 
             Command.ExecuteNonQuery()
             MessageBox.Show("Row added")

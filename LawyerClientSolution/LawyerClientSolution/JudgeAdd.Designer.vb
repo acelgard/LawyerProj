@@ -132,7 +132,6 @@ Partial Class frmJudgeAdd
         Me.Controls.Add(Me.btnInsert)
         Me.Controls.Add(Me.btnExit)
         Me.Name = "frmJudgeAdd"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Enter Judge Data"
         Me.ResumeLayout(False)
         Me.PerformLayout()

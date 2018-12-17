@@ -43,11 +43,11 @@ Partial Class frmLawyerAdd
         Me.txtCity = New System.Windows.Forms.TextBox()
         Me.txtZip = New System.Windows.Forms.TextBox()
         Me.txtLawDegree = New System.Windows.Forms.TextBox()
-        Me.txtDOB = New System.Windows.Forms.TextBox()
         Me.txtSpecialty = New System.Windows.Forms.TextBox()
         Me.txtFirmAssoc = New System.Windows.Forms.TextBox()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.btnSave = New System.Windows.Forms.Button()
+        Me.dtpDOB = New System.Windows.Forms.DateTimePicker()
         Me.SuspendLayout()
         '
         'Label1
@@ -107,7 +107,7 @@ Partial Class frmLawyerAdd
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(23, 156)
+        Me.Label7.Location = New System.Drawing.Point(22, 156)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(66, 13)
         Me.Label7.TabIndex = 8
@@ -221,13 +221,6 @@ Partial Class frmLawyerAdd
         Me.txtLawDegree.Size = New System.Drawing.Size(423, 20)
         Me.txtLawDegree.TabIndex = 19
         '
-        'txtDOB
-        '
-        Me.txtDOB.Location = New System.Drawing.Point(99, 153)
-        Me.txtDOB.Name = "txtDOB"
-        Me.txtDOB.Size = New System.Drawing.Size(118, 20)
-        Me.txtDOB.TabIndex = 9
-        '
         'txtSpecialty
         '
         Me.txtSpecialty.Location = New System.Drawing.Point(112, 248)
@@ -260,16 +253,25 @@ Partial Class frmLawyerAdd
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
+        'dtpDOB
+        '
+        Me.dtpDOB.CustomFormat = "MM/dd/yyyy"
+        Me.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpDOB.Location = New System.Drawing.Point(99, 156)
+        Me.dtpDOB.Name = "dtpDOB"
+        Me.dtpDOB.Size = New System.Drawing.Size(118, 20)
+        Me.dtpDOB.TabIndex = 26
+        '
         'frmLawyerAdd
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(603, 400)
+        Me.Controls.Add(Me.dtpDOB)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.txtFirmAssoc)
         Me.Controls.Add(Me.txtSpecialty)
-        Me.Controls.Add(Me.txtDOB)
         Me.Controls.Add(Me.txtLawDegree)
         Me.Controls.Add(Me.txtZip)
         Me.Controls.Add(Me.txtCity)
@@ -319,9 +321,9 @@ Partial Class frmLawyerAdd
     Friend WithEvents txtCity As TextBox
     Friend WithEvents txtZip As TextBox
     Friend WithEvents txtLawDegree As TextBox
-    Friend WithEvents txtDOB As TextBox
     Friend WithEvents txtSpecialty As TextBox
     Friend WithEvents txtFirmAssoc As TextBox
     Friend WithEvents btnExit As Button
     Friend WithEvents btnSave As Button
+    Friend WithEvents dtpDOB As DateTimePicker
 End Class

@@ -35,7 +35,7 @@ Public Class frmClientEdit
                 txtEmailAddress.Text = dataReader.GetString(10)
                 txtHomePhone.Text = dataReader.GetString(11)
                 txtMobilePhone.Text = dataReader.GetString(12)
-                txtDOB.Text = dataReader.GetString(13)
+                dtpDOB.Text = dataReader.GetString(13)
                 txtSSN.Text = dataReader.GetString(14)
                 txtDriverLicNum.Text = dataReader.GetString(15)
             Loop
@@ -58,7 +58,7 @@ Public Class frmClientEdit
         txtEmailAddress.ReadOnly = False
         txtHomePhone.ReadOnly = False
         txtMobilePhone.ReadOnly = False
-        txtDOB.ReadOnly = False
+        dtpDOB.Visible = True
         txtSSN.ReadOnly = False
         txtDriverLicNum.ReadOnly = False
 
@@ -84,7 +84,7 @@ Public Class frmClientEdit
                 State, Zip, EmailAddress, HomePhone, MobilePhone, DOB, SSN, DriverLicNum) VALUES ('" & txtClientID.Text & "','" & txtLawyerID.Text &
                 "', '" & txtFirstName.Text & "', '" & txtMiddleName.Text & "', '" & txtLastName.Text & "', '" & txtCompanyName.Text & "', '" & txtStreet.Text &
                 "', '" & txtCity.Text & "', '" & txtState.Text & "', '" & txtZip.Text & "', '" & txtEmailAddress.Text & "', '" & txtHomePhone.Text &
-                "', '" & txtMobilePhone.Text & "', '" & txtDOB.Text & "', '" & txtSSN.Text & "', '" & txtDriverLicNum.Text & "')", connection)
+                "', '" & txtMobilePhone.Text & "', '" & dtpDOB.Text & "', '" & txtSSN.Text & "', '" & txtDriverLicNum.Text & "')", connection)
             Command.ExecuteNonQuery()
             MessageBox.Show("Row updated")
             connection.Close()

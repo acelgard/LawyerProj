@@ -20,7 +20,7 @@ Public Class frmParalegalAdd
             Dim Command As New SqlCommand("INSERT INTO Paralegal (ParalegalID, LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssoc, DOB, 
                 Specialty, Hours) VALUES ('" & txtParalegalID.Text & "','" & txtLawyerID.Text &
                 "', '" & txtFirstName.Text & "', '" & txtMiddleInitial.Text & "', '" & txtLastName.Text & "', '" & txtLawDegree.Text & "', '" & txtFirmAssoc.Text &
-                "', '" & txtDOB.Text & "', '" & txtSpecialty.Text & "', '" & txtHours.Text & "')", connection)
+                "', '" & dtpDOB.Text & "', '" & txtSpecialty.Text & "', '" & txtHours.Text & "')", connection)
 
             Command.ExecuteNonQuery()
             MessageBox.Show("Row added")

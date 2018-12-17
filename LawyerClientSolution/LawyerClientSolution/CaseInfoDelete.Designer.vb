@@ -59,9 +59,9 @@ Partial Class frmCaseInfoDelete
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(15, 18)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(333, 13)
+        Me.Label1.Size = New System.Drawing.Size(332, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Enter the corresponding Court ID of the data you would like to delete."
+        Me.Label1.Text = "Enter the corresponding Case ID of the data you would like to delete."
         '
         'btnExit
         '
@@ -82,7 +82,7 @@ Partial Class frmCaseInfoDelete
         Me.Controls.Add(Me.txtCaseInfoID)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmCaseInfoDelete"
         Me.Text = "Delete Case Data"
         Me.ResumeLayout(False)

@@ -32,7 +32,7 @@ Public Class frmLawyerEdit
             connection.Open()
 
             Dim Command As New SqlCommand("INSERT INTO Lawyer (LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssoc, DOB, Specialty, Street, City, State, Zip) VALUES ('" & txtLawyerID.Text & "','" & txtFirstName.Text & "','" & txtMiddleInitial.Text & "','" & txtLastName.Text & "', 
-            '" & txtLawDegree.Text & "','" & txtFirmAssoc.Text & "','" & txtDOB.Text & "','" & txtSpecialty.Text & "','" & txtStreet.Text & "', '" & txtCity.Text & "','" & txtState.Text & "','" & txtZip.Text & "')", connection)
+            '" & txtLawDegree.Text & "','" & txtFirmAssoc.Text & "','" & dtpDOB.Text & "','" & txtSpecialty.Text & "','" & txtStreet.Text & "', '" & txtCity.Text & "','" & txtState.Text & "','" & txtZip.Text & "')", connection)
             Command.ExecuteNonQuery()
             MessageBox.Show("Row updated")
             connection.Close()
@@ -61,7 +61,7 @@ Public Class frmLawyerEdit
                 txtLastName.Text = dataReader.GetString(3)
                 txtLawDegree.Text = dataReader.GetString(4)
                 txtFirmAssoc.Text = dataReader.GetString(5)
-                txtDOB.Text = dataReader.GetString(6)
+                dtpDOB.Text = dataReader.GetString(6)
                 txtSpecialty.Text = dataReader.GetString(7)
                 txtStreet.Text = dataReader.GetString(8)
                 txtCity.Text = dataReader.GetString(9)
@@ -80,7 +80,7 @@ Public Class frmLawyerEdit
         txtLastName.ReadOnly = False
         txtLawDegree.ReadOnly = False
         txtFirmAssoc.ReadOnly = False
-        txtDOB.ReadOnly = False
+        dtpDOB.Visible = True
         txtSpecialty.ReadOnly = False
         txtStreet.ReadOnly = False
         txtCity.ReadOnly = False

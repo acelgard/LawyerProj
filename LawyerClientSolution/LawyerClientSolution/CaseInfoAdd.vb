@@ -17,7 +17,6 @@ Public Class frmCaseInfoAdd
 
         Using connection As New SqlConnection(connectionString)
             connection.Open()
-            MessageBox.Show("Database is open")
 
             Dim Command As New SqlCommand("INSERT INTO CaseInfo (CaseInfoID, LawyerID, JudgeID, CaseName, Description, Plaintiff, Prosecutor, Defendant, BegHearDate, EndHearDate, TrialDate, Plea, Bail, NbrWitnesses, Indictment, Ruling) VALUES ('" & txtCaseInfoID.Text & "','" & txtLawyerID.Text & "','" & txtJudgeID.Text & "','" & txtCaseName.Text & "','" & txtDescription.Text & "','" & txtPlaintiff.Text & "','" & txtProsecutor.Text & "','" & txtDefendant.Text & "','" & dtpBegHearDate.Text & "','" & dtpEndHearDate.Text & "','" & dtpTrialDate.Text & "','" & txtPlea.Text & "','" & txtBail.Text & "','" & txtNbrWitnesses.Text & "','" & txtIndictment.Text & "','" & txtRuling.Text & "')", connection)
 
@@ -26,7 +25,6 @@ Public Class frmCaseInfoAdd
             MessageBox.Show("Row added")
 
             connection.Close()
-            MessageBox.Show("Database is closed")
 
         End Using
 

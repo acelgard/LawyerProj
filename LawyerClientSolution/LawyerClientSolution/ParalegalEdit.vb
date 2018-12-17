@@ -26,7 +26,7 @@ Public Class frmParalegalEdit
             connection.Open()
 
             Dim Command As New SqlCommand("INSERT INTO Paralegal (ParalegalID, LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssoc, DOB, Specialty, Hours) VALUES ('" & txtParalegalID.Text & "','" & txtLawyerID.Text & "','" & txtFirstName.Text & "','" & txtMiddleInitial.Text & "', 
-            '" & txtLastName.Text & "','" & txtLawDegree.Text & "','" & txtFirmAssoc.Text & "','" & txtDOB.Text & "','" & txtSpecialty.Text & "','" & txtHours.Text & "')", connection)
+            '" & txtLastName.Text & "','" & txtLawDegree.Text & "','" & txtFirmAssoc.Text & "','" & dtpDOB.Text & "','" & txtSpecialty.Text & "','" & txtHours.Text & "')", connection)
             Command.ExecuteNonQuery()
             MessageBox.Show("Row updated")
             connection.Close()
@@ -54,7 +54,7 @@ Public Class frmParalegalEdit
                 txtLastName.Text = dataReader.GetString(4)
                 txtLawDegree.Text = dataReader.GetString(5)
                 txtFirmAssoc.Text = dataReader.GetString(6)
-                txtDOB.Text = dataReader.GetString(7)
+                dtpDOB.Text = dataReader.GetString(7)
                 txtSpecialty.Text = dataReader.GetString(8)
                 txtHours.Text = dataReader.GetDouble(9)
 
@@ -71,7 +71,7 @@ Public Class frmParalegalEdit
         txtLastName.ReadOnly = False
         txtLawDegree.ReadOnly = False
         txtFirmAssoc.ReadOnly = False
-        txtDOB.ReadOnly = False
+        dtpDOB.Visible = True
         txtSpecialty.ReadOnly = False
         txtHours.ReadOnly = False
 
