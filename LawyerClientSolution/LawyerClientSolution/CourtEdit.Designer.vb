@@ -63,7 +63,7 @@ Partial Class frmCourtEdit
         Me.btnEdit.Location = New System.Drawing.Point(236, 47)
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(75, 23)
-        Me.btnEdit.TabIndex = 14
+        Me.btnEdit.TabIndex = 3
         Me.btnEdit.Text = "Edit"
         Me.btnEdit.UseVisualStyleBackColor = True
         '
@@ -73,7 +73,7 @@ Partial Class frmCourtEdit
         Me.Label3.Location = New System.Drawing.Point(43, 52)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(49, 13)
-        Me.Label3.TabIndex = 13
+        Me.Label3.TabIndex = 1
         Me.Label3.Text = "Court ID:"
         '
         'txtCourtIDEntered
@@ -81,7 +81,7 @@ Partial Class frmCourtEdit
         Me.txtCourtIDEntered.Location = New System.Drawing.Point(99, 49)
         Me.txtCourtIDEntered.Name = "txtCourtIDEntered"
         Me.txtCourtIDEntered.Size = New System.Drawing.Size(100, 20)
-        Me.txtCourtIDEntered.TabIndex = 12
+        Me.txtCourtIDEntered.TabIndex = 2
         '
         'Label1
         '
@@ -89,7 +89,7 @@ Partial Class frmCourtEdit
         Me.Label1.Location = New System.Drawing.Point(23, 18)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(318, 13)
-        Me.Label1.TabIndex = 11
+        Me.Label1.TabIndex = 0
         Me.Label1.Text = "Enter the corresponding CourtID of the data you would like to edit."
         '
         'txtLegalStaff
@@ -98,7 +98,7 @@ Partial Class frmCourtEdit
         Me.txtLegalStaff.Name = "txtLegalStaff"
         Me.txtLegalStaff.ReadOnly = True
         Me.txtLegalStaff.Size = New System.Drawing.Size(249, 70)
-        Me.txtLegalStaff.TabIndex = 138
+        Me.txtLegalStaff.TabIndex = 15
         Me.txtLegalStaff.Text = ""
         '
         'txtSecurityInfo
@@ -107,7 +107,7 @@ Partial Class frmCourtEdit
         Me.txtSecurityInfo.Name = "txtSecurityInfo"
         Me.txtSecurityInfo.ReadOnly = True
         Me.txtSecurityInfo.Size = New System.Drawing.Size(249, 70)
-        Me.txtSecurityInfo.TabIndex = 137
+        Me.txtSecurityInfo.TabIndex = 23
         Me.txtSecurityInfo.Text = ""
         '
         'txtJudges
@@ -116,7 +116,7 @@ Partial Class frmCourtEdit
         Me.txtJudges.Name = "txtJudges"
         Me.txtJudges.ReadOnly = True
         Me.txtJudges.Size = New System.Drawing.Size(249, 70)
-        Me.txtJudges.TabIndex = 136
+        Me.txtJudges.TabIndex = 11
         Me.txtJudges.Text = ""
         '
         'txtOfficers
@@ -125,7 +125,7 @@ Partial Class frmCourtEdit
         Me.txtOfficers.Name = "txtOfficers"
         Me.txtOfficers.ReadOnly = True
         Me.txtOfficers.Size = New System.Drawing.Size(38, 20)
-        Me.txtOfficers.TabIndex = 135
+        Me.txtOfficers.TabIndex = 31
         '
         'txtReporter
         '
@@ -133,7 +133,7 @@ Partial Class frmCourtEdit
         Me.txtReporter.Name = "txtReporter"
         Me.txtReporter.ReadOnly = True
         Me.txtReporter.Size = New System.Drawing.Size(171, 20)
-        Me.txtReporter.TabIndex = 134
+        Me.txtReporter.TabIndex = 29
         '
         'Label16
         '
@@ -141,7 +141,7 @@ Partial Class frmCourtEdit
         Me.Label16.Location = New System.Drawing.Point(361, 426)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(65, 13)
-        Me.Label16.TabIndex = 133
+        Me.Label16.TabIndex = 30
         Me.Label16.Text = "# of Officers"
         '
         'Label17
@@ -150,7 +150,7 @@ Partial Class frmCourtEdit
         Me.Label17.Location = New System.Drawing.Point(361, 392)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(48, 13)
-        Me.Label17.TabIndex = 132
+        Me.Label17.TabIndex = 28
         Me.Label17.Text = "Reporter"
         '
         'txtCourtAdmin
@@ -159,7 +159,7 @@ Partial Class frmCourtEdit
         Me.txtCourtAdmin.Name = "txtCourtAdmin"
         Me.txtCourtAdmin.ReadOnly = True
         Me.txtCourtAdmin.Size = New System.Drawing.Size(171, 20)
-        Me.txtCourtAdmin.TabIndex = 131
+        Me.txtCourtAdmin.TabIndex = 27
         '
         'Label18
         '
@@ -167,7 +167,7 @@ Partial Class frmCourtEdit
         Me.Label18.Location = New System.Drawing.Point(25, 357)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(58, 13)
-        Me.Label18.TabIndex = 130
+        Me.Label18.TabIndex = 14
         Me.Label18.Text = "Legal Staff"
         '
         'Label19
@@ -176,7 +176,7 @@ Partial Class frmCourtEdit
         Me.Label19.Location = New System.Drawing.Point(361, 357)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(64, 13)
-        Me.Label19.TabIndex = 129
+        Me.Label19.TabIndex = 26
         Me.Label19.Text = "Court Admin"
         '
         'txtClerks
@@ -185,7 +185,7 @@ Partial Class frmCourtEdit
         Me.txtClerks.Name = "txtClerks"
         Me.txtClerks.ReadOnly = True
         Me.txtClerks.Size = New System.Drawing.Size(38, 20)
-        Me.txtClerks.TabIndex = 128
+        Me.txtClerks.TabIndex = 25
         '
         'txtPoliceAffiliation
         '
@@ -193,7 +193,7 @@ Partial Class frmCourtEdit
         Me.txtPoliceAffiliation.Name = "txtPoliceAffiliation"
         Me.txtPoliceAffiliation.ReadOnly = True
         Me.txtPoliceAffiliation.Size = New System.Drawing.Size(150, 20)
-        Me.txtPoliceAffiliation.TabIndex = 127
+        Me.txtPoliceAffiliation.TabIndex = 13
         '
         'Label20
         '
@@ -201,7 +201,7 @@ Partial Class frmCourtEdit
         Me.Label20.Location = New System.Drawing.Point(361, 322)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(58, 13)
-        Me.Label20.TabIndex = 126
+        Me.Label20.TabIndex = 24
         Me.Label20.Text = "# of Clerks"
         '
         'Label21
@@ -210,7 +210,7 @@ Partial Class frmCourtEdit
         Me.Label21.Location = New System.Drawing.Point(25, 322)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(81, 13)
-        Me.Label21.TabIndex = 125
+        Me.Label21.TabIndex = 12
         Me.Label21.Text = "Police Affiliation"
         '
         'Label22
@@ -219,7 +219,7 @@ Partial Class frmCourtEdit
         Me.Label22.Location = New System.Drawing.Point(361, 219)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(100, 13)
-        Me.Label22.TabIndex = 124
+        Me.Label22.TabIndex = 22
         Me.Label22.Text = "Security Information"
         '
         'Label23
@@ -228,7 +228,7 @@ Partial Class frmCourtEdit
         Me.Label23.Location = New System.Drawing.Point(25, 219)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(41, 13)
-        Me.Label23.TabIndex = 123
+        Me.Label23.TabIndex = 10
         Me.Label23.Text = "Judges"
         '
         'txtState
@@ -237,7 +237,7 @@ Partial Class frmCourtEdit
         Me.txtState.Name = "txtState"
         Me.txtState.ReadOnly = True
         Me.txtState.Size = New System.Drawing.Size(35, 20)
-        Me.txtState.TabIndex = 122
+        Me.txtState.TabIndex = 21
         '
         'txtCity
         '
@@ -245,7 +245,7 @@ Partial Class frmCourtEdit
         Me.txtCity.Name = "txtCity"
         Me.txtCity.ReadOnly = True
         Me.txtCity.Size = New System.Drawing.Size(140, 20)
-        Me.txtCity.TabIndex = 121
+        Me.txtCity.TabIndex = 19
         '
         'Label24
         '
@@ -253,7 +253,7 @@ Partial Class frmCourtEdit
         Me.Label24.Location = New System.Drawing.Point(25, 184)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(71, 13)
-        Me.Label24.TabIndex = 120
+        Me.Label24.TabIndex = 8
         Me.Label24.Text = "Type of Court"
         '
         'Label25
@@ -262,7 +262,7 @@ Partial Class frmCourtEdit
         Me.Label25.Location = New System.Drawing.Point(361, 184)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(32, 13)
-        Me.Label25.TabIndex = 119
+        Me.Label25.TabIndex = 20
         Me.Label25.Text = "State"
         '
         'txtStreet
@@ -271,7 +271,7 @@ Partial Class frmCourtEdit
         Me.txtStreet.Name = "txtStreet"
         Me.txtStreet.ReadOnly = True
         Me.txtStreet.Size = New System.Drawing.Size(140, 20)
-        Me.txtStreet.TabIndex = 118
+        Me.txtStreet.TabIndex = 17
         '
         'txtTypeOfCourt
         '
@@ -279,7 +279,7 @@ Partial Class frmCourtEdit
         Me.txtTypeOfCourt.Name = "txtTypeOfCourt"
         Me.txtTypeOfCourt.ReadOnly = True
         Me.txtTypeOfCourt.Size = New System.Drawing.Size(118, 20)
-        Me.txtTypeOfCourt.TabIndex = 117
+        Me.txtTypeOfCourt.TabIndex = 9
         '
         'Label26
         '
@@ -287,7 +287,7 @@ Partial Class frmCourtEdit
         Me.Label26.Location = New System.Drawing.Point(361, 150)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(24, 13)
-        Me.Label26.TabIndex = 116
+        Me.Label26.TabIndex = 18
         Me.Label26.Text = "City"
         '
         'Label27
@@ -296,7 +296,7 @@ Partial Class frmCourtEdit
         Me.Label27.Location = New System.Drawing.Point(361, 115)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(35, 13)
-        Me.Label27.TabIndex = 115
+        Me.Label27.TabIndex = 16
         Me.Label27.Text = "Street"
         '
         'txtCourtName
@@ -305,7 +305,7 @@ Partial Class frmCourtEdit
         Me.txtCourtName.Name = "txtCourtName"
         Me.txtCourtName.ReadOnly = True
         Me.txtCourtName.Size = New System.Drawing.Size(118, 20)
-        Me.txtCourtName.TabIndex = 114
+        Me.txtCourtName.TabIndex = 7
         '
         'txtCourtID
         '
@@ -313,7 +313,7 @@ Partial Class frmCourtEdit
         Me.txtCourtID.Name = "txtCourtID"
         Me.txtCourtID.ReadOnly = True
         Me.txtCourtID.Size = New System.Drawing.Size(118, 20)
-        Me.txtCourtID.TabIndex = 113
+        Me.txtCourtID.TabIndex = 5
         '
         'Label28
         '
@@ -321,7 +321,7 @@ Partial Class frmCourtEdit
         Me.Label28.Location = New System.Drawing.Point(25, 148)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(63, 13)
-        Me.Label28.TabIndex = 112
+        Me.Label28.TabIndex = 6
         Me.Label28.Text = "Court Name"
         '
         'Label29
@@ -330,7 +330,7 @@ Partial Class frmCourtEdit
         Me.Label29.Location = New System.Drawing.Point(25, 115)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(46, 13)
-        Me.Label29.TabIndex = 111
+        Me.Label29.TabIndex = 4
         Me.Label29.Text = "Court ID"
         '
         'btnExit
@@ -338,7 +338,7 @@ Partial Class frmCourtEdit
         Me.btnExit.Location = New System.Drawing.Point(539, 468)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 110
+        Me.btnExit.TabIndex = 33
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
@@ -347,7 +347,7 @@ Partial Class frmCourtEdit
         Me.btnSave.Location = New System.Drawing.Point(443, 468)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(75, 23)
-        Me.btnSave.TabIndex = 109
+        Me.btnSave.TabIndex = 32
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '

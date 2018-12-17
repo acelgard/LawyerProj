@@ -55,7 +55,7 @@ Partial Class frmParalegalEdit
         Me.txtFirmAssoc.Name = "txtFirmAssoc"
         Me.txtFirmAssoc.ReadOnly = True
         Me.txtFirmAssoc.Size = New System.Drawing.Size(423, 20)
-        Me.txtFirmAssoc.TabIndex = 69
+        Me.txtFirmAssoc.TabIndex = 22
         '
         'txtSpecialty
         '
@@ -63,7 +63,7 @@ Partial Class frmParalegalEdit
         Me.txtSpecialty.Name = "txtSpecialty"
         Me.txtSpecialty.ReadOnly = True
         Me.txtSpecialty.Size = New System.Drawing.Size(423, 20)
-        Me.txtSpecialty.TabIndex = 68
+        Me.txtSpecialty.TabIndex = 20
         '
         'txtDOB
         '
@@ -71,7 +71,7 @@ Partial Class frmParalegalEdit
         Me.txtDOB.Name = "txtDOB"
         Me.txtDOB.ReadOnly = True
         Me.txtDOB.Size = New System.Drawing.Size(88, 20)
-        Me.txtDOB.TabIndex = 67
+        Me.txtDOB.TabIndex = 12
         '
         'txtLawDegree
         '
@@ -79,7 +79,7 @@ Partial Class frmParalegalEdit
         Me.txtLawDegree.Name = "txtLawDegree"
         Me.txtLawDegree.ReadOnly = True
         Me.txtLawDegree.Size = New System.Drawing.Size(423, 20)
-        Me.txtLawDegree.TabIndex = 66
+        Me.txtLawDegree.TabIndex = 18
         '
         'txtLawyerID
         '
@@ -87,7 +87,7 @@ Partial Class frmParalegalEdit
         Me.txtLawyerID.Name = "txtLawyerID"
         Me.txtLawyerID.ReadOnly = True
         Me.txtLawyerID.Size = New System.Drawing.Size(118, 20)
-        Me.txtLawyerID.TabIndex = 65
+        Me.txtLawyerID.TabIndex = 14
         '
         'txtHours
         '
@@ -95,7 +95,7 @@ Partial Class frmParalegalEdit
         Me.txtHours.Name = "txtHours"
         Me.txtHours.ReadOnly = True
         Me.txtHours.Size = New System.Drawing.Size(52, 20)
-        Me.txtHours.TabIndex = 64
+        Me.txtHours.TabIndex = 16
         '
         'txtFirstName
         '
@@ -103,7 +103,7 @@ Partial Class frmParalegalEdit
         Me.txtFirstName.Name = "txtFirstName"
         Me.txtFirstName.ReadOnly = True
         Me.txtFirstName.Size = New System.Drawing.Size(118, 20)
-        Me.txtFirstName.TabIndex = 63
+        Me.txtFirstName.TabIndex = 6
         '
         'txtMiddleInitial
         '
@@ -111,7 +111,7 @@ Partial Class frmParalegalEdit
         Me.txtMiddleInitial.Name = "txtMiddleInitial"
         Me.txtMiddleInitial.ReadOnly = True
         Me.txtMiddleInitial.Size = New System.Drawing.Size(44, 20)
-        Me.txtMiddleInitial.TabIndex = 62
+        Me.txtMiddleInitial.TabIndex = 8
         '
         'txtLastName
         '
@@ -119,7 +119,7 @@ Partial Class frmParalegalEdit
         Me.txtLastName.Name = "txtLastName"
         Me.txtLastName.ReadOnly = True
         Me.txtLastName.Size = New System.Drawing.Size(118, 20)
-        Me.txtLastName.TabIndex = 61
+        Me.txtLastName.TabIndex = 10
         '
         'txtParalegalID
         '
@@ -127,7 +127,7 @@ Partial Class frmParalegalEdit
         Me.txtParalegalID.Name = "txtParalegalID"
         Me.txtParalegalID.ReadOnly = True
         Me.txtParalegalID.Size = New System.Drawing.Size(118, 20)
-        Me.txtParalegalID.TabIndex = 60
+        Me.txtParalegalID.TabIndex = 4
         '
         'Label12
         '
@@ -135,7 +135,7 @@ Partial Class frmParalegalEdit
         Me.Label12.Location = New System.Drawing.Point(21, 108)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(57, 13)
-        Me.Label12.TabIndex = 59
+        Me.Label12.TabIndex = 5
         Me.Label12.Text = "First Name"
         '
         'Label11
@@ -144,7 +144,7 @@ Partial Class frmParalegalEdit
         Me.Label11.Location = New System.Drawing.Point(21, 141)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(65, 13)
-        Me.Label11.TabIndex = 58
+        Me.Label11.TabIndex = 7
         Me.Label11.Text = "Middle Initial"
         '
         'Label10
@@ -153,7 +153,7 @@ Partial Class frmParalegalEdit
         Me.Label10.Location = New System.Drawing.Point(21, 173)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(58, 13)
-        Me.Label10.TabIndex = 57
+        Me.Label10.TabIndex = 9
         Me.Label10.Text = "Last Name"
         '
         'Label9
@@ -162,7 +162,7 @@ Partial Class frmParalegalEdit
         Me.Label9.Location = New System.Drawing.Point(21, 270)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(65, 13)
-        Me.Label9.TabIndex = 56
+        Me.Label9.TabIndex = 17
         Me.Label9.Text = "Law Degree"
         '
         'Label8
@@ -171,7 +171,7 @@ Partial Class frmParalegalEdit
         Me.Label8.Location = New System.Drawing.Point(21, 333)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(83, 13)
-        Me.Label8.TabIndex = 55
+        Me.Label8.TabIndex = 21
         Me.Label8.Text = "Firm Association"
         '
         'Label7
@@ -180,7 +180,7 @@ Partial Class frmParalegalEdit
         Me.Label7.Location = New System.Drawing.Point(21, 207)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(97, 13)
-        Me.Label7.TabIndex = 54
+        Me.Label7.TabIndex = 11
         Me.Label7.Text = "DOB (mm/dd/yyyy)"
         '
         'Label6
@@ -189,7 +189,7 @@ Partial Class frmParalegalEdit
         Me.Label6.Location = New System.Drawing.Point(21, 302)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(50, 13)
-        Me.Label6.TabIndex = 53
+        Me.Label6.TabIndex = 19
         Me.Label6.Text = "Specialty"
         '
         'Label4
@@ -198,7 +198,7 @@ Partial Class frmParalegalEdit
         Me.Label4.Location = New System.Drawing.Point(266, 75)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(55, 13)
-        Me.Label4.TabIndex = 52
+        Me.Label4.TabIndex = 13
         Me.Label4.Text = "Lawyer ID"
         '
         'Label3
@@ -207,7 +207,7 @@ Partial Class frmParalegalEdit
         Me.Label3.Location = New System.Drawing.Point(266, 108)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(35, 13)
-        Me.Label3.TabIndex = 51
+        Me.Label3.TabIndex = 15
         Me.Label3.Text = "Hours"
         '
         'Label1
@@ -216,7 +216,7 @@ Partial Class frmParalegalEdit
         Me.Label1.Location = New System.Drawing.Point(21, 75)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(65, 13)
-        Me.Label1.TabIndex = 50
+        Me.Label1.TabIndex = 3
         Me.Label1.Text = "Paralegal ID"
         '
         'txtParalegalIDEntered
@@ -224,7 +224,7 @@ Partial Class frmParalegalEdit
         Me.txtParalegalIDEntered.Location = New System.Drawing.Point(119, 19)
         Me.txtParalegalIDEntered.Name = "txtParalegalIDEntered"
         Me.txtParalegalIDEntered.Size = New System.Drawing.Size(118, 20)
-        Me.txtParalegalIDEntered.TabIndex = 71
+        Me.txtParalegalIDEntered.TabIndex = 1
         '
         'Label2
         '
@@ -232,7 +232,7 @@ Partial Class frmParalegalEdit
         Me.Label2.Location = New System.Drawing.Point(21, 22)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(65, 13)
-        Me.Label2.TabIndex = 70
+        Me.Label2.TabIndex = 0
         Me.Label2.Text = "Paralegal ID"
         '
         'btnSave
@@ -240,7 +240,7 @@ Partial Class frmParalegalEdit
         Me.btnSave.Location = New System.Drawing.Point(162, 380)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(75, 23)
-        Me.btnSave.TabIndex = 73
+        Me.btnSave.TabIndex = 23
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
@@ -249,7 +249,7 @@ Partial Class frmParalegalEdit
         Me.btnExit.Location = New System.Drawing.Point(327, 380)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 72
+        Me.btnExit.TabIndex = 24
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
@@ -258,7 +258,7 @@ Partial Class frmParalegalEdit
         Me.btnEdit.Location = New System.Drawing.Point(269, 17)
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(75, 23)
-        Me.btnEdit.TabIndex = 74
+        Me.btnEdit.TabIndex = 2
         Me.btnEdit.Text = "Edit"
         Me.btnEdit.UseVisualStyleBackColor = True
         '
@@ -294,7 +294,7 @@ Partial Class frmParalegalEdit
         Me.Controls.Add(Me.Label1)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmParalegalEdit"
-        Me.Text = "Paralegal"
+        Me.Text = "Edit Paralegal Data"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

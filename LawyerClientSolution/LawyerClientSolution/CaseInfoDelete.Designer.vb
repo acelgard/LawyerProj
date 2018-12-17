@@ -31,62 +31,58 @@ Partial Class frmCaseInfoDelete
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(289, 163)
-        Me.btnDelete.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnDelete.Location = New System.Drawing.Point(193, 106)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(112, 35)
-        Me.btnDelete.TabIndex = 15
+        Me.btnDelete.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelete.TabIndex = 3
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(52, 80)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(35, 52)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(71, 20)
-        Me.Label3.TabIndex = 14
+        Me.Label3.Size = New System.Drawing.Size(48, 13)
+        Me.Label3.TabIndex = 1
         Me.Label3.Text = "Case ID:"
         '
         'txtCaseInfoID
         '
-        Me.txtCaseInfoID.Location = New System.Drawing.Point(136, 75)
-        Me.txtCaseInfoID.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtCaseInfoID.Location = New System.Drawing.Point(91, 49)
         Me.txtCaseInfoID.Name = "txtCaseInfoID"
-        Me.txtCaseInfoID.Size = New System.Drawing.Size(148, 26)
-        Me.txtCaseInfoID.TabIndex = 13
+        Me.txtCaseInfoID.Size = New System.Drawing.Size(100, 20)
+        Me.txtCaseInfoID.TabIndex = 2
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(22, 28)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(15, 18)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(496, 20)
-        Me.Label1.TabIndex = 12
+        Me.Label1.Size = New System.Drawing.Size(333, 13)
+        Me.Label1.TabIndex = 0
         Me.Label1.Text = "Enter the corresponding Court ID of the data you would like to delete."
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(411, 163)
-        Me.btnExit.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnExit.Location = New System.Drawing.Point(274, 106)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(112, 35)
-        Me.btnExit.TabIndex = 11
+        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.TabIndex = 4
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'frmCaseInfoDelete
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(544, 226)
+        Me.ClientSize = New System.Drawing.Size(363, 147)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.txtCaseInfoID)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "frmCaseInfoDelete"
         Me.Text = "Delete Case Data"
         Me.ResumeLayout(False)

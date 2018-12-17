@@ -67,7 +67,7 @@ Partial Class frmClientEdit
         Me.btnEdit.Location = New System.Drawing.Point(228, 45)
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(75, 23)
-        Me.btnEdit.TabIndex = 18
+        Me.btnEdit.TabIndex = 3
         Me.btnEdit.Text = "Edit"
         Me.btnEdit.UseVisualStyleBackColor = True
         '
@@ -77,7 +77,7 @@ Partial Class frmClientEdit
         Me.Label3.Location = New System.Drawing.Point(35, 50)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(50, 13)
-        Me.Label3.TabIndex = 17
+        Me.Label3.TabIndex = 1
         Me.Label3.Text = "Client ID:"
         '
         'txtClientIDEntered
@@ -85,7 +85,7 @@ Partial Class frmClientEdit
         Me.txtClientIDEntered.Location = New System.Drawing.Point(91, 47)
         Me.txtClientIDEntered.Name = "txtClientIDEntered"
         Me.txtClientIDEntered.Size = New System.Drawing.Size(100, 20)
-        Me.txtClientIDEntered.TabIndex = 16
+        Me.txtClientIDEntered.TabIndex = 2
         '
         'Label1
         '
@@ -93,7 +93,7 @@ Partial Class frmClientEdit
         Me.Label1.Location = New System.Drawing.Point(15, 16)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(322, 13)
-        Me.Label1.TabIndex = 15
+        Me.Label1.TabIndex = 0
         Me.Label1.Text = "Enter the corresponding Client ID of the data you would like to edit."
         '
         'btnSave
@@ -101,7 +101,7 @@ Partial Class frmClientEdit
         Me.btnSave.Location = New System.Drawing.Point(377, 480)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(75, 23)
-        Me.btnSave.TabIndex = 90
+        Me.btnSave.TabIndex = 36
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
@@ -110,7 +110,7 @@ Partial Class frmClientEdit
         Me.btnExit.Location = New System.Drawing.Point(458, 480)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 89
+        Me.btnExit.TabIndex = 37
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
@@ -120,7 +120,7 @@ Partial Class frmClientEdit
         Me.txtCompanyName.Name = "txtCompanyName"
         Me.txtCompanyName.ReadOnly = True
         Me.txtCompanyName.Size = New System.Drawing.Size(159, 20)
-        Me.txtCompanyName.TabIndex = 88
+        Me.txtCompanyName.TabIndex = 33
         '
         'Label16
         '
@@ -128,7 +128,7 @@ Partial Class frmClientEdit
         Me.Label16.Location = New System.Drawing.Point(15, 457)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(82, 13)
-        Me.Label16.TabIndex = 87
+        Me.Label16.TabIndex = 32
         Me.Label16.Text = "Company Name"
         '
         'txtDriverLicNum
@@ -137,7 +137,7 @@ Partial Class frmClientEdit
         Me.txtDriverLicNum.Name = "txtDriverLicNum"
         Me.txtDriverLicNum.ReadOnly = True
         Me.txtDriverLicNum.Size = New System.Drawing.Size(159, 20)
-        Me.txtDriverLicNum.TabIndex = 86
+        Me.txtDriverLicNum.TabIndex = 17
         '
         'Label15
         '
@@ -145,7 +145,7 @@ Partial Class frmClientEdit
         Me.Label15.Location = New System.Drawing.Point(247, 236)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(90, 13)
-        Me.Label15.TabIndex = 85
+        Me.Label15.TabIndex = 16
         Me.Label15.Text = "Drivers License #"
         '
         'txtSSN
@@ -154,7 +154,7 @@ Partial Class frmClientEdit
         Me.txtSSN.Name = "txtSSN"
         Me.txtSSN.ReadOnly = True
         Me.txtSSN.Size = New System.Drawing.Size(123, 20)
-        Me.txtSSN.TabIndex = 84
+        Me.txtSSN.TabIndex = 15
         '
         'Label14
         '
@@ -162,7 +162,7 @@ Partial Class frmClientEdit
         Me.Label14.Location = New System.Drawing.Point(247, 210)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(87, 13)
-        Me.Label14.TabIndex = 83
+        Me.Label14.TabIndex = 14
         Me.Label14.Text = "Social Security #"
         '
         'txtMobilePhone
@@ -171,7 +171,7 @@ Partial Class frmClientEdit
         Me.txtMobilePhone.Name = "txtMobilePhone"
         Me.txtMobilePhone.ReadOnly = True
         Me.txtMobilePhone.Size = New System.Drawing.Size(118, 20)
-        Me.txtMobilePhone.TabIndex = 82
+        Me.txtMobilePhone.TabIndex = 31
         '
         'Label13
         '
@@ -179,7 +179,7 @@ Partial Class frmClientEdit
         Me.Label13.Location = New System.Drawing.Point(15, 411)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(72, 13)
-        Me.Label13.TabIndex = 81
+        Me.Label13.TabIndex = 30
         Me.Label13.Text = "Mobile Phone"
         '
         'txtHomePhone
@@ -188,7 +188,7 @@ Partial Class frmClientEdit
         Me.txtHomePhone.Name = "txtHomePhone"
         Me.txtHomePhone.ReadOnly = True
         Me.txtHomePhone.Size = New System.Drawing.Size(118, 20)
-        Me.txtHomePhone.TabIndex = 80
+        Me.txtHomePhone.TabIndex = 29
         '
         'Label9
         '
@@ -196,7 +196,7 @@ Partial Class frmClientEdit
         Me.Label9.Location = New System.Drawing.Point(15, 385)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(69, 13)
-        Me.Label9.TabIndex = 79
+        Me.Label9.TabIndex = 28
         Me.Label9.Text = "Home Phone"
         '
         'txtEmailAddress
@@ -205,7 +205,7 @@ Partial Class frmClientEdit
         Me.txtEmailAddress.Name = "txtEmailAddress"
         Me.txtEmailAddress.ReadOnly = True
         Me.txtEmailAddress.Size = New System.Drawing.Size(159, 20)
-        Me.txtEmailAddress.TabIndex = 78
+        Me.txtEmailAddress.TabIndex = 27
         '
         'Label8
         '
@@ -213,7 +213,7 @@ Partial Class frmClientEdit
         Me.Label8.Location = New System.Drawing.Point(15, 359)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(73, 13)
-        Me.Label8.TabIndex = 77
+        Me.Label8.TabIndex = 26
         Me.Label8.Text = "Email Address"
         '
         'txtState
@@ -222,7 +222,7 @@ Partial Class frmClientEdit
         Me.txtState.Name = "txtState"
         Me.txtState.ReadOnly = True
         Me.txtState.Size = New System.Drawing.Size(37, 20)
-        Me.txtState.TabIndex = 76
+        Me.txtState.TabIndex = 23
         '
         'Label6
         '
@@ -230,7 +230,7 @@ Partial Class frmClientEdit
         Me.Label6.Location = New System.Drawing.Point(15, 283)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(32, 13)
-        Me.Label6.TabIndex = 75
+        Me.Label6.TabIndex = 22
         Me.Label6.Text = "State"
         '
         'txtZip
@@ -239,7 +239,7 @@ Partial Class frmClientEdit
         Me.txtZip.Name = "txtZip"
         Me.txtZip.ReadOnly = True
         Me.txtZip.Size = New System.Drawing.Size(73, 20)
-        Me.txtZip.TabIndex = 74
+        Me.txtZip.TabIndex = 25
         '
         'Label5
         '
@@ -247,7 +247,7 @@ Partial Class frmClientEdit
         Me.Label5.Location = New System.Drawing.Point(15, 309)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(22, 13)
-        Me.Label5.TabIndex = 73
+        Me.Label5.TabIndex = 24
         Me.Label5.Text = "Zip"
         '
         'txtCity
@@ -256,7 +256,7 @@ Partial Class frmClientEdit
         Me.txtCity.Name = "txtCity"
         Me.txtCity.ReadOnly = True
         Me.txtCity.Size = New System.Drawing.Size(118, 20)
-        Me.txtCity.TabIndex = 72
+        Me.txtCity.TabIndex = 21
         '
         'Label4
         '
@@ -264,7 +264,7 @@ Partial Class frmClientEdit
         Me.Label4.Location = New System.Drawing.Point(15, 257)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(24, 13)
-        Me.Label4.TabIndex = 71
+        Me.Label4.TabIndex = 20
         Me.Label4.Text = "City"
         '
         'txtStreet
@@ -273,7 +273,7 @@ Partial Class frmClientEdit
         Me.txtStreet.Name = "txtStreet"
         Me.txtStreet.ReadOnly = True
         Me.txtStreet.Size = New System.Drawing.Size(118, 20)
-        Me.txtStreet.TabIndex = 70
+        Me.txtStreet.TabIndex = 19
         '
         'Label2
         '
@@ -281,7 +281,7 @@ Partial Class frmClientEdit
         Me.Label2.Location = New System.Drawing.Point(15, 231)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(35, 13)
-        Me.Label2.TabIndex = 69
+        Me.Label2.TabIndex = 18
         Me.Label2.Text = "Street"
         '
         'txtClientID
@@ -290,7 +290,7 @@ Partial Class frmClientEdit
         Me.txtClientID.Name = "txtClientID"
         Me.txtClientID.ReadOnly = True
         Me.txtClientID.Size = New System.Drawing.Size(118, 20)
-        Me.txtClientID.TabIndex = 68
+        Me.txtClientID.TabIndex = 5
         '
         'Label7
         '
@@ -298,7 +298,7 @@ Partial Class frmClientEdit
         Me.Label7.Location = New System.Drawing.Point(15, 106)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(47, 13)
-        Me.Label7.TabIndex = 67
+        Me.Label7.TabIndex = 4
         Me.Label7.Text = "Client ID"
         '
         'txtDOB
@@ -307,7 +307,7 @@ Partial Class frmClientEdit
         Me.txtDOB.Name = "txtDOB"
         Me.txtDOB.ReadOnly = True
         Me.txtDOB.Size = New System.Drawing.Size(85, 20)
-        Me.txtDOB.TabIndex = 66
+        Me.txtDOB.TabIndex = 13
         '
         'txtFirstName
         '
@@ -315,7 +315,7 @@ Partial Class frmClientEdit
         Me.txtFirstName.Name = "txtFirstName"
         Me.txtFirstName.ReadOnly = True
         Me.txtFirstName.Size = New System.Drawing.Size(118, 20)
-        Me.txtFirstName.TabIndex = 65
+        Me.txtFirstName.TabIndex = 7
         '
         'txtMiddleName
         '
@@ -323,7 +323,7 @@ Partial Class frmClientEdit
         Me.txtMiddleName.Name = "txtMiddleName"
         Me.txtMiddleName.ReadOnly = True
         Me.txtMiddleName.Size = New System.Drawing.Size(118, 20)
-        Me.txtMiddleName.TabIndex = 64
+        Me.txtMiddleName.TabIndex = 9
         '
         'txtLastName
         '
@@ -331,7 +331,7 @@ Partial Class frmClientEdit
         Me.txtLastName.Name = "txtLastName"
         Me.txtLastName.ReadOnly = True
         Me.txtLastName.Size = New System.Drawing.Size(118, 20)
-        Me.txtLastName.TabIndex = 63
+        Me.txtLastName.TabIndex = 11
         '
         'txtLawyerID
         '
@@ -339,7 +339,7 @@ Partial Class frmClientEdit
         Me.txtLawyerID.Name = "txtLawyerID"
         Me.txtLawyerID.ReadOnly = True
         Me.txtLawyerID.Size = New System.Drawing.Size(118, 20)
-        Me.txtLawyerID.TabIndex = 62
+        Me.txtLawyerID.TabIndex = 35
         '
         'Label12
         '
@@ -347,7 +347,7 @@ Partial Class frmClientEdit
         Me.Label12.Location = New System.Drawing.Point(15, 132)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(57, 13)
-        Me.Label12.TabIndex = 61
+        Me.Label12.TabIndex = 6
         Me.Label12.Text = "First Name"
         '
         'Label11
@@ -356,7 +356,7 @@ Partial Class frmClientEdit
         Me.Label11.Location = New System.Drawing.Point(15, 158)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(69, 13)
-        Me.Label11.TabIndex = 60
+        Me.Label11.TabIndex = 8
         Me.Label11.Text = "Middle Name"
         '
         'Label10
@@ -365,7 +365,7 @@ Partial Class frmClientEdit
         Me.Label10.Location = New System.Drawing.Point(15, 184)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(58, 13)
-        Me.Label10.TabIndex = 59
+        Me.Label10.TabIndex = 10
         Me.Label10.Text = "Last Name"
         '
         'Label17
@@ -374,7 +374,7 @@ Partial Class frmClientEdit
         Me.Label17.Location = New System.Drawing.Point(247, 184)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(66, 13)
-        Me.Label17.TabIndex = 58
+        Me.Label17.TabIndex = 12
         Me.Label17.Text = "Date of Birth"
         '
         'Label18
@@ -383,7 +383,7 @@ Partial Class frmClientEdit
         Me.Label18.Location = New System.Drawing.Point(15, 483)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(55, 13)
-        Me.Label18.TabIndex = 57
+        Me.Label18.TabIndex = 34
         Me.Label18.Text = "Lawyer ID"
         '
         'frmClientEdit

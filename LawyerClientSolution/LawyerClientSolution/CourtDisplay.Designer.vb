@@ -59,7 +59,7 @@ Partial Class frmCourtDisplay
         Me.btnExit.Location = New System.Drawing.Point(535, 373)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 82
+        Me.btnExit.TabIndex = 29
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
@@ -68,7 +68,7 @@ Partial Class frmCourtDisplay
         Me.btnDisplay.Location = New System.Drawing.Point(439, 373)
         Me.btnDisplay.Name = "btnDisplay"
         Me.btnDisplay.Size = New System.Drawing.Size(75, 23)
-        Me.btnDisplay.TabIndex = 81
+        Me.btnDisplay.TabIndex = 28
         Me.btnDisplay.Text = "Display"
         Me.btnDisplay.UseVisualStyleBackColor = True
         '
@@ -78,7 +78,7 @@ Partial Class frmCourtDisplay
         Me.lblClerks.Location = New System.Drawing.Point(440, 219)
         Me.lblClerks.Name = "lblClerks"
         Me.lblClerks.Size = New System.Drawing.Size(38, 20)
-        Me.lblClerks.TabIndex = 110
+        Me.lblClerks.TabIndex = 21
         '
         'lblOfficers
         '
@@ -86,7 +86,7 @@ Partial Class frmCourtDisplay
         Me.lblOfficers.Location = New System.Drawing.Point(440, 325)
         Me.lblOfficers.Name = "lblOfficers"
         Me.lblOfficers.Size = New System.Drawing.Size(38, 20)
-        Me.lblOfficers.TabIndex = 109
+        Me.lblOfficers.TabIndex = 27
         '
         'lblReporter
         '
@@ -94,7 +94,7 @@ Partial Class frmCourtDisplay
         Me.lblReporter.Location = New System.Drawing.Point(440, 291)
         Me.lblReporter.Name = "lblReporter"
         Me.lblReporter.Size = New System.Drawing.Size(171, 20)
-        Me.lblReporter.TabIndex = 108
+        Me.lblReporter.TabIndex = 25
         '
         'lblCourtAdmin
         '
@@ -102,7 +102,7 @@ Partial Class frmCourtDisplay
         Me.lblCourtAdmin.Location = New System.Drawing.Point(440, 256)
         Me.lblCourtAdmin.Name = "lblCourtAdmin"
         Me.lblCourtAdmin.Size = New System.Drawing.Size(171, 20)
-        Me.lblCourtAdmin.TabIndex = 107
+        Me.lblCourtAdmin.TabIndex = 23
         '
         'lblPoliceAffil
         '
@@ -110,7 +110,7 @@ Partial Class frmCourtDisplay
         Me.lblPoliceAffil.Location = New System.Drawing.Point(135, 219)
         Me.lblPoliceAffil.Name = "lblPoliceAffil"
         Me.lblPoliceAffil.Size = New System.Drawing.Size(140, 20)
-        Me.lblPoliceAffil.TabIndex = 106
+        Me.lblPoliceAffil.TabIndex = 9
         '
         'lblState
         '
@@ -118,7 +118,7 @@ Partial Class frmCourtDisplay
         Me.lblState.Location = New System.Drawing.Point(424, 83)
         Me.lblState.Name = "lblState"
         Me.lblState.Size = New System.Drawing.Size(54, 20)
-        Me.lblState.TabIndex = 105
+        Me.lblState.TabIndex = 17
         '
         'lblCity
         '
@@ -126,7 +126,7 @@ Partial Class frmCourtDisplay
         Me.lblCity.Location = New System.Drawing.Point(424, 47)
         Me.lblCity.Name = "lblCity"
         Me.lblCity.Size = New System.Drawing.Size(140, 20)
-        Me.lblCity.TabIndex = 104
+        Me.lblCity.TabIndex = 15
         '
         'lblStreet
         '
@@ -134,7 +134,7 @@ Partial Class frmCourtDisplay
         Me.lblStreet.Location = New System.Drawing.Point(424, 14)
         Me.lblStreet.Name = "lblStreet"
         Me.lblStreet.Size = New System.Drawing.Size(140, 20)
-        Me.lblStreet.TabIndex = 103
+        Me.lblStreet.TabIndex = 13
         '
         'lblTypeOfCourt
         '
@@ -142,7 +142,7 @@ Partial Class frmCourtDisplay
         Me.lblTypeOfCourt.Location = New System.Drawing.Point(157, 83)
         Me.lblTypeOfCourt.Name = "lblTypeOfCourt"
         Me.lblTypeOfCourt.Size = New System.Drawing.Size(118, 20)
-        Me.lblTypeOfCourt.TabIndex = 102
+        Me.lblTypeOfCourt.TabIndex = 5
         '
         'lblCourtName
         '
@@ -150,7 +150,7 @@ Partial Class frmCourtDisplay
         Me.lblCourtName.Location = New System.Drawing.Point(157, 49)
         Me.lblCourtName.Name = "lblCourtName"
         Me.lblCourtName.Size = New System.Drawing.Size(118, 20)
-        Me.lblCourtName.TabIndex = 101
+        Me.lblCourtName.TabIndex = 3
         '
         'lblCourtID
         '
@@ -158,7 +158,7 @@ Partial Class frmCourtDisplay
         Me.lblCourtID.Location = New System.Drawing.Point(157, 14)
         Me.lblCourtID.Name = "lblCourtID"
         Me.lblCourtID.Size = New System.Drawing.Size(118, 20)
-        Me.lblCourtID.TabIndex = 100
+        Me.lblCourtID.TabIndex = 1
         '
         'Label8
         '
@@ -166,7 +166,7 @@ Partial Class frmCourtDisplay
         Me.Label8.Location = New System.Drawing.Point(359, 326)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(65, 13)
-        Me.Label8.TabIndex = 96
+        Me.Label8.TabIndex = 26
         Me.Label8.Text = "# of Officers"
         '
         'Label9
@@ -175,7 +175,7 @@ Partial Class frmCourtDisplay
         Me.Label9.Location = New System.Drawing.Point(359, 292)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(48, 13)
-        Me.Label9.TabIndex = 95
+        Me.Label9.TabIndex = 24
         Me.Label9.Text = "Reporter"
         '
         'Label10
@@ -184,7 +184,7 @@ Partial Class frmCourtDisplay
         Me.Label10.Location = New System.Drawing.Point(23, 257)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(58, 13)
-        Me.Label10.TabIndex = 94
+        Me.Label10.TabIndex = 10
         Me.Label10.Text = "Legal Staff"
         '
         'Label11
@@ -193,7 +193,7 @@ Partial Class frmCourtDisplay
         Me.Label11.Location = New System.Drawing.Point(359, 257)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(64, 13)
-        Me.Label11.TabIndex = 93
+        Me.Label11.TabIndex = 22
         Me.Label11.Text = "Court Admin"
         '
         'Label13
@@ -202,7 +202,7 @@ Partial Class frmCourtDisplay
         Me.Label13.Location = New System.Drawing.Point(359, 222)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(58, 13)
-        Me.Label13.TabIndex = 92
+        Me.Label13.TabIndex = 20
         Me.Label13.Text = "# of Clerks"
         '
         'Label14
@@ -211,7 +211,7 @@ Partial Class frmCourtDisplay
         Me.Label14.Location = New System.Drawing.Point(23, 222)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(81, 13)
-        Me.Label14.TabIndex = 91
+        Me.Label14.TabIndex = 8
         Me.Label14.Text = "Police Affiliation"
         '
         'Label4
@@ -220,7 +220,7 @@ Partial Class frmCourtDisplay
         Me.Label4.Location = New System.Drawing.Point(359, 119)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(100, 13)
-        Me.Label4.TabIndex = 90
+        Me.Label4.TabIndex = 18
         Me.Label4.Text = "Security Information"
         '
         'Label5
@@ -229,7 +229,7 @@ Partial Class frmCourtDisplay
         Me.Label5.Location = New System.Drawing.Point(23, 119)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(41, 13)
-        Me.Label5.TabIndex = 89
+        Me.Label5.TabIndex = 6
         Me.Label5.Text = "Judges"
         '
         'Label6
@@ -238,7 +238,7 @@ Partial Class frmCourtDisplay
         Me.Label6.Location = New System.Drawing.Point(23, 84)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(71, 13)
-        Me.Label6.TabIndex = 88
+        Me.Label6.TabIndex = 4
         Me.Label6.Text = "Type of Court"
         '
         'Label7
@@ -247,7 +247,7 @@ Partial Class frmCourtDisplay
         Me.Label7.Location = New System.Drawing.Point(359, 84)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(32, 13)
-        Me.Label7.TabIndex = 87
+        Me.Label7.TabIndex = 16
         Me.Label7.Text = "State"
         '
         'Label2
@@ -256,7 +256,7 @@ Partial Class frmCourtDisplay
         Me.Label2.Location = New System.Drawing.Point(359, 50)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(24, 13)
-        Me.Label2.TabIndex = 86
+        Me.Label2.TabIndex = 14
         Me.Label2.Text = "City"
         '
         'Label3
@@ -265,7 +265,7 @@ Partial Class frmCourtDisplay
         Me.Label3.Location = New System.Drawing.Point(359, 15)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(35, 13)
-        Me.Label3.TabIndex = 85
+        Me.Label3.TabIndex = 12
         Me.Label3.Text = "Street"
         '
         'Label12
@@ -274,7 +274,7 @@ Partial Class frmCourtDisplay
         Me.Label12.Location = New System.Drawing.Point(23, 48)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(63, 13)
-        Me.Label12.TabIndex = 84
+        Me.Label12.TabIndex = 2
         Me.Label12.Text = "Court Name"
         '
         'Label1
@@ -283,7 +283,7 @@ Partial Class frmCourtDisplay
         Me.Label1.Location = New System.Drawing.Point(23, 15)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(46, 13)
-        Me.Label1.TabIndex = 83
+        Me.Label1.TabIndex = 0
         Me.Label1.Text = "Court ID"
         '
         'lblJudges
@@ -292,7 +292,7 @@ Partial Class frmCourtDisplay
         Me.lblJudges.Location = New System.Drawing.Point(26, 135)
         Me.lblJudges.Name = "lblJudges"
         Me.lblJudges.Size = New System.Drawing.Size(248, 68)
-        Me.lblJudges.TabIndex = 111
+        Me.lblJudges.TabIndex = 7
         '
         'lblSecurityInfo
         '
@@ -300,7 +300,7 @@ Partial Class frmCourtDisplay
         Me.lblSecurityInfo.Location = New System.Drawing.Point(363, 135)
         Me.lblSecurityInfo.Name = "lblSecurityInfo"
         Me.lblSecurityInfo.Size = New System.Drawing.Size(248, 68)
-        Me.lblSecurityInfo.TabIndex = 112
+        Me.lblSecurityInfo.TabIndex = 19
         '
         'lblLegalStaff
         '
@@ -308,7 +308,7 @@ Partial Class frmCourtDisplay
         Me.lblLegalStaff.Location = New System.Drawing.Point(26, 277)
         Me.lblLegalStaff.Name = "lblLegalStaff"
         Me.lblLegalStaff.Size = New System.Drawing.Size(248, 68)
-        Me.lblLegalStaff.TabIndex = 113
+        Me.lblLegalStaff.TabIndex = 11
         '
         'frmCourtDisplay
         '

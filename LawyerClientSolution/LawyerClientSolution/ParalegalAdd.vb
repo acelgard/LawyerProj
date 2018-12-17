@@ -11,7 +11,21 @@ Public Class frmParalegalAdd
 
     End Sub
 
-    Private Sub frmParalegal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        Dim connectionString As String = "Data Source =MIS-W10-014\SQLEXPRESS;Initial Catalog=LawyerClientProject;Integrated Security=true"
 
+        Using connection As New SqlConnection(connectionString)
+            connection.Open()
+
+            Dim Command As New SqlCommand("INSERT INTO Paralegal (ParalegalID, LawyerID, FirstName, MiddleInitial, LastName, LawDegree, FirmAssoc, DOB, 
+                Specialty, Hours) VALUES ('" & txtParalegalID.Text & "','" & txtLawyerID.Text &
+                "', '" & txtFirstName.Text & "', '" & txtMiddleInitial.Text & "', '" & txtLastName.Text & "', '" & txtLawDegree.Text & "', '" & txtFirmAssoc.Text &
+                "', '" & txtDOB.Text & "', '" & txtSpecialty.Text & "', '" & txtHours.Text & "')", connection)
+
+            Command.ExecuteNonQuery()
+            MessageBox.Show("Row added")
+            connection.Close()
+
+        End Using
     End Sub
 End Class

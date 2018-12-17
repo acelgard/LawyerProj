@@ -63,7 +63,7 @@ Partial Class frmClientDisplay
         Me.btnDisplay.Location = New System.Drawing.Point(350, 434)
         Me.btnDisplay.Name = "btnDisplay"
         Me.btnDisplay.Size = New System.Drawing.Size(75, 23)
-        Me.btnDisplay.TabIndex = 90
+        Me.btnDisplay.TabIndex = 32
         Me.btnDisplay.Text = "Display"
         Me.btnDisplay.UseVisualStyleBackColor = True
         '
@@ -72,7 +72,7 @@ Partial Class frmClientDisplay
         Me.btnExit.Location = New System.Drawing.Point(431, 434)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 89
+        Me.btnExit.TabIndex = 33
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
@@ -82,7 +82,7 @@ Partial Class frmClientDisplay
         Me.Label16.Location = New System.Drawing.Point(22, 377)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(82, 13)
-        Me.Label16.TabIndex = 87
+        Me.Label16.TabIndex = 28
         Me.Label16.Text = "Company Name"
         '
         'Label15
@@ -91,7 +91,7 @@ Partial Class frmClientDisplay
         Me.Label15.Location = New System.Drawing.Point(254, 156)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(90, 13)
-        Me.Label15.TabIndex = 85
+        Me.Label15.TabIndex = 12
         Me.Label15.Text = "Drivers License #"
         '
         'Label14
@@ -100,7 +100,7 @@ Partial Class frmClientDisplay
         Me.Label14.Location = New System.Drawing.Point(254, 130)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(87, 13)
-        Me.Label14.TabIndex = 83
+        Me.Label14.TabIndex = 10
         Me.Label14.Text = "Social Security #"
         '
         'Label13
@@ -109,7 +109,7 @@ Partial Class frmClientDisplay
         Me.Label13.Location = New System.Drawing.Point(22, 331)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(72, 13)
-        Me.Label13.TabIndex = 81
+        Me.Label13.TabIndex = 26
         Me.Label13.Text = "Mobile Phone"
         '
         'Label9
@@ -118,7 +118,7 @@ Partial Class frmClientDisplay
         Me.Label9.Location = New System.Drawing.Point(22, 305)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(69, 13)
-        Me.Label9.TabIndex = 79
+        Me.Label9.TabIndex = 24
         Me.Label9.Text = "Home Phone"
         '
         'Label8
@@ -127,7 +127,7 @@ Partial Class frmClientDisplay
         Me.Label8.Location = New System.Drawing.Point(22, 279)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(73, 13)
-        Me.Label8.TabIndex = 77
+        Me.Label8.TabIndex = 22
         Me.Label8.Text = "Email Address"
         '
         'Label6
@@ -136,7 +136,7 @@ Partial Class frmClientDisplay
         Me.Label6.Location = New System.Drawing.Point(22, 203)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(32, 13)
-        Me.Label6.TabIndex = 75
+        Me.Label6.TabIndex = 18
         Me.Label6.Text = "State"
         '
         'Label5
@@ -145,7 +145,7 @@ Partial Class frmClientDisplay
         Me.Label5.Location = New System.Drawing.Point(22, 229)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(22, 13)
-        Me.Label5.TabIndex = 73
+        Me.Label5.TabIndex = 20
         Me.Label5.Text = "Zip"
         '
         'Label4
@@ -154,7 +154,7 @@ Partial Class frmClientDisplay
         Me.Label4.Location = New System.Drawing.Point(22, 177)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(24, 13)
-        Me.Label4.TabIndex = 71
+        Me.Label4.TabIndex = 16
         Me.Label4.Text = "City"
         '
         'Label3
@@ -163,7 +163,7 @@ Partial Class frmClientDisplay
         Me.Label3.Location = New System.Drawing.Point(22, 151)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(35, 13)
-        Me.Label3.TabIndex = 69
+        Me.Label3.TabIndex = 14
         Me.Label3.Text = "Street"
         '
         'Label2
@@ -172,7 +172,7 @@ Partial Class frmClientDisplay
         Me.Label2.Location = New System.Drawing.Point(22, 26)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(47, 13)
-        Me.Label2.TabIndex = 67
+        Me.Label2.TabIndex = 0
         Me.Label2.Text = "Client ID"
         '
         'Label12
@@ -181,7 +181,7 @@ Partial Class frmClientDisplay
         Me.Label12.Location = New System.Drawing.Point(22, 52)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(57, 13)
-        Me.Label12.TabIndex = 61
+        Me.Label12.TabIndex = 2
         Me.Label12.Text = "First Name"
         '
         'Label11
@@ -190,7 +190,7 @@ Partial Class frmClientDisplay
         Me.Label11.Location = New System.Drawing.Point(22, 78)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(69, 13)
-        Me.Label11.TabIndex = 60
+        Me.Label11.TabIndex = 4
         Me.Label11.Text = "Middle Name"
         '
         'Label10
@@ -199,7 +199,7 @@ Partial Class frmClientDisplay
         Me.Label10.Location = New System.Drawing.Point(22, 104)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(58, 13)
-        Me.Label10.TabIndex = 59
+        Me.Label10.TabIndex = 6
         Me.Label10.Text = "Last Name"
         '
         'Label7
@@ -208,7 +208,7 @@ Partial Class frmClientDisplay
         Me.Label7.Location = New System.Drawing.Point(254, 104)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(66, 13)
-        Me.Label7.TabIndex = 58
+        Me.Label7.TabIndex = 8
         Me.Label7.Text = "Date of Birth"
         '
         'Label1
@@ -217,7 +217,7 @@ Partial Class frmClientDisplay
         Me.Label1.Location = New System.Drawing.Point(22, 403)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(55, 13)
-        Me.Label1.TabIndex = 57
+        Me.Label1.TabIndex = 30
         Me.Label1.Text = "Lawyer ID"
         '
         'lblClientID
@@ -226,7 +226,7 @@ Partial Class frmClientDisplay
         Me.lblClientID.Location = New System.Drawing.Point(98, 25)
         Me.lblClientID.Name = "lblClientID"
         Me.lblClientID.Size = New System.Drawing.Size(118, 20)
-        Me.lblClientID.TabIndex = 101
+        Me.lblClientID.TabIndex = 1
         '
         'lblFirstName
         '
@@ -234,7 +234,7 @@ Partial Class frmClientDisplay
         Me.lblFirstName.Location = New System.Drawing.Point(98, 51)
         Me.lblFirstName.Name = "lblFirstName"
         Me.lblFirstName.Size = New System.Drawing.Size(118, 20)
-        Me.lblFirstName.TabIndex = 102
+        Me.lblFirstName.TabIndex = 3
         '
         'lblMiddleName
         '
@@ -242,7 +242,7 @@ Partial Class frmClientDisplay
         Me.lblMiddleName.Location = New System.Drawing.Point(98, 77)
         Me.lblMiddleName.Name = "lblMiddleName"
         Me.lblMiddleName.Size = New System.Drawing.Size(118, 20)
-        Me.lblMiddleName.TabIndex = 103
+        Me.lblMiddleName.TabIndex = 5
         '
         'lblLastName
         '
@@ -250,7 +250,7 @@ Partial Class frmClientDisplay
         Me.lblLastName.Location = New System.Drawing.Point(98, 103)
         Me.lblLastName.Name = "lblLastName"
         Me.lblLastName.Size = New System.Drawing.Size(118, 20)
-        Me.lblLastName.TabIndex = 104
+        Me.lblLastName.TabIndex = 7
         '
         'lblStreet
         '
@@ -258,7 +258,7 @@ Partial Class frmClientDisplay
         Me.lblStreet.Location = New System.Drawing.Point(98, 149)
         Me.lblStreet.Name = "lblStreet"
         Me.lblStreet.Size = New System.Drawing.Size(118, 20)
-        Me.lblStreet.TabIndex = 105
+        Me.lblStreet.TabIndex = 15
         '
         'lblCity
         '
@@ -266,7 +266,7 @@ Partial Class frmClientDisplay
         Me.lblCity.Location = New System.Drawing.Point(98, 176)
         Me.lblCity.Name = "lblCity"
         Me.lblCity.Size = New System.Drawing.Size(118, 20)
-        Me.lblCity.TabIndex = 106
+        Me.lblCity.TabIndex = 17
         '
         'lblHomePhone
         '
@@ -274,7 +274,7 @@ Partial Class frmClientDisplay
         Me.lblHomePhone.Location = New System.Drawing.Point(120, 304)
         Me.lblHomePhone.Name = "lblHomePhone"
         Me.lblHomePhone.Size = New System.Drawing.Size(118, 20)
-        Me.lblHomePhone.TabIndex = 107
+        Me.lblHomePhone.TabIndex = 25
         '
         'lblMobilePhone
         '
@@ -282,7 +282,7 @@ Partial Class frmClientDisplay
         Me.lblMobilePhone.Location = New System.Drawing.Point(120, 330)
         Me.lblMobilePhone.Name = "lblMobilePhone"
         Me.lblMobilePhone.Size = New System.Drawing.Size(118, 20)
-        Me.lblMobilePhone.TabIndex = 108
+        Me.lblMobilePhone.TabIndex = 27
         '
         'lblLawyerID
         '
@@ -290,7 +290,7 @@ Partial Class frmClientDisplay
         Me.lblLawyerID.Location = New System.Drawing.Point(120, 402)
         Me.lblLawyerID.Name = "lblLawyerID"
         Me.lblLawyerID.Size = New System.Drawing.Size(118, 20)
-        Me.lblLawyerID.TabIndex = 109
+        Me.lblLawyerID.TabIndex = 31
         '
         'lblSSN
         '
@@ -298,7 +298,7 @@ Partial Class frmClientDisplay
         Me.lblSSN.Location = New System.Drawing.Point(350, 129)
         Me.lblSSN.Name = "lblSSN"
         Me.lblSSN.Size = New System.Drawing.Size(118, 20)
-        Me.lblSSN.TabIndex = 110
+        Me.lblSSN.TabIndex = 11
         '
         'lblState
         '
@@ -306,7 +306,7 @@ Partial Class frmClientDisplay
         Me.lblState.Location = New System.Drawing.Point(98, 202)
         Me.lblState.Name = "lblState"
         Me.lblState.Size = New System.Drawing.Size(35, 20)
-        Me.lblState.TabIndex = 111
+        Me.lblState.TabIndex = 19
         '
         'lblZip
         '
@@ -314,7 +314,7 @@ Partial Class frmClientDisplay
         Me.lblZip.Location = New System.Drawing.Point(98, 228)
         Me.lblZip.Name = "lblZip"
         Me.lblZip.Size = New System.Drawing.Size(71, 20)
-        Me.lblZip.TabIndex = 112
+        Me.lblZip.TabIndex = 21
         '
         'lblEmailAddress
         '
@@ -322,7 +322,7 @@ Partial Class frmClientDisplay
         Me.lblEmailAddress.Location = New System.Drawing.Point(120, 278)
         Me.lblEmailAddress.Name = "lblEmailAddress"
         Me.lblEmailAddress.Size = New System.Drawing.Size(224, 20)
-        Me.lblEmailAddress.TabIndex = 113
+        Me.lblEmailAddress.TabIndex = 23
         '
         'lblCompanyName
         '
@@ -330,7 +330,7 @@ Partial Class frmClientDisplay
         Me.lblCompanyName.Location = New System.Drawing.Point(120, 376)
         Me.lblCompanyName.Name = "lblCompanyName"
         Me.lblCompanyName.Size = New System.Drawing.Size(186, 20)
-        Me.lblCompanyName.TabIndex = 114
+        Me.lblCompanyName.TabIndex = 29
         '
         'lblDOB
         '
@@ -338,7 +338,7 @@ Partial Class frmClientDisplay
         Me.lblDOB.Location = New System.Drawing.Point(350, 103)
         Me.lblDOB.Name = "lblDOB"
         Me.lblDOB.Size = New System.Drawing.Size(85, 20)
-        Me.lblDOB.TabIndex = 115
+        Me.lblDOB.TabIndex = 9
         '
         'lblDriverLicNum
         '
@@ -346,7 +346,7 @@ Partial Class frmClientDisplay
         Me.lblDriverLicNum.Location = New System.Drawing.Point(350, 155)
         Me.lblDriverLicNum.Name = "lblDriverLicNum"
         Me.lblDriverLicNum.Size = New System.Drawing.Size(140, 20)
-        Me.lblDriverLicNum.TabIndex = 116
+        Me.lblDriverLicNum.TabIndex = 13
         '
         'frmClientDisplay
         '

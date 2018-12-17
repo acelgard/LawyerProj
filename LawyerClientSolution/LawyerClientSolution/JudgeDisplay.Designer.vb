@@ -40,7 +40,7 @@ Partial Class frmJudgeDisplay
         Me.Label4.Location = New System.Drawing.Point(20, 110)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(61, 13)
-        Me.Label4.TabIndex = 15
+        Me.Label4.TabIndex = 6
         Me.Label4.Text = "Last Name:"
         '
         'Label3
@@ -49,7 +49,7 @@ Partial Class frmJudgeDisplay
         Me.Label3.Location = New System.Drawing.Point(20, 84)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(60, 13)
-        Me.Label3.TabIndex = 14
+        Me.Label3.TabIndex = 4
         Me.Label3.Text = "First Name:"
         '
         'Label2
@@ -58,7 +58,7 @@ Partial Class frmJudgeDisplay
         Me.Label2.Location = New System.Drawing.Point(20, 42)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(49, 13)
-        Me.Label2.TabIndex = 13
+        Me.Label2.TabIndex = 2
         Me.Label2.Text = "Court ID:"
         '
         'Label1
@@ -67,7 +67,7 @@ Partial Class frmJudgeDisplay
         Me.Label1.Location = New System.Drawing.Point(20, 16)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(53, 13)
-        Me.Label1.TabIndex = 12
+        Me.Label1.TabIndex = 0
         Me.Label1.Text = "Judge ID:"
         '
         'btnExit
@@ -75,7 +75,7 @@ Partial Class frmJudgeDisplay
         Me.btnExit.Location = New System.Drawing.Point(117, 155)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 10
+        Me.btnExit.TabIndex = 9
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
@@ -85,7 +85,7 @@ Partial Class frmJudgeDisplay
         Me.lblJudgeID.Location = New System.Drawing.Point(98, 15)
         Me.lblJudgeID.Name = "lblJudgeID"
         Me.lblJudgeID.Size = New System.Drawing.Size(102, 22)
-        Me.lblJudgeID.TabIndex = 16
+        Me.lblJudgeID.TabIndex = 1
         '
         'lblCourtID
         '
@@ -93,7 +93,7 @@ Partial Class frmJudgeDisplay
         Me.lblCourtID.Location = New System.Drawing.Point(98, 41)
         Me.lblCourtID.Name = "lblCourtID"
         Me.lblCourtID.Size = New System.Drawing.Size(102, 22)
-        Me.lblCourtID.TabIndex = 17
+        Me.lblCourtID.TabIndex = 3
         '
         'lblFirstName
         '
@@ -101,7 +101,7 @@ Partial Class frmJudgeDisplay
         Me.lblFirstName.Location = New System.Drawing.Point(98, 83)
         Me.lblFirstName.Name = "lblFirstName"
         Me.lblFirstName.Size = New System.Drawing.Size(102, 22)
-        Me.lblFirstName.TabIndex = 18
+        Me.lblFirstName.TabIndex = 5
         '
         'lblLastName
         '
@@ -109,14 +109,14 @@ Partial Class frmJudgeDisplay
         Me.lblLastName.Location = New System.Drawing.Point(98, 109)
         Me.lblLastName.Name = "lblLastName"
         Me.lblLastName.Size = New System.Drawing.Size(102, 22)
-        Me.lblLastName.TabIndex = 19
+        Me.lblLastName.TabIndex = 7
         '
         'btnDisplay
         '
         Me.btnDisplay.Location = New System.Drawing.Point(36, 155)
         Me.btnDisplay.Name = "btnDisplay"
         Me.btnDisplay.Size = New System.Drawing.Size(75, 23)
-        Me.btnDisplay.TabIndex = 20
+        Me.btnDisplay.TabIndex = 8
         Me.btnDisplay.Text = "Display"
         Me.btnDisplay.UseVisualStyleBackColor = True
         '

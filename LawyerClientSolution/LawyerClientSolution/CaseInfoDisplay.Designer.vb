@@ -65,7 +65,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblDescription.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblDescription.Name = "lblDescription"
         Me.lblDescription.Size = New System.Drawing.Size(294, 133)
-        Me.lblDescription.TabIndex = 124
+        Me.lblDescription.TabIndex = 9
         '
         'lblBegHearDate
         '
@@ -74,7 +74,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblBegHearDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblBegHearDate.Name = "lblBegHearDate"
         Me.lblBegHearDate.Size = New System.Drawing.Size(117, 18)
-        Me.lblBegHearDate.TabIndex = 123
+        Me.lblBegHearDate.TabIndex = 13
         '
         'lblLawyerID
         '
@@ -83,7 +83,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblLawyerID.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblLawyerID.Name = "lblLawyerID"
         Me.lblLawyerID.Size = New System.Drawing.Size(117, 18)
-        Me.lblLawyerID.TabIndex = 122
+        Me.lblLawyerID.TabIndex = 3
         '
         'lblJudgeID
         '
@@ -92,7 +92,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblJudgeID.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblJudgeID.Name = "lblJudgeID"
         Me.lblJudgeID.Size = New System.Drawing.Size(117, 18)
-        Me.lblJudgeID.TabIndex = 121
+        Me.lblJudgeID.TabIndex = 5
         '
         'lblCaseName
         '
@@ -101,7 +101,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblCaseName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblCaseName.Name = "lblCaseName"
         Me.lblCaseName.Size = New System.Drawing.Size(117, 18)
-        Me.lblCaseName.TabIndex = 120
+        Me.lblCaseName.TabIndex = 7
         '
         'lblDefendant
         '
@@ -110,7 +110,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblDefendant.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblDefendant.Name = "lblDefendant"
         Me.lblDefendant.Size = New System.Drawing.Size(117, 18)
-        Me.lblDefendant.TabIndex = 119
+        Me.lblDefendant.TabIndex = 11
         '
         'lblPlea
         '
@@ -119,7 +119,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblPlea.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblPlea.Name = "lblPlea"
         Me.lblPlea.Size = New System.Drawing.Size(117, 18)
-        Me.lblPlea.TabIndex = 118
+        Me.lblPlea.TabIndex = 19
         '
         'lblBail
         '
@@ -128,7 +128,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblBail.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblBail.Name = "lblBail"
         Me.lblBail.Size = New System.Drawing.Size(117, 18)
-        Me.lblBail.TabIndex = 117
+        Me.lblBail.TabIndex = 21
         '
         'lblNbrWitnesses
         '
@@ -137,7 +137,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblNbrWitnesses.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblNbrWitnesses.Name = "lblNbrWitnesses"
         Me.lblNbrWitnesses.Size = New System.Drawing.Size(117, 18)
-        Me.lblNbrWitnesses.TabIndex = 116
+        Me.lblNbrWitnesses.TabIndex = 23
         '
         'lblIndictment
         '
@@ -146,7 +146,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblIndictment.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblIndictment.Name = "lblIndictment"
         Me.lblIndictment.Size = New System.Drawing.Size(117, 18)
-        Me.lblIndictment.TabIndex = 115
+        Me.lblIndictment.TabIndex = 25
         '
         'lblRuling
         '
@@ -155,7 +155,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblRuling.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblRuling.Name = "lblRuling"
         Me.lblRuling.Size = New System.Drawing.Size(117, 18)
-        Me.lblRuling.TabIndex = 114
+        Me.lblRuling.TabIndex = 27
         '
         'lblPlaintiff
         '
@@ -164,7 +164,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblPlaintiff.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblPlaintiff.Name = "lblPlaintiff"
         Me.lblPlaintiff.Size = New System.Drawing.Size(117, 18)
-        Me.lblPlaintiff.TabIndex = 113
+        Me.lblPlaintiff.TabIndex = 29
         '
         'lblProsecutor
         '
@@ -173,7 +173,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblProsecutor.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblProsecutor.Name = "lblProsecutor"
         Me.lblProsecutor.Size = New System.Drawing.Size(117, 18)
-        Me.lblProsecutor.TabIndex = 112
+        Me.lblProsecutor.TabIndex = 31
         '
         'lblTrialDate
         '
@@ -182,7 +182,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblTrialDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblTrialDate.Name = "lblTrialDate"
         Me.lblTrialDate.Size = New System.Drawing.Size(117, 18)
-        Me.lblTrialDate.TabIndex = 111
+        Me.lblTrialDate.TabIndex = 17
         '
         'lblEndHearDate
         '
@@ -191,7 +191,7 @@ Partial Class frmCaseInfoDisplay
         Me.lblEndHearDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblEndHearDate.Name = "lblEndHearDate"
         Me.lblEndHearDate.Size = New System.Drawing.Size(117, 18)
-        Me.lblEndHearDate.TabIndex = 110
+        Me.lblEndHearDate.TabIndex = 15
         '
         'lblCaseInfoID
         '
@@ -200,14 +200,14 @@ Partial Class frmCaseInfoDisplay
         Me.lblCaseInfoID.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblCaseInfoID.Name = "lblCaseInfoID"
         Me.lblCaseInfoID.Size = New System.Drawing.Size(117, 18)
-        Me.lblCaseInfoID.TabIndex = 109
+        Me.lblCaseInfoID.TabIndex = 1
         '
         'btnExit
         '
         Me.btnExit.Location = New System.Drawing.Point(546, 428)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 108
+        Me.btnExit.TabIndex = 33
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
@@ -216,7 +216,7 @@ Partial Class frmCaseInfoDisplay
         Me.btnDisplay.Location = New System.Drawing.Point(450, 428)
         Me.btnDisplay.Name = "btnDisplay"
         Me.btnDisplay.Size = New System.Drawing.Size(75, 23)
-        Me.btnDisplay.TabIndex = 107
+        Me.btnDisplay.TabIndex = 32
         Me.btnDisplay.Text = "Display"
         Me.btnDisplay.UseVisualStyleBackColor = True
         '
@@ -226,7 +226,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label16.Location = New System.Drawing.Point(369, 266)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(56, 13)
-        Me.Label16.TabIndex = 106
+        Me.Label16.TabIndex = 24
         Me.Label16.Text = "Indictment"
         '
         'Label15
@@ -235,7 +235,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label15.Location = New System.Drawing.Point(369, 303)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(37, 13)
-        Me.Label15.TabIndex = 105
+        Me.Label15.TabIndex = 26
         Me.Label15.Text = "Ruling"
         '
         'Label14
@@ -244,7 +244,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label14.Location = New System.Drawing.Point(367, 229)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(56, 13)
-        Me.Label14.TabIndex = 104
+        Me.Label14.TabIndex = 22
         Me.Label14.Text = "Witnesses"
         '
         'Label13
@@ -253,7 +253,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label13.Location = New System.Drawing.Point(369, 90)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(53, 13)
-        Me.Label13.TabIndex = 103
+        Me.Label13.TabIndex = 16
         Me.Label13.Text = "Trial Date"
         '
         'Label11
@@ -262,7 +262,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label11.Location = New System.Drawing.Point(369, 157)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(28, 13)
-        Me.Label11.TabIndex = 102
+        Me.Label11.TabIndex = 18
         Me.Label11.Text = "Plea"
         '
         'Label10
@@ -271,7 +271,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label10.Location = New System.Drawing.Point(369, 192)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(24, 13)
-        Me.Label10.TabIndex = 101
+        Me.Label10.TabIndex = 20
         Me.Label10.Text = "Bail"
         '
         'Label9
@@ -280,7 +280,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label9.Location = New System.Drawing.Point(369, 56)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(92, 13)
-        Me.Label9.TabIndex = 100
+        Me.Label9.TabIndex = 14
         Me.Label9.Text = "End Hearing Date"
         '
         'Label8
@@ -289,7 +289,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label8.Location = New System.Drawing.Point(14, 164)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(60, 13)
-        Me.Label8.TabIndex = 99
+        Me.Label8.TabIndex = 8
         Me.Label8.Text = "Description"
         '
         'Label7
@@ -298,7 +298,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label7.Location = New System.Drawing.Point(369, 21)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(120, 13)
-        Me.Label7.TabIndex = 98
+        Me.Label7.TabIndex = 12
         Me.Label7.Text = "Beginning Hearing Date"
         '
         'Label6
@@ -307,7 +307,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label6.Location = New System.Drawing.Point(369, 340)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(41, 13)
-        Me.Label6.TabIndex = 97
+        Me.Label6.TabIndex = 28
         Me.Label6.Text = "Plaintiff"
         '
         'Label5
@@ -316,7 +316,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label5.Location = New System.Drawing.Point(14, 88)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(47, 13)
-        Me.Label5.TabIndex = 96
+        Me.Label5.TabIndex = 4
         Me.Label5.Text = "JudgeID"
         '
         'Label4
@@ -325,7 +325,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label4.Location = New System.Drawing.Point(369, 374)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(58, 13)
-        Me.Label4.TabIndex = 95
+        Me.Label4.TabIndex = 30
         Me.Label4.Text = "Prosecutor"
         '
         'Label3
@@ -334,7 +334,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label3.Location = New System.Drawing.Point(14, 348)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(57, 13)
-        Me.Label3.TabIndex = 94
+        Me.Label3.TabIndex = 10
         Me.Label3.Text = "Defendant"
         '
         'Label2
@@ -343,7 +343,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label2.Location = New System.Drawing.Point(14, 125)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(62, 13)
-        Me.Label2.TabIndex = 93
+        Me.Label2.TabIndex = 6
         Me.Label2.Text = "Case Name"
         '
         'Label12
@@ -352,7 +352,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label12.Location = New System.Drawing.Point(14, 55)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(55, 13)
-        Me.Label12.TabIndex = 92
+        Me.Label12.TabIndex = 2
         Me.Label12.Text = "Lawyer ID"
         '
         'Label1
@@ -361,7 +361,7 @@ Partial Class frmCaseInfoDisplay
         Me.Label1.Location = New System.Drawing.Point(14, 21)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(45, 13)
-        Me.Label1.TabIndex = 91
+        Me.Label1.TabIndex = 0
         Me.Label1.Text = "Case ID"
         '
         'frmCaseInfoDisplay
@@ -403,7 +403,7 @@ Partial Class frmCaseInfoDisplay
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmCaseInfoDisplay"
         Me.Text = "Display Case Data"
         Me.ResumeLayout(False)

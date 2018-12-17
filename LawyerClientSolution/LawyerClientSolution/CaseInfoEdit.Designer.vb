@@ -66,7 +66,7 @@ Partial Class frmCaseInfoEdit
         Me.btnSave.Location = New System.Drawing.Point(442, 443)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(75, 23)
-        Me.btnSave.TabIndex = 108
+        Me.btnSave.TabIndex = 35
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
@@ -75,7 +75,7 @@ Partial Class frmCaseInfoEdit
         Me.btnEdit.Location = New System.Drawing.Point(333, 12)
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(75, 23)
-        Me.btnEdit.TabIndex = 107
+        Me.btnEdit.TabIndex = 2
         Me.btnEdit.Text = "Edit"
         Me.btnEdit.UseVisualStyleBackColor = True
         '
@@ -84,7 +84,7 @@ Partial Class frmCaseInfoEdit
         Me.btnExit.Location = New System.Drawing.Point(549, 443)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 106
+        Me.btnExit.TabIndex = 36
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
@@ -94,7 +94,7 @@ Partial Class frmCaseInfoEdit
         Me.txtCaseInfoIDEntered.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCaseInfoIDEntered.Name = "txtCaseInfoIDEntered"
         Me.txtCaseInfoIDEntered.Size = New System.Drawing.Size(118, 20)
-        Me.txtCaseInfoIDEntered.TabIndex = 109
+        Me.txtCaseInfoIDEntered.TabIndex = 1
         '
         'Label17
         '
@@ -102,7 +102,7 @@ Partial Class frmCaseInfoEdit
         Me.Label17.Location = New System.Drawing.Point(19, 14)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(45, 13)
-        Me.Label17.TabIndex = 110
+        Me.Label17.TabIndex = 0
         Me.Label17.Text = "Case ID"
         '
         'txtDescription
@@ -111,7 +111,7 @@ Partial Class frmCaseInfoEdit
         Me.txtDescription.Name = "txtDescription"
         Me.txtDescription.ReadOnly = True
         Me.txtDescription.Size = New System.Drawing.Size(295, 132)
-        Me.txtDescription.TabIndex = 139
+        Me.txtDescription.TabIndex = 12
         Me.txtDescription.Text = ""
         '
         'txtRuling
@@ -120,7 +120,7 @@ Partial Class frmCaseInfoEdit
         Me.txtRuling.Name = "txtRuling"
         Me.txtRuling.ReadOnly = True
         Me.txtRuling.Size = New System.Drawing.Size(118, 20)
-        Me.txtRuling.TabIndex = 138
+        Me.txtRuling.TabIndex = 30
         '
         'txtIndictment
         '
@@ -129,7 +129,7 @@ Partial Class frmCaseInfoEdit
         Me.txtIndictment.Name = "txtIndictment"
         Me.txtIndictment.ReadOnly = True
         Me.txtIndictment.Size = New System.Drawing.Size(118, 20)
-        Me.txtIndictment.TabIndex = 137
+        Me.txtIndictment.TabIndex = 28
         '
         'txtNbrWitnesses
         '
@@ -137,7 +137,7 @@ Partial Class frmCaseInfoEdit
         Me.txtNbrWitnesses.Name = "txtNbrWitnesses"
         Me.txtNbrWitnesses.ReadOnly = True
         Me.txtNbrWitnesses.Size = New System.Drawing.Size(118, 20)
-        Me.txtNbrWitnesses.TabIndex = 136
+        Me.txtNbrWitnesses.TabIndex = 26
         '
         'txtBail
         '
@@ -145,7 +145,7 @@ Partial Class frmCaseInfoEdit
         Me.txtBail.Name = "txtBail"
         Me.txtBail.ReadOnly = True
         Me.txtBail.Size = New System.Drawing.Size(118, 20)
-        Me.txtBail.TabIndex = 135
+        Me.txtBail.TabIndex = 24
         '
         'txtPlea
         '
@@ -153,7 +153,7 @@ Partial Class frmCaseInfoEdit
         Me.txtPlea.Name = "txtPlea"
         Me.txtPlea.ReadOnly = True
         Me.txtPlea.Size = New System.Drawing.Size(118, 20)
-        Me.txtPlea.TabIndex = 134
+        Me.txtPlea.TabIndex = 22
         '
         'txtJudgeID
         '
@@ -161,7 +161,7 @@ Partial Class frmCaseInfoEdit
         Me.txtJudgeID.Name = "txtJudgeID"
         Me.txtJudgeID.ReadOnly = True
         Me.txtJudgeID.Size = New System.Drawing.Size(118, 20)
-        Me.txtJudgeID.TabIndex = 133
+        Me.txtJudgeID.TabIndex = 8
         '
         'txtDefendant
         '
@@ -169,7 +169,7 @@ Partial Class frmCaseInfoEdit
         Me.txtDefendant.Name = "txtDefendant"
         Me.txtDefendant.ReadOnly = True
         Me.txtDefendant.Size = New System.Drawing.Size(118, 20)
-        Me.txtDefendant.TabIndex = 132
+        Me.txtDefendant.TabIndex = 14
         '
         'txtProsecutor
         '
@@ -177,7 +177,7 @@ Partial Class frmCaseInfoEdit
         Me.txtProsecutor.Name = "txtProsecutor"
         Me.txtProsecutor.ReadOnly = True
         Me.txtProsecutor.Size = New System.Drawing.Size(118, 20)
-        Me.txtProsecutor.TabIndex = 131
+        Me.txtProsecutor.TabIndex = 34
         '
         'txtPlaintiff
         '
@@ -185,7 +185,7 @@ Partial Class frmCaseInfoEdit
         Me.txtPlaintiff.Name = "txtPlaintiff"
         Me.txtPlaintiff.ReadOnly = True
         Me.txtPlaintiff.Size = New System.Drawing.Size(118, 20)
-        Me.txtPlaintiff.TabIndex = 130
+        Me.txtPlaintiff.TabIndex = 32
         '
         'Label16
         '
@@ -193,7 +193,7 @@ Partial Class frmCaseInfoEdit
         Me.Label16.Location = New System.Drawing.Point(372, 297)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(56, 13)
-        Me.Label16.TabIndex = 129
+        Me.Label16.TabIndex = 27
         Me.Label16.Text = "Indictment"
         '
         'Label15
@@ -202,7 +202,7 @@ Partial Class frmCaseInfoEdit
         Me.Label15.Location = New System.Drawing.Point(372, 334)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(37, 13)
-        Me.Label15.TabIndex = 128
+        Me.Label15.TabIndex = 29
         Me.Label15.Text = "Ruling"
         '
         'Label14
@@ -211,7 +211,7 @@ Partial Class frmCaseInfoEdit
         Me.Label14.Location = New System.Drawing.Point(371, 261)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(56, 13)
-        Me.Label14.TabIndex = 127
+        Me.Label14.TabIndex = 25
         Me.Label14.Text = "Witnesses"
         '
         'Label13
@@ -220,7 +220,7 @@ Partial Class frmCaseInfoEdit
         Me.Label13.Location = New System.Drawing.Point(372, 122)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(53, 13)
-        Me.Label13.TabIndex = 126
+        Me.Label13.TabIndex = 19
         Me.Label13.Text = "Trial Date"
         '
         'Label11
@@ -229,7 +229,7 @@ Partial Class frmCaseInfoEdit
         Me.Label11.Location = New System.Drawing.Point(372, 188)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(28, 13)
-        Me.Label11.TabIndex = 125
+        Me.Label11.TabIndex = 21
         Me.Label11.Text = "Plea"
         '
         'Label10
@@ -238,7 +238,7 @@ Partial Class frmCaseInfoEdit
         Me.Label10.Location = New System.Drawing.Point(372, 224)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(24, 13)
-        Me.Label10.TabIndex = 124
+        Me.Label10.TabIndex = 23
         Me.Label10.Text = "Bail"
         '
         'Label9
@@ -247,7 +247,7 @@ Partial Class frmCaseInfoEdit
         Me.Label9.Location = New System.Drawing.Point(372, 87)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(92, 13)
-        Me.Label9.TabIndex = 123
+        Me.Label9.TabIndex = 17
         Me.Label9.Text = "End Hearing Date"
         '
         'Label8
@@ -256,7 +256,7 @@ Partial Class frmCaseInfoEdit
         Me.Label8.Location = New System.Drawing.Point(17, 196)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(60, 13)
-        Me.Label8.TabIndex = 122
+        Me.Label8.TabIndex = 11
         Me.Label8.Text = "Description"
         '
         'Label7
@@ -265,7 +265,7 @@ Partial Class frmCaseInfoEdit
         Me.Label7.Location = New System.Drawing.Point(372, 53)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(120, 13)
-        Me.Label7.TabIndex = 121
+        Me.Label7.TabIndex = 15
         Me.Label7.Text = "Beginning Hearing Date"
         '
         'Label6
@@ -274,7 +274,7 @@ Partial Class frmCaseInfoEdit
         Me.Label6.Location = New System.Drawing.Point(372, 371)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(41, 13)
-        Me.Label6.TabIndex = 120
+        Me.Label6.TabIndex = 31
         Me.Label6.Text = "Plaintiff"
         '
         'Label5
@@ -283,7 +283,7 @@ Partial Class frmCaseInfoEdit
         Me.Label5.Location = New System.Drawing.Point(17, 120)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(47, 13)
-        Me.Label5.TabIndex = 119
+        Me.Label5.TabIndex = 7
         Me.Label5.Text = "JudgeID"
         '
         'Label4
@@ -292,7 +292,7 @@ Partial Class frmCaseInfoEdit
         Me.Label4.Location = New System.Drawing.Point(372, 406)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(58, 13)
-        Me.Label4.TabIndex = 118
+        Me.Label4.TabIndex = 33
         Me.Label4.Text = "Prosecutor"
         '
         'Label3
@@ -301,7 +301,7 @@ Partial Class frmCaseInfoEdit
         Me.Label3.Location = New System.Drawing.Point(17, 379)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(57, 13)
-        Me.Label3.TabIndex = 117
+        Me.Label3.TabIndex = 13
         Me.Label3.Text = "Defendant"
         '
         'txtCaseName
@@ -310,7 +310,7 @@ Partial Class frmCaseInfoEdit
         Me.txtCaseName.Name = "txtCaseName"
         Me.txtCaseName.ReadOnly = True
         Me.txtCaseName.Size = New System.Drawing.Size(118, 20)
-        Me.txtCaseName.TabIndex = 116
+        Me.txtCaseName.TabIndex = 10
         '
         'Label2
         '
@@ -318,7 +318,7 @@ Partial Class frmCaseInfoEdit
         Me.Label2.Location = New System.Drawing.Point(17, 157)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(62, 13)
-        Me.Label2.TabIndex = 115
+        Me.Label2.TabIndex = 9
         Me.Label2.Text = "Case Name"
         '
         'txtLawyerID
@@ -327,7 +327,7 @@ Partial Class frmCaseInfoEdit
         Me.txtLawyerID.Name = "txtLawyerID"
         Me.txtLawyerID.ReadOnly = True
         Me.txtLawyerID.Size = New System.Drawing.Size(118, 20)
-        Me.txtLawyerID.TabIndex = 114
+        Me.txtLawyerID.TabIndex = 6
         '
         'txtCaseInfoID
         '
@@ -335,7 +335,7 @@ Partial Class frmCaseInfoEdit
         Me.txtCaseInfoID.Name = "txtCaseInfoID"
         Me.txtCaseInfoID.ReadOnly = True
         Me.txtCaseInfoID.Size = New System.Drawing.Size(118, 20)
-        Me.txtCaseInfoID.TabIndex = 113
+        Me.txtCaseInfoID.TabIndex = 4
         '
         'Label12
         '
@@ -343,7 +343,7 @@ Partial Class frmCaseInfoEdit
         Me.Label12.Location = New System.Drawing.Point(17, 86)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(55, 13)
-        Me.Label12.TabIndex = 112
+        Me.Label12.TabIndex = 5
         Me.Label12.Text = "Lawyer ID"
         '
         'Label1
@@ -352,7 +352,7 @@ Partial Class frmCaseInfoEdit
         Me.Label1.Location = New System.Drawing.Point(17, 53)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(45, 13)
-        Me.Label1.TabIndex = 111
+        Me.Label1.TabIndex = 3
         Me.Label1.Text = "Case ID"
         '
         'dtpBegHearDate
@@ -362,7 +362,7 @@ Partial Class frmCaseInfoEdit
         Me.dtpBegHearDate.Location = New System.Drawing.Point(517, 50)
         Me.dtpBegHearDate.Name = "dtpBegHearDate"
         Me.dtpBegHearDate.Size = New System.Drawing.Size(107, 20)
-        Me.dtpBegHearDate.TabIndex = 149
+        Me.dtpBegHearDate.TabIndex = 16
         Me.dtpBegHearDate.Visible = False
         '
         'dtpTrialDate
@@ -372,7 +372,7 @@ Partial Class frmCaseInfoEdit
         Me.dtpTrialDate.Location = New System.Drawing.Point(517, 118)
         Me.dtpTrialDate.Name = "dtpTrialDate"
         Me.dtpTrialDate.Size = New System.Drawing.Size(107, 20)
-        Me.dtpTrialDate.TabIndex = 150
+        Me.dtpTrialDate.TabIndex = 20
         Me.dtpTrialDate.Visible = False
         '
         'dtpEndHearDate
@@ -382,7 +382,7 @@ Partial Class frmCaseInfoEdit
         Me.dtpEndHearDate.Location = New System.Drawing.Point(517, 83)
         Me.dtpEndHearDate.Name = "dtpEndHearDate"
         Me.dtpEndHearDate.Size = New System.Drawing.Size(107, 20)
-        Me.dtpEndHearDate.TabIndex = 151
+        Me.dtpEndHearDate.TabIndex = 18
         Me.dtpEndHearDate.Visible = False
         '
         'frmCaseInfoEdit

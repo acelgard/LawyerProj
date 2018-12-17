@@ -39,7 +39,7 @@ Partial Class frmJudgeAdd
         Me.btnExit.Location = New System.Drawing.Point(183, 151)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 0
+        Me.btnExit.TabIndex = 9
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
@@ -48,7 +48,7 @@ Partial Class frmJudgeAdd
         Me.btnInsert.Location = New System.Drawing.Point(102, 151)
         Me.btnInsert.Name = "btnInsert"
         Me.btnInsert.Size = New System.Drawing.Size(75, 23)
-        Me.btnInsert.TabIndex = 1
+        Me.btnInsert.TabIndex = 8
         Me.btnInsert.Text = "Insert"
         Me.btnInsert.UseVisualStyleBackColor = True
         '
@@ -58,7 +58,7 @@ Partial Class frmJudgeAdd
         Me.Label1.Location = New System.Drawing.Point(13, 13)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(53, 13)
-        Me.Label1.TabIndex = 2
+        Me.Label1.TabIndex = 0
         Me.Label1.Text = "Judge ID:"
         '
         'Label2
@@ -67,7 +67,7 @@ Partial Class frmJudgeAdd
         Me.Label2.Location = New System.Drawing.Point(12, 45)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(49, 13)
-        Me.Label2.TabIndex = 3
+        Me.Label2.TabIndex = 2
         Me.Label2.Text = "Court ID:"
         '
         'Label3
@@ -85,7 +85,7 @@ Partial Class frmJudgeAdd
         Me.Label4.Location = New System.Drawing.Point(13, 108)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(61, 13)
-        Me.Label4.TabIndex = 5
+        Me.Label4.TabIndex = 6
         Me.Label4.Text = "Last Name:"
         '
         'txtJudgeID
@@ -93,28 +93,28 @@ Partial Class frmJudgeAdd
         Me.txtJudgeID.Location = New System.Drawing.Point(85, 13)
         Me.txtJudgeID.Name = "txtJudgeID"
         Me.txtJudgeID.Size = New System.Drawing.Size(100, 20)
-        Me.txtJudgeID.TabIndex = 6
+        Me.txtJudgeID.TabIndex = 1
         '
         'txtFirstName
         '
         Me.txtFirstName.Location = New System.Drawing.Point(85, 74)
         Me.txtFirstName.Name = "txtFirstName"
         Me.txtFirstName.Size = New System.Drawing.Size(100, 20)
-        Me.txtFirstName.TabIndex = 7
+        Me.txtFirstName.TabIndex = 5
         '
         'txtLastName
         '
         Me.txtLastName.Location = New System.Drawing.Point(85, 105)
         Me.txtLastName.Name = "txtLastName"
         Me.txtLastName.Size = New System.Drawing.Size(100, 20)
-        Me.txtLastName.TabIndex = 8
+        Me.txtLastName.TabIndex = 7
         '
         'txtCourtID
         '
         Me.txtCourtID.Location = New System.Drawing.Point(85, 45)
         Me.txtCourtID.Name = "txtCourtID"
         Me.txtCourtID.Size = New System.Drawing.Size(100, 20)
-        Me.txtCourtID.TabIndex = 9
+        Me.txtCourtID.TabIndex = 3
         '
         'frmJudgeAdd
         '
@@ -133,7 +133,7 @@ Partial Class frmJudgeAdd
         Me.Controls.Add(Me.btnExit)
         Me.Name = "frmJudgeAdd"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Judge Data Entry"
+        Me.Text = "Enter Judge Data"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

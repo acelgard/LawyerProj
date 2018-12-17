@@ -34,7 +34,7 @@ Partial Class frmClientDelete
         Me.btnDelete.Location = New System.Drawing.Point(192, 106)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelete.TabIndex = 15
+        Me.btnDelete.TabIndex = 3
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
@@ -44,7 +44,7 @@ Partial Class frmClientDelete
         Me.Label3.Location = New System.Drawing.Point(34, 52)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(50, 13)
-        Me.Label3.TabIndex = 14
+        Me.Label3.TabIndex = 1
         Me.Label3.Text = "Client ID:"
         '
         'txtClientID
@@ -52,7 +52,7 @@ Partial Class frmClientDelete
         Me.txtClientID.Location = New System.Drawing.Point(90, 49)
         Me.txtClientID.Name = "txtClientID"
         Me.txtClientID.Size = New System.Drawing.Size(100, 20)
-        Me.txtClientID.TabIndex = 13
+        Me.txtClientID.TabIndex = 2
         '
         'Label1
         '
@@ -60,7 +60,7 @@ Partial Class frmClientDelete
         Me.Label1.Location = New System.Drawing.Point(14, 18)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(334, 13)
-        Me.Label1.TabIndex = 12
+        Me.Label1.TabIndex = 0
         Me.Label1.Text = "Enter the corresponding Client ID of the data you would like to delete."
         '
         'btnExit
@@ -68,7 +68,7 @@ Partial Class frmClientDelete
         Me.btnExit.Location = New System.Drawing.Point(273, 106)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 11
+        Me.btnExit.TabIndex = 4
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '

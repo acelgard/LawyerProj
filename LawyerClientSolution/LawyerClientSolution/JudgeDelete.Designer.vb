@@ -34,7 +34,7 @@ Partial Class frmJudgeDelete
         Me.btnExit.Location = New System.Drawing.Point(271, 106)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 0
+        Me.btnExit.TabIndex = 4
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
@@ -44,7 +44,7 @@ Partial Class frmJudgeDelete
         Me.Label1.Location = New System.Drawing.Point(12, 18)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(334, 13)
-        Me.Label1.TabIndex = 1
+        Me.Label1.TabIndex = 0
         Me.Label1.Text = "Enter the corresponding JudgeID of the data you would like to delete."
         '
         'txtJudgeID
@@ -52,7 +52,7 @@ Partial Class frmJudgeDelete
         Me.txtJudgeID.Location = New System.Drawing.Point(88, 49)
         Me.txtJudgeID.Name = "txtJudgeID"
         Me.txtJudgeID.Size = New System.Drawing.Size(100, 20)
-        Me.txtJudgeID.TabIndex = 3
+        Me.txtJudgeID.TabIndex = 2
         '
         'Label3
         '
@@ -60,7 +60,7 @@ Partial Class frmJudgeDelete
         Me.Label3.Location = New System.Drawing.Point(32, 52)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(50, 13)
-        Me.Label3.TabIndex = 4
+        Me.Label3.TabIndex = 1
         Me.Label3.Text = "JudgeID:"
         '
         'btnDelete
@@ -68,7 +68,7 @@ Partial Class frmJudgeDelete
         Me.btnDelete.Location = New System.Drawing.Point(190, 106)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelete.TabIndex = 5
+        Me.btnDelete.TabIndex = 3
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
         '

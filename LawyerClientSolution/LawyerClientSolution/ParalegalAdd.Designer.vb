@@ -51,7 +51,7 @@ Partial Class frmParalegalAdd
         Me.btnSave.Location = New System.Drawing.Point(372, 350)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(75, 23)
-        Me.btnSave.TabIndex = 51
+        Me.btnSave.TabIndex = 20
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
@@ -60,7 +60,7 @@ Partial Class frmParalegalAdd
         Me.btnExit.Location = New System.Drawing.Point(464, 350)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 50
+        Me.btnExit.TabIndex = 21
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
@@ -69,70 +69,70 @@ Partial Class frmParalegalAdd
         Me.txtFirmAssoc.Location = New System.Drawing.Point(116, 282)
         Me.txtFirmAssoc.Name = "txtFirmAssoc"
         Me.txtFirmAssoc.Size = New System.Drawing.Size(423, 20)
-        Me.txtFirmAssoc.TabIndex = 49
+        Me.txtFirmAssoc.TabIndex = 19
         '
         'txtSpecialty
         '
         Me.txtSpecialty.Location = New System.Drawing.Point(116, 251)
         Me.txtSpecialty.Name = "txtSpecialty"
         Me.txtSpecialty.Size = New System.Drawing.Size(423, 20)
-        Me.txtSpecialty.TabIndex = 48
+        Me.txtSpecialty.TabIndex = 17
         '
         'txtDOB
         '
         Me.txtDOB.Location = New System.Drawing.Point(103, 156)
         Me.txtDOB.Name = "txtDOB"
         Me.txtDOB.Size = New System.Drawing.Size(118, 20)
-        Me.txtDOB.TabIndex = 47
+        Me.txtDOB.TabIndex = 9
         '
         'txtLawDegree
         '
         Me.txtLawDegree.Location = New System.Drawing.Point(116, 219)
         Me.txtLawDegree.Name = "txtLawDegree"
         Me.txtLawDegree.Size = New System.Drawing.Size(423, 20)
-        Me.txtLawDegree.TabIndex = 46
+        Me.txtLawDegree.TabIndex = 15
         '
         'txtLawyerID
         '
-        Me.txtLawyerID.Location = New System.Drawing.Point(333, 24)
+        Me.txtLawyerID.Location = New System.Drawing.Point(372, 24)
         Me.txtLawyerID.Name = "txtLawyerID"
         Me.txtLawyerID.Size = New System.Drawing.Size(118, 20)
-        Me.txtLawyerID.TabIndex = 44
+        Me.txtLawyerID.TabIndex = 11
         '
         'txtHours
         '
-        Me.txtHours.Location = New System.Drawing.Point(333, 57)
+        Me.txtHours.Location = New System.Drawing.Point(372, 57)
         Me.txtHours.Name = "txtHours"
         Me.txtHours.Size = New System.Drawing.Size(52, 20)
-        Me.txtHours.TabIndex = 43
+        Me.txtHours.TabIndex = 13
         '
         'txtFirstName
         '
         Me.txtFirstName.Location = New System.Drawing.Point(103, 57)
         Me.txtFirstName.Name = "txtFirstName"
         Me.txtFirstName.Size = New System.Drawing.Size(118, 20)
-        Me.txtFirstName.TabIndex = 41
+        Me.txtFirstName.TabIndex = 3
         '
         'txtMiddleInitial
         '
         Me.txtMiddleInitial.Location = New System.Drawing.Point(103, 90)
         Me.txtMiddleInitial.Name = "txtMiddleInitial"
         Me.txtMiddleInitial.Size = New System.Drawing.Size(44, 20)
-        Me.txtMiddleInitial.TabIndex = 40
+        Me.txtMiddleInitial.TabIndex = 5
         '
         'txtLastName
         '
         Me.txtLastName.Location = New System.Drawing.Point(103, 122)
         Me.txtLastName.Name = "txtLastName"
         Me.txtLastName.Size = New System.Drawing.Size(118, 20)
-        Me.txtLastName.TabIndex = 39
+        Me.txtLastName.TabIndex = 7
         '
         'txtParalegalID
         '
         Me.txtParalegalID.Location = New System.Drawing.Point(103, 24)
         Me.txtParalegalID.Name = "txtParalegalID"
         Me.txtParalegalID.Size = New System.Drawing.Size(118, 20)
-        Me.txtParalegalID.TabIndex = 38
+        Me.txtParalegalID.TabIndex = 1
         '
         'Label12
         '
@@ -140,7 +140,7 @@ Partial Class frmParalegalAdd
         Me.Label12.Location = New System.Drawing.Point(27, 60)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(57, 13)
-        Me.Label12.TabIndex = 37
+        Me.Label12.TabIndex = 2
         Me.Label12.Text = "First Name"
         '
         'Label11
@@ -149,7 +149,7 @@ Partial Class frmParalegalAdd
         Me.Label11.Location = New System.Drawing.Point(27, 93)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(65, 13)
-        Me.Label11.TabIndex = 36
+        Me.Label11.TabIndex = 4
         Me.Label11.Text = "Middle Initial"
         '
         'Label10
@@ -158,7 +158,7 @@ Partial Class frmParalegalAdd
         Me.Label10.Location = New System.Drawing.Point(27, 125)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(58, 13)
-        Me.Label10.TabIndex = 35
+        Me.Label10.TabIndex = 6
         Me.Label10.Text = "Last Name"
         '
         'Label9
@@ -167,7 +167,7 @@ Partial Class frmParalegalAdd
         Me.Label9.Location = New System.Drawing.Point(27, 222)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(65, 13)
-        Me.Label9.TabIndex = 34
+        Me.Label9.TabIndex = 14
         Me.Label9.Text = "Law Degree"
         '
         'Label8
@@ -176,7 +176,7 @@ Partial Class frmParalegalAdd
         Me.Label8.Location = New System.Drawing.Point(27, 285)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(83, 13)
-        Me.Label8.TabIndex = 33
+        Me.Label8.TabIndex = 18
         Me.Label8.Text = "Firm Association"
         '
         'Label7
@@ -185,7 +185,7 @@ Partial Class frmParalegalAdd
         Me.Label7.Location = New System.Drawing.Point(27, 159)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(66, 13)
-        Me.Label7.TabIndex = 32
+        Me.Label7.TabIndex = 8
         Me.Label7.Text = "Date of Birth"
         '
         'Label6
@@ -194,7 +194,7 @@ Partial Class frmParalegalAdd
         Me.Label6.Location = New System.Drawing.Point(27, 254)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(50, 13)
-        Me.Label6.TabIndex = 31
+        Me.Label6.TabIndex = 16
         Me.Label6.Text = "Specialty"
         '
         'Label4
@@ -203,7 +203,7 @@ Partial Class frmParalegalAdd
         Me.Label4.Location = New System.Drawing.Point(272, 27)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(55, 13)
-        Me.Label4.TabIndex = 29
+        Me.Label4.TabIndex = 10
         Me.Label4.Text = "Lawyer ID"
         '
         'Label3
@@ -211,9 +211,9 @@ Partial Class frmParalegalAdd
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(272, 60)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(35, 13)
-        Me.Label3.TabIndex = 28
-        Me.Label3.Text = "Hours"
+        Me.Label3.Size = New System.Drawing.Size(76, 13)
+        Me.Label3.TabIndex = 12
+        Me.Label3.Text = "Hours Worked"
         '
         'Label1
         '
@@ -221,14 +221,14 @@ Partial Class frmParalegalAdd
         Me.Label1.Location = New System.Drawing.Point(27, 27)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(65, 13)
-        Me.Label1.TabIndex = 26
+        Me.Label1.TabIndex = 0
         Me.Label1.Text = "Paralegal ID"
         '
         'frmParalegalAdd
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(603, 513)
+        Me.ClientSize = New System.Drawing.Size(558, 392)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.txtFirmAssoc)
@@ -252,7 +252,7 @@ Partial Class frmParalegalAdd
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
         Me.Name = "frmParalegalAdd"
-        Me.Text = "Paralegal Data Entry"
+        Me.Text = "Enter Paralegal Data"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

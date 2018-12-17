@@ -10,7 +10,7 @@ Public Class frmParalegalDelete
     Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click
         Dim connectionString As String = "Data Source =MIS-W10-014\SQLEXPRESS;Initial Catalog=LawyerClientProject;Integrated Security=true"
         Dim strParalegalID As String
-        strParalegalID = txtParaLegalID.Text
+        strParalegalID = txtParalegalID.Text
 
         Using connection As New SqlConnection(connectionString)
             connection.Open()

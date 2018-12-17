@@ -51,7 +51,7 @@ Partial Class frmParalegalDisplay
         Me.btnDisplay.Location = New System.Drawing.Point(365, 347)
         Me.btnDisplay.Name = "btnDisplay"
         Me.btnDisplay.Size = New System.Drawing.Size(75, 23)
-        Me.btnDisplay.TabIndex = 73
+        Me.btnDisplay.TabIndex = 20
         Me.btnDisplay.Text = "Display"
         Me.btnDisplay.UseVisualStyleBackColor = True
         '
@@ -60,7 +60,7 @@ Partial Class frmParalegalDisplay
         Me.btnExit.Location = New System.Drawing.Point(457, 347)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 72
+        Me.btnExit.TabIndex = 21
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
@@ -70,7 +70,7 @@ Partial Class frmParalegalDisplay
         Me.Label12.Location = New System.Drawing.Point(19, 57)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(57, 13)
-        Me.Label12.TabIndex = 61
+        Me.Label12.TabIndex = 2
         Me.Label12.Text = "First Name"
         '
         'Label11
@@ -79,7 +79,7 @@ Partial Class frmParalegalDisplay
         Me.Label11.Location = New System.Drawing.Point(19, 90)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(65, 13)
-        Me.Label11.TabIndex = 60
+        Me.Label11.TabIndex = 4
         Me.Label11.Text = "Middle Initial"
         '
         'Label10
@@ -88,7 +88,7 @@ Partial Class frmParalegalDisplay
         Me.Label10.Location = New System.Drawing.Point(19, 122)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(58, 13)
-        Me.Label10.TabIndex = 59
+        Me.Label10.TabIndex = 6
         Me.Label10.Text = "Last Name"
         '
         'Label9
@@ -97,7 +97,7 @@ Partial Class frmParalegalDisplay
         Me.Label9.Location = New System.Drawing.Point(19, 220)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(65, 13)
-        Me.Label9.TabIndex = 58
+        Me.Label9.TabIndex = 14
         Me.Label9.Text = "Law Degree"
         '
         'Label8
@@ -106,7 +106,7 @@ Partial Class frmParalegalDisplay
         Me.Label8.Location = New System.Drawing.Point(19, 282)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(83, 13)
-        Me.Label8.TabIndex = 57
+        Me.Label8.TabIndex = 18
         Me.Label8.Text = "Firm Association"
         '
         'Label7
@@ -115,7 +115,7 @@ Partial Class frmParalegalDisplay
         Me.Label7.Location = New System.Drawing.Point(19, 157)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(66, 13)
-        Me.Label7.TabIndex = 56
+        Me.Label7.TabIndex = 8
         Me.Label7.Text = "Date of Birth"
         '
         'Label6
@@ -124,7 +124,7 @@ Partial Class frmParalegalDisplay
         Me.Label6.Location = New System.Drawing.Point(19, 252)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(50, 13)
-        Me.Label6.TabIndex = 55
+        Me.Label6.TabIndex = 16
         Me.Label6.Text = "Specialty"
         '
         'Label4
@@ -133,7 +133,7 @@ Partial Class frmParalegalDisplay
         Me.Label4.Location = New System.Drawing.Point(265, 25)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(55, 13)
-        Me.Label4.TabIndex = 54
+        Me.Label4.TabIndex = 10
         Me.Label4.Text = "Lawyer ID"
         '
         'Label3
@@ -142,7 +142,7 @@ Partial Class frmParalegalDisplay
         Me.Label3.Location = New System.Drawing.Point(265, 57)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(35, 13)
-        Me.Label3.TabIndex = 53
+        Me.Label3.TabIndex = 12
         Me.Label3.Text = "Hours"
         '
         'Label1
@@ -151,7 +151,7 @@ Partial Class frmParalegalDisplay
         Me.Label1.Location = New System.Drawing.Point(19, 25)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(65, 13)
-        Me.Label1.TabIndex = 52
+        Me.Label1.TabIndex = 0
         Me.Label1.Text = "Paralegal ID"
         '
         'lblMiddleInitial
@@ -161,7 +161,7 @@ Partial Class frmParalegalDisplay
         Me.lblMiddleInitial.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblMiddleInitial.Name = "lblMiddleInitial"
         Me.lblMiddleInitial.Size = New System.Drawing.Size(43, 18)
-        Me.lblMiddleInitial.TabIndex = 81
+        Me.lblMiddleInitial.TabIndex = 5
         '
         'lblLawDegree
         '
@@ -170,7 +170,7 @@ Partial Class frmParalegalDisplay
         Me.lblLawDegree.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblLawDegree.Name = "lblLawDegree"
         Me.lblLawDegree.Size = New System.Drawing.Size(422, 18)
-        Me.lblLawDegree.TabIndex = 80
+        Me.lblLawDegree.TabIndex = 15
         '
         'lblSpecialty
         '
@@ -179,7 +179,7 @@ Partial Class frmParalegalDisplay
         Me.lblSpecialty.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblSpecialty.Name = "lblSpecialty"
         Me.lblSpecialty.Size = New System.Drawing.Size(422, 18)
-        Me.lblSpecialty.TabIndex = 79
+        Me.lblSpecialty.TabIndex = 17
         '
         'lblFirmAssoc
         '
@@ -188,7 +188,7 @@ Partial Class frmParalegalDisplay
         Me.lblFirmAssoc.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblFirmAssoc.Name = "lblFirmAssoc"
         Me.lblFirmAssoc.Size = New System.Drawing.Size(422, 18)
-        Me.lblFirmAssoc.TabIndex = 78
+        Me.lblFirmAssoc.TabIndex = 19
         '
         'lblFirstName
         '
@@ -197,7 +197,7 @@ Partial Class frmParalegalDisplay
         Me.lblFirstName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblFirstName.Name = "lblFirstName"
         Me.lblFirstName.Size = New System.Drawing.Size(117, 18)
-        Me.lblFirstName.TabIndex = 77
+        Me.lblFirstName.TabIndex = 3
         '
         'lblLastName
         '
@@ -206,7 +206,7 @@ Partial Class frmParalegalDisplay
         Me.lblLastName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblLastName.Name = "lblLastName"
         Me.lblLastName.Size = New System.Drawing.Size(117, 18)
-        Me.lblLastName.TabIndex = 76
+        Me.lblLastName.TabIndex = 7
         '
         'lblDOB
         '
@@ -215,7 +215,7 @@ Partial Class frmParalegalDisplay
         Me.lblDOB.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblDOB.Name = "lblDOB"
         Me.lblDOB.Size = New System.Drawing.Size(117, 18)
-        Me.lblDOB.TabIndex = 75
+        Me.lblDOB.TabIndex = 9
         '
         'lblParalegalID
         '
@@ -224,7 +224,7 @@ Partial Class frmParalegalDisplay
         Me.lblParalegalID.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblParalegalID.Name = "lblParalegalID"
         Me.lblParalegalID.Size = New System.Drawing.Size(117, 18)
-        Me.lblParalegalID.TabIndex = 74
+        Me.lblParalegalID.TabIndex = 1
         '
         'lblHours
         '
@@ -233,7 +233,7 @@ Partial Class frmParalegalDisplay
         Me.lblHours.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblHours.Name = "lblHours"
         Me.lblHours.Size = New System.Drawing.Size(51, 18)
-        Me.lblHours.TabIndex = 82
+        Me.lblHours.TabIndex = 13
         '
         'lblLawyerID
         '
@@ -242,7 +242,7 @@ Partial Class frmParalegalDisplay
         Me.lblLawyerID.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblLawyerID.Name = "lblLawyerID"
         Me.lblLawyerID.Size = New System.Drawing.Size(117, 18)
-        Me.lblLawyerID.TabIndex = 83
+        Me.lblLawyerID.TabIndex = 11
         '
         'frmParalegalDisplay
         '
@@ -271,9 +271,9 @@ Partial Class frmParalegalDisplay
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmParalegalDisplay"
-        Me.Text = "Paralegal Display"
+        Me.Text = "Display Paralegal Data"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -1,12 +1,8 @@
-﻿Imports System
-Imports System.Data
-Imports System.Data.SqlClient
-
-Public Class frmSelectInput
+﻿Public Class frmSelectInput
 
     Public strFormChoice As String
 
-    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Me.Close()
 
     End Sub
@@ -93,7 +89,7 @@ Public Class frmSelectInput
                 frmLawyerDelete.Show()
 
             Case "Paralegal"
-            '    frmParalegalDelete.Show()
+                frmParalegalDelete.Show()
 
             Case "Case"
                 frmCaseInfoDelete.Show()
@@ -106,5 +102,4 @@ Public Class frmSelectInput
 
         End Select
     End Sub
-
 End Class

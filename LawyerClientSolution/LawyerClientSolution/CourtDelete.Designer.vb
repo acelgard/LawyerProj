@@ -34,7 +34,7 @@ Partial Class frmCourtDelete
         Me.btnDelete.Location = New System.Drawing.Point(192, 106)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelete.TabIndex = 10
+        Me.btnDelete.TabIndex = 3
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
@@ -44,7 +44,7 @@ Partial Class frmCourtDelete
         Me.Label3.Location = New System.Drawing.Point(34, 52)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(49, 13)
-        Me.Label3.TabIndex = 9
+        Me.Label3.TabIndex = 1
         Me.Label3.Text = "Court ID:"
         '
         'txtCourtID
@@ -52,7 +52,7 @@ Partial Class frmCourtDelete
         Me.txtCourtID.Location = New System.Drawing.Point(90, 49)
         Me.txtCourtID.Name = "txtCourtID"
         Me.txtCourtID.Size = New System.Drawing.Size(100, 20)
-        Me.txtCourtID.TabIndex = 8
+        Me.txtCourtID.TabIndex = 2
         '
         'Label1
         '
@@ -60,7 +60,7 @@ Partial Class frmCourtDelete
         Me.Label1.Location = New System.Drawing.Point(14, 18)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(333, 13)
-        Me.Label1.TabIndex = 7
+        Me.Label1.TabIndex = 0
         Me.Label1.Text = "Enter the corresponding Court ID of the data you would like to delete."
         '
         'btnExit
@@ -68,7 +68,7 @@ Partial Class frmCourtDelete
         Me.btnExit.Location = New System.Drawing.Point(273, 106)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 6
+        Me.btnExit.TabIndex = 4
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
