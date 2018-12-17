@@ -8,6 +8,7 @@ Public Class frmClientEdit
 
     End Sub
     Private Sub btnEdit_Click(sender As Object, e As EventArgs) Handles btnEdit.Click
+        'based on entered ID, pull old data from database and display it as "edit-able" textboxes
         Dim strClientID As String
         strClientID = txtClientIDEntered.Text
         txtClientID.Text = txtClientIDEntered.Text
@@ -65,6 +66,7 @@ Public Class frmClientEdit
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        'based on entered ID, delete old data, and save new data
         Dim connectionString As String = "Data Source =MIS-W10-014\SQLEXPRESS;Initial Catalog=LawyerClientProject;Integrated Security=true"
         Dim strClientID As String
         strClientID = txtClientID.Text

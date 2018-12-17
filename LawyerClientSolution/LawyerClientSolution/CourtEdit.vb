@@ -9,6 +9,7 @@ Public Class frmCourtEdit
     End Sub
 
     Private Sub btnEdit_Click(sender As Object, e As EventArgs) Handles btnEdit.Click
+        'based on entered ID, pull old data from database and display it as "edit-able" textboxes
         Dim strCourtID As String
         strCourtID = txtCourtIDEntered.Text
         txtCourtID.Text = txtCourtIDEntered.Text
@@ -65,7 +66,7 @@ Public Class frmCourtEdit
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
-        'delete records and then re-add using txtbox info
+        'based on entered ID, delete old data, and save new data
         Dim connectionString As String = "Data Source =MIS-W10-014\SQLEXPRESS;Initial Catalog=LawyerClientProject;Integrated Security=true"
         Dim strCourtID As String
         strCourtID = txtCourtID.Text

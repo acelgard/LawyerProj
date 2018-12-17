@@ -12,6 +12,7 @@ Public Class frmParalegalAdd
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        'add entered data into the database
         Dim connectionString As String = "Data Source =MIS-W10-014\SQLEXPRESS;Initial Catalog=LawyerClientProject;Integrated Security=true"
 
         Using connection As New SqlConnection(connectionString)

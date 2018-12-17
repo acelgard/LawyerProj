@@ -9,6 +9,7 @@ Public Class frmClientDisplay
     End Sub
 
     Private Sub btnDisplay_Click(sender As Object, e As EventArgs) Handles btnDisplay.Click
+        'display records, and whenever MessageBox's "OK" button is clicked, show new record
         Dim connectionString As String = "Data Source =MIS-W10-014\SQLEXPRESS;Initial Catalog=LawyerClientProject;Integrated Security=true"
         Using connection As New SqlConnection(connectionString)
             connection.Open()

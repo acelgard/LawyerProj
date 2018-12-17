@@ -1,10 +1,14 @@
 ﻿'Justin Kasbohm and Andrew Elgard
+'Computer Software Development
+'Final Project
+'12/17/18
 
 Public Class frmStart
 
     Public strFormChoice As String
 
     Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
+        'open certain "add" form based on button choice
         strFormChoice = cboFormChoice.SelectedItem
         Select Case strFormChoice
             Case "Client"
@@ -29,6 +33,7 @@ Public Class frmStart
     End Sub
 
     Private Sub btnDisplay_Click(sender As Object, e As EventArgs) Handles btnDisplay.Click
+        'open certain "display" form based on button choice
         strFormChoice = cboFormChoice.SelectedItem
         Select Case strFormChoice
             Case "Client"
@@ -53,6 +58,7 @@ Public Class frmStart
     End Sub
 
     Private Sub btnEdit_Click(sender As Object, e As EventArgs) Handles btnEdit.Click
+        'open certain "edit" form based on button choice
         strFormChoice = cboFormChoice.SelectedItem
         Select Case strFormChoice
             Case "Client"
@@ -77,6 +83,7 @@ Public Class frmStart
     End Sub
 
     Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click
+        'open certain "delete" form based on button choice
         strFormChoice = cboFormChoice.SelectedItem
         Select Case strFormChoice
             Case "Client"

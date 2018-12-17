@@ -12,7 +12,7 @@ Public Class frmCaseInfoAdd
 
     End Sub
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
-        'all of the code below is from the Eagle Enterprises assignment
+        'add entered data into the database
         Dim connectionString As String = "Data Source =MIS-W10-014\SQLEXPRESS;Initial Catalog=LawyerClientProject;Integrated Security=true"
 
         Using connection As New SqlConnection(connectionString)
@@ -20,16 +20,13 @@ Public Class frmCaseInfoAdd
 
             Dim Command As New SqlCommand("INSERT INTO CaseInfo (CaseInfoID, LawyerID, JudgeID, CaseName, Description, Plaintiff, Prosecutor, Defendant, BegHearDate, EndHearDate, TrialDate, Plea, Bail, NbrWitnesses, Indictment, Ruling) VALUES ('" & txtCaseInfoID.Text & "','" & txtLawyerID.Text & "','" & txtJudgeID.Text & "','" & txtCaseName.Text & "','" & txtDescription.Text & "','" & txtPlaintiff.Text & "','" & txtProsecutor.Text & "','" & txtDefendant.Text & "','" & dtpBegHearDate.Text & "','" & dtpEndHearDate.Text & "','" & dtpTrialDate.Text & "','" & txtPlea.Text & "','" & txtBail.Text & "','" & txtNbrWitnesses.Text & "','" & txtIndictment.Text & "','" & txtRuling.Text & "')", connection)
 
-            Command.ExecuteNonQuery() 'WE GOT PROBLEMS
+            Command.ExecuteNonQuery()
 
             MessageBox.Show("Row added")
 
             connection.Close()
 
         End Using
-
-    End Sub
-    Private Sub frmCaseInfo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

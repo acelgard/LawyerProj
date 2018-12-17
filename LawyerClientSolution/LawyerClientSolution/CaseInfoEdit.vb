@@ -10,7 +10,7 @@ Public Class frmCaseInfoEdit
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
-        'delete records and then re-add using txtbox info
+        'based on entered ID, delete old data, and save new data
         Dim connectionString As String = "Data Source =MIS-W10-014\SQLEXPRESS;Initial Catalog=LawyerClientProject;Integrated Security=true"
         Dim strCaseInfoID As String
         strCaseInfoID = txtCaseInfoID.Text
@@ -35,6 +35,7 @@ Public Class frmCaseInfoEdit
     End Sub
 
     Private Sub btnEdit_Click(sender As Object, e As EventArgs) Handles btnEdit.Click
+        'based on entered ID, pull old data from database and display it as "edit-able" textboxes
         Dim strCaseInfoID As String
         strCaseInfoID = txtCaseInfoIDEntered.Text
         txtCaseInfoID.Text = txtCaseInfoIDEntered.Text
